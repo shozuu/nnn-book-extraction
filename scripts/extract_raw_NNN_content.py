@@ -28,16 +28,71 @@ heading_size = 20.880001068115234
 subsection_font = "font0000000022986fa2"
 subsection_size = 9.360000610351562
 subsection_color = 8388608
+
 content_color = 0
+
 outlier_subsection_size = 11.520000457763672
 outlier_subsection_color = 11815958
+
 outlier_subsection_size2 = 15.120000839233398
 outlier_subsection_color2 = 2907757
 
 # Step 1: Extract all text spans with their metadata in order
 all_spans = []
 
-# Process all pages in the document
+# DEBUG: Log all text spans from pages 74-78
+print("=" * 80)
+print("DEBUGGING PAGES 74-78")
+print("=" * 80)
+
+# Process pages 74-78 for debugging
+for page_num in range(73, 78):  # 0-indexed, so 73-77 = pages 74-78
+    page = doc.load_page(page_num)
+    
+    print(f"\n--- PAGE {page_num + 1} ---")
+    
+    for block in page.get_text("dict")["blocks"]:
+        for line in block.get("lines", []):
+            for span in line["spans"]:
+                # Add to all_spans for later processing
+                all_spans.append({
+                    "text": span["text"].strip(),
+                    "font": span["font"],
+                    "size": span["size"],
+                    "color": span["color"],
+                    "page_num": page_num + 1,
+                    "index": len(all_spans)
+                })
+                
+                # Debug output for current span
+                text = span["text"].strip()
+                if text:  # Only show non-empty text
+                    # Check if this text matches a diagnosis from our list
+                    is_diagnosis_match = text.lower().strip() in diagnosis_set
+                    diagnosis_indicator = " [DIAGNOSIS MATCH]" if is_diagnosis_match else ""
+                    
+                    # Check formatting matches
+                    is_heading_format = (span["size"] == heading_size and span["color"] == content_color)
+                    is_subsection_format = (span["size"] == subsection_size and span["color"] == subsection_color)
+                    is_outlier_format = (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color)
+                    
+                    format_indicator = ""
+                    if is_heading_format:
+                        format_indicator = " [HEADING FORMAT]"
+                    elif is_subsection_format:
+                        format_indicator = " [SUBSECTION FORMAT]"
+                    elif is_outlier_format:
+                        format_indicator = " [OUTLIER FORMAT]"
+                    
+                    print(f"  Size: {span['size']} | Color: {span['color']} | Text: '{text[:90]}'{diagnosis_indicator}{format_indicator}")
+
+# Now process all pages for complete extraction
+print("\n" + "=" * 80)
+print("PROCESSING ALL PAGES FOR COMPLETE EXTRACTION")
+print("=" * 80)
+
+# Reset all_spans and process entire document
+all_spans = []
 for page_num in range(doc.page_count):
     page = doc.load_page(page_num)
     
@@ -57,6 +112,9 @@ for page_num in range(doc.page_count):
 headings = []
 subsections = []
 
+# Define special subsection labels that should be treated as valid subsections even with outlier2 formatting
+special_subsection_labels = {'definition', 'defining characteristics', 'related factors', 'risk factors', 'suggested noc outcomes', 'suggested nic interventions'}
+
 for span in all_spans:
     # Check if this text matches a diagnosis from our list
     is_diagnosis_match = span["text"].lower().strip() in diagnosis_set
@@ -71,6 +129,9 @@ for span in all_spans:
             "index": span["index"],
             "page_num": span["page_num"]
         })
+        # Log when we find a heading in our target pages
+        if 74 <= span["page_num"] <= 78:
+            print(f"FOUND HEADING: '{span['text']}' on page {span['page_num']}")
     
     # Subsection heading (regular)
     elif (span["size"] == subsection_size and 
@@ -83,6 +144,9 @@ for span in all_spans:
             "page_num": span["page_num"],
             "type": "regular"
         })
+        # Log subsections in our target pages
+        if 74 <= span["page_num"] <= 78:
+            print(f"FOUND SUBSECTION: '{span['text']}' on page {span['page_num']}")
     
     # Subsection heading (outlier)
     elif (span["size"] == outlier_subsection_size and 
@@ -94,6 +158,34 @@ for span in all_spans:
             "page_num": span["page_num"],
             "type": "outlier"
         })
+        # Log outlier subsections in our target pages
+        if 74 <= span["page_num"] <= 78:
+            print(f"FOUND OUTLIER SUBSECTION: '{span['text']}' on page {span['page_num']}")
+    
+    # Special case: Outlier2 formatting with special subsection labels
+    elif (span["size"] == outlier_subsection_size2 and 
+          span["color"] == outlier_subsection_color2 and 
+          span["text"] and 
+          span["text"].lower().strip() in special_subsection_labels):
+        subsections.append({
+            "label": span["text"],
+            "index": span["index"],
+            "page_num": span["page_num"],
+            "type": "special_outlier2"
+        })
+        # Log special outlier2 subsections in our target pages
+        if 74 <= span["page_num"] <= 78:
+            print(f"FOUND SPECIAL OUTLIER2 SUBSECTION: '{span['text']}' on page {span['page_num']}")
+
+print("=" * 80)
+print("SUMMARY OF TARGET PAGES 74-78:")
+target_headings = [h for h in headings if 74 <= h["page_num"] <= 78]
+target_subsections = [s for s in subsections if 74 <= s["page_num"] <= 78]
+print(f"Found {len(target_headings)} headings in pages 74-78:")
+for h in target_headings:
+    print(f"  - '{h['text']}' (page {h['page_num']})")
+print(f"Found {len(target_subsections)} subsections in pages 74-78")
+print("=" * 80)
 
 # Sort headings by their index to maintain document order
 headings.sort(key=lambda x: x["index"])
@@ -127,7 +219,7 @@ for i, heading in enumerate(headings):
         if sub_label and sub_label.lower().replace(" ", "_") in excluded_subsections:
             continue
         
-        # Skip outlier subsections
+        # Skip regular outlier subsections (but NOT special_outlier2)
         if subsection.get("type") == "outlier":
             continue
         
@@ -144,10 +236,16 @@ for i, heading in enumerate(headings):
             # Skip if this span is a heading or subsection itself
             is_heading = (span["size"] == heading_size and span["color"] == content_color)
             is_subsection = ((span["size"] == subsection_size and span["color"] == subsection_color) or
-                           (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color) or
-                           (span["size"] == outlier_subsection_size2 and span["color"] == outlier_subsection_color2))
+                           (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color))
             
-            if not is_heading and not is_subsection and span["text"]:
+            # Skip ALL outlier2 spans (both special and non-special) - they are all boundaries
+            is_outlier2 = (span["size"] == outlier_subsection_size2 and span["color"] == outlier_subsection_color2)
+            
+            # Skip outlier2 spans completely (they should never be content)
+            if is_outlier2:
+                continue
+            
+            if not is_heading and not is_subsection and span["text"] and span["color"] == content_color:
                 content_texts.append(span["text"])
         
         if sub_label and content_texts:
