@@ -2002,55 +2002,6 @@
   {
     "diagnosis": "Risk for Contamination",
     "page_num": 200,
-    "definition": "Susceptible to exposure to environmental contaminants, which may compromise health.",
-    "risk_factors": [
-      "External Carpeted flooring",
-      "chemical contamination of food",
-      "chemical contamination of water",
-      "flaking, peeling surface in presence of young children",
-      "inadequate breakdown of contaminant",
-      "inadequate household hygiene practices",
-      "inadequate municipal services",
-      "inadequate personal hygiene practices",
-      "inadequate protective clothing",
-      "inappropriate use of protective clothing",
-      "ingestion of contaminated material",
-      "playing where environmental contaminants are used",
-      "unprotected exposure to chemical",
-      "unprotected exposure to heavy metal",
-      "unprotected exposure to radioactive material",
-      "use of environmental contaminant in the home",
-      "use of noxious material in insufficiently ventilated area",
-      "use of noxious material without effective protection Internal Concomitant exposure",
-      "inadequate nutrition",
-      "smoking"
-    ],
-    "at-risk_population": [
-      "Children <5 years",
-      "economically disadvantaged",
-      "exposure to areas with high contaminant level",
-      "exposure to atmospheric pollutants",
-      "exposure to bioterrorism",
-      "exposure to disaster",
-      "exposure to radiation",
-      "female gender",
-      "gestational age during exposure",
-      "older adults",
-      "previous exposure to contaminant"
-    ],
-    "associated_condition": [
-      "Preexisting disease",
-      "pregnancy"
-    ],
-    "references": "Refer to care plan for Contamination ."
-  },
-  {
-    "diagnosis": "Risk for adverse reaction to iodinated Contrast",
-    "page_num": 200
-  },
-  {
-    "diagnosis": "Media",
-    "page_num": 200,
     "definition": "Susceptible to noxious or unintended reaction associated with the use of iodinated contrast media that can occur within seven days after contrast agent injection, which may compromise health.",
     "risk_factors": [
       "Dehydration",
@@ -2068,6 +2019,7 @@
       "fragile vein",
       "unconsciousness"
     ],
+    "references": "Refer to care plan for Contamination . Pauline McKinney Green PhD, RN, CNE",
     "suggested_noc_outcomes": [
       "Tissue Perfusion: Renal",
       "Kidney Function"
@@ -2456,59 +2408,7 @@
   {
     "diagnosis": "Impaired emancipated Decision-Making",
     "page_num": 251,
-    "definition": "A process of choosing a health care decision that does not include personal knowledge and/or consideration of social norms, or does not occur in a flexible environment, resulting in decisional dissatisfaction.",
-    "defining_characteristics": [
-      "Delay in enacting chosen health care option",
-      "distress when listening to other's opinion",
-      "excessive concern about what others think is the best decision",
-      "excessive fear of what others think about a decision",
-      "feeling constrained in describing own opinion",
-      "inability to choose a health care option that best fits current lifestyle",
-      "inability to describe how option will fit into current lifestyle",
-      "limited verbalization about health care options in others’ presence"
-    ],
-    "related_factors": [
-      "Decrease in understanding of all available health care options",
-      "inability to adequately verbalize perceptions about health care options",
-      "inadequate time to discuss health care options",
-      "insufficient confidence to openly discuss health care options",
-      "insufficient information regarding health care options",
-      "insufficient privacy to openly discuss health care options",
-      "insufficient self-confidence in decision-making"
-    ],
-    "at-risk_population": [
-      "Limited decision-making experience",
-      "traditional hierarchical family",
-      "traditional hierarchical health care system"
-    ],
-    "suggested_noc_outcomes": [
-      "Decision-Making",
-      "Self-Esteem",
-      "Coping",
-      "Health Promoting Behavior",
-      "Stress Level",
-      "Communication",
-      "Self-Care Status",
-      "Participation in Health Care Decisions",
-      "Health-Seeking Processing",
-      "Personal Autonomy",
-      "Psychosocial Adjustment: Life Change"
-    ],
-    "suggested_nic_interventions": [
-      "Decision-Making Support",
-      "Health Coaching",
-      "Cognitive Restructuring",
-      "Self-Awareness Enhancement"
-    ]
-  },
-  {
-    "diagnosis": "Readiness for enhanced emancipated Decision-",
-    "page_num": 256
-  },
-  {
-    "diagnosis": "Making",
-    "page_num": 256,
-    "definition": "A process of choosing a health care decision that includes personal knowledge and/or consideration of social norms, which can be strengthened.",
+    "definition": "Susceptible to a process of choosing a health care decision that does not include personal knowledge and/or consideration of social norms, or does not occur in a flexible environment, resulting in decisional satisfaction.",
     "defining_characteristics": [
       "Expresses desire to enhance ability to choose health care options that best fit current lifestyle",
       "expresses desire to enhance ability to enact chosen health care option",
@@ -2520,33 +2420,10 @@
       "expresses desire to enhance decision-making",
       "expresses desire to enhance privacy to discuss health care options"
     ],
-    "suggested_noc_outcomes": [
-      "Decision-Making",
-      "Self-Esteem",
-      "Coping",
-      "Health Promotion Behavior",
-      "Stress Level",
-      "Communication",
-      "Self-Care",
-      "Participation in Health Care Decisions",
-      "Health-Seeking Behavior",
-      "Knowledge: Treatment Options",
-      "Psychosocial Adjustment"
-    ],
-    "suggested_nic_intervention": "Decision-Making Support"
-  },
-  {
-    "diagnosis": "Risk for impaired emancipated Decision-",
-    "page_num": 260
-  },
-  {
-    "diagnosis": "Making",
-    "page_num": 260,
-    "definition": "Susceptible to a process of choosing a health care decision that does not include personal knowledge and/or consideration of social norms, or does not occur in a flexible environment, resulting in decisional satisfaction.",
-    "risk_factors": [
+    "related_factors": [
       "Decrease in understanding of all available health care options",
       "inability to adequately verbalize perceptions about health care options",
-      "Inadequate time to discuss health care options",
+      "inadequate time to discuss health care options",
       "insufficient confidence to openly discuss health care options",
       "insufficient information regarding health care options",
       "insufficient privacy to openly discuss health care options",
@@ -2574,6 +2451,16 @@
     "suggested_nic_interventions": [
       "Establish Rapport",
       "Decision-Making Support"
+    ],
+    "suggested_nic_intervention": "Decision-Making Support",
+    "risk_factors": [
+      "Decrease in understanding of all available health care options",
+      "inability to adequately verbalize perceptions about health care options",
+      "Inadequate time to discuss health care options",
+      "insufficient confidence to openly discuss health care options",
+      "insufficient information regarding health care options",
+      "insufficient privacy to openly discuss health care options",
+      "insufficient self-confidence in decision-making"
     ]
   },
   {
@@ -2789,34 +2676,22 @@
   {
     "diagnosis": "Risk for Disuse syndrome",
     "page_num": 286,
-    "definition": "Susceptible to deterioration of body systems as the result of prescribed or unavoidable musculoskeletal inactivity, which may compromise health.",
+    "definition": "Reduceded stimulation, interest, or participation in recreational or leisure activities.",
     "risk_factors": "Pain",
     "associated_condition": [
-      "Alteration in level of consciousness",
-      "mechanical immobility",
-      "paralysis",
-      "prescribed immobility"
+      "Prescribed immobility",
+      "psychological stress",
+      "therapeutic isolation"
     ],
     "suggested_noc_outcomes": [
-      "Pain Level",
-      "Endurance",
-      "Immobility Consequences: Physiological",
-      "Mobility",
-      "Neurological Status: Consciousness",
-      "Progressive Mobility"
+      "Leisure Participation",
+      "Play Participation",
+      "Social Involvement"
     ],
     "suggested_nic_interventions": [
-      "Energy Management",
-      "Exercise Therapy: Joint Mobility",
-      "Muscle Control",
-      "Positioning",
-      "Pain management"
-    ]
-  },
-  {
-    "diagnosis": "Decreased Diversional activity engagement",
-    "page_num": 292,
-    "definition": "Reduceded stimulation, interest, or participation in recreational or leisure activities.",
+      "Recreation Therapy",
+      "Self-Responsibility Facilitation"
+    ],
     "defining_characteristics": [
       "Alteration in mood",
       "boredom",
@@ -2838,20 +2713,6 @@
       "Extremes of age",
       "prolonged hospitalization",
       "prolonged institutionalization"
-    ],
-    "associated_condition": [
-      "Prescribed immobility",
-      "psychological stress",
-      "therapeutic isolation"
-    ],
-    "suggested_noc_outcomes": [
-      "Leisure Participation",
-      "Play Participation",
-      "Social Involvement"
-    ],
-    "suggested_nic_interventions": [
-      "Recreation Therapy",
-      "Self-Responsibility Facilitation"
     ]
   },
   {
@@ -4963,16 +4824,10 @@
       "10.1136/bmjopen-2016- 013824 . Tomlin AM, Deloian B, Wollesen L. Infant/early childhood mental health and collaborative partnerships beyond the NICU . [Retrieved from]  http://dxdoi/10.1053/j.nainr.2016.09.025.309-315",
       "2016. Tomlin AM, Viehweg SA, Weatherston D. Tackling the Tough Stuff: a home visitor's Guide to Supporting Families at Risk. Brooks Baltimore . 2016. Tripathni T, Dusing S. Long term neuro neurodevelopmental outcomes of infants born late preterm: A systematic review. Res Rep Neurology . 2015",
       "5:91–111. Waitzman KA. The importance of the near-term infant for sleep, play, and development. Newborn & Nursing Reviewers . 2007",
-      "7(2): 76 – 81 . Wigert H, Bry K. Dealing with parents'existential issues in neonatal intensive care. J. of Neonatal Nursing . 2017 [Retrieved from] http://doi.org/10.1016/jnn.2017.09.002 . Wyngarden K, DeWys M, Padnos P. Learnings from the field: The impact of using two new nursing diagnoses, organized infant behavior and disorganized infant behavior [abstract] . [Classification of Nursing Diagnoses: Proceedings of the Thirteenth Conference, NANDA] 1999."
+      "7(2): 76 – 81 . Wigert H, Bry K. Dealing with parents'existential issues in neonatal intensive care. J. of Neonatal Nursing . 2017 [Retrieved from] http://doi.org/10.1016/jnn.2017.09.002 . Wyngarden K, DeWys M, Padnos P. Learnings from the field: The impact of using two new nursing diagnoses, organized infant behavior and disorganized infant behavior [abstract] . [Classification of Nursing Diagnoses: Proceedings of the Thirteenth Conference, NANDA] 1999. Gail B. Ladwig MSN, RN NANDA-I An integrated pattern of modulation of the physiological and neurobehavioral systems of functioning, which can be strengthened. Parent expresses desire to enhance cue recognition",
+      "parent expresses desire to enhance environmental conditions",
+      "parent expresses desire to enhance recognition of infant's self-regulatory behaviors Refer to care plans for Disorganized Infant behavior and Risk for disorganized Infant behavior."
     ]
-  },
-  {
-    "diagnosis": "Readiness for enhanced organized Infant",
-    "page_num": 557
-  },
-  {
-    "diagnosis": "behavior",
-    "page_num": 558
   },
   {
     "diagnosis": "Risk for disorganized Infant behavior",
@@ -5977,27 +5832,6 @@
   {
     "diagnosis": "Readiness for enhanced Nutrition",
     "page_num": 697,
-    "definition": "A pattern of nutrient intake, which can be strengthened.",
-    "defining_characteristics": "Expresses desire to enhance nutrition",
-    "suggested_noc_outcomes": [
-      "Nutritional Status",
-      "Nutritional Status: Food and Fluid Intake",
-      "Nutrient Intake",
-      "Weight Control"
-    ],
-    "suggested_nic_interventions": [
-      "Nutrition Management",
-      "Nutritional Counseling",
-      "Weight Reduction Assistance"
-    ]
-  },
-  {
-    "diagnosis": "Imbalanced Nutrition: less than body",
-    "page_num": 702
-  },
-  {
-    "diagnosis": "requirements",
-    "page_num": 702,
     "definition": "Intake of nutrients insufficient to meet metabolic needs.",
     "defining_characteristics": [
       "Abdominal cramping",
@@ -6023,17 +5857,6 @@
       "weakness of muscles required for swallowing",
       "weight loss with adequate food intake"
     ],
-    "related_factors": "Insufficient dietary intake",
-    "at-risk_population": [
-      "Biological factors",
-      "economically disadvantaged"
-    ],
-    "associated_condition": [
-      "Inability to absorb nutrients",
-      "inability to digest food",
-      "inability to ingest food",
-      "psychological disorder"
-    ],
     "suggested_noc_outcomes": [
       "Nutritional Status",
       "Food and Fluid Intake",
@@ -6045,12 +5868,23 @@
       "Nutrition Management",
       "Nutrition Therapy",
       "Weight Gain Assistance"
+    ],
+    "related_factors": "Insufficient dietary intake",
+    "at-risk_population": [
+      "Biological factors",
+      "economically disadvantaged"
+    ],
+    "associated_condition": [
+      "Inability to absorb nutrients",
+      "inability to digest food",
+      "inability to ingest food",
+      "psychological disorder"
     ]
   },
   {
     "diagnosis": "Impaired Oral Mucous Membrane integrity",
     "page_num": 712,
-    "definition": "Injury to the lips, soft tissue, buccal cavity, and/or oropharynx.",
+    "definition": "Susceptible to injury to the lips, soft tissues, buccal cavity, and/or oropharynx, which may compromise health.",
     "defining_characteristics": [
       "Bad taste in mouth",
       "bleeding",
@@ -6126,11 +5960,11 @@
       "infection",
       "loss of oral support structure",
       "mechanical factor",
-      "nil per os (NPO) >24 hours",
+      "Nil per os (NPO) >24 hours",
       "oral trauma",
       "radiation therapy",
-      "Sjogren's syndrome",
       "surgical procedure",
+      "Sjogren's syndrome",
       "trauma",
       "treatment regimen"
     ],
@@ -6139,16 +5973,7 @@
       "Oral Hygiene",
       "Tissue Integrity: Skin and Mucous Membranes"
     ],
-    "suggested_nic_intervention": "Oral Health Restoration"
-  },
-  {
-    "diagnosis": "Risk for impaired Oral Mucous Membrane",
-    "page_num": 718
-  },
-  {
-    "diagnosis": "integrity",
-    "page_num": 718,
-    "definition": "Susceptible to injury to the lips, soft tissues, buccal cavity, and/or oropharynx, which may compromise health.",
+    "suggested_nic_intervention": "Oral Health Restoration",
     "risk_factors": [
       "Alcohol consumption",
       "barrier to dental care",
@@ -6164,31 +5989,6 @@
       "mouth breathing",
       "smoking",
       "stressors"
-    ],
-    "at-risk_population": "Economically disadvantaged",
-    "associated_condition": [
-      "Allergy",
-      "alteration in cognitive functioning",
-      "autoimmune disease",
-      "autosomal disorder",
-      "behavioral disorder",
-      "chemotherapy",
-      "cleft lip",
-      "cleft palate",
-      "decrease in hormone level in women",
-      "decrease in platelets",
-      "immunodeficiency",
-      "immunosuppression",
-      "infection",
-      "loss of oral support structure",
-      "mechanical factor",
-      "Nil per os (NPO) >24 hours",
-      "oral trauma",
-      "radiation therapy",
-      "surgical procedure",
-      "Sjogren's syndrome",
-      "trauma",
-      "treatment regimen"
     ],
     "client/family_teaching,_and_references": "Refer to care plan for Impaired Oral Mucous Membrane integrity."
   },
@@ -9909,41 +9709,11 @@
   {
     "diagnosis": "Risk for Vascular Trauma",
     "page_num": 1101,
-    "definition": "Susceptible to damage to vein and its surrounding tissues related to the presence of a catheter and/or infusion solutions, which may compromise health.",
-    "risk_factors": [
-      "Inadequate available insertion site",
-      "prolonged period of time catheter is in place"
-    ],
-    "associated_condition": [
-      "Irritating solution",
-      "rapid infusion rate"
-    ],
-    "suggested_noc_outcomes": [
-      "Risk Control",
-      "Tissue Integrity: Skin and Mucous Membranes"
-    ],
-    "suggested_nic_interventions": [
-      "Intravenous Therapy",
-      "Medication Administration: Intravenous"
-    ]
-  },
-  {
-    "diagnosis": "Risk for Venous Thromboembolism",
-    "page_num": 1106,
     "definition": "Susceptible to the development of a blood clot in a deep vein, commonly in the thigh, calf or upper extremity, which can break off and lodge in another vessel, which may compromise health.",
     "risk_factors": [
       "Dehydration",
       "impaired mobility",
       "obesity"
-    ],
-    "at-risk_population": [
-      "Age > 60",
-      "critical care admission",
-      "current smoker",
-      "first degree relative with history of venous thromboembolism",
-      "history of cerebral vascular accident",
-      "history of previous venous thromboembolism",
-      "less than 6 weeks postpartum"
     ],
     "associated_condition": [
       "Cerebral vascular accident",
@@ -9971,6 +9741,15 @@
       "Embolus Care: Peripheral",
       "Embolus Care: Pulmonary",
       "Lower Extremity Monitoring"
+    ],
+    "at-risk_population": [
+      "Age > 60",
+      "critical care admission",
+      "current smoker",
+      "first degree relative with history of venous thromboembolism",
+      "history of cerebral vascular accident",
+      "history of previous venous thromboembolism",
+      "less than 6 weeks postpartum"
     ]
   },
   {

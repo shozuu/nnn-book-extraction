@@ -12,6 +12,14 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PDF_DEFAULT = PROJECT_ROOT / 'shortened_book.pdf'
 PDF_PATH = (INPUT_DIR / 'shortened_book.pdf') if (INPUT_DIR / 'shortened_book.pdf').exists() else PDF_DEFAULT
 
+# Load the diagnosis list for validation
+DIAGNOSES_JSON = OUTPUT_DIR / 'diagnoses_list.json'
+with open(DIAGNOSES_JSON, 'r', encoding='utf-8') as f:
+    diagnosis_list = json.load(f)
+
+# Create a set for faster lookup and normalize for comparison
+diagnosis_set = {diag.lower().strip() for diag in diagnosis_list}
+
 doc = fitz.open(str(PDF_PATH))
 
 heading_font = "font0000000022986fa2"
@@ -36,10 +44,6 @@ for page_num in range(doc.page_count):
     for block in page.get_text("dict")["blocks"]:
         for line in block.get("lines", []):
             for span in line["spans"]:
-
-                # format checker
-                # print(f'Text: "{span["text"]}", Font: {span["font"]}, Size: {span["size"]}, Color: {span["color"]}')
-                
                 all_spans.append({
                     "text": span["text"].strip(),
                     "font": span["font"],
@@ -54,8 +58,14 @@ headings = []
 subsections = []
 
 for span in all_spans:
-    # Diagnosis heading
-    if span["size"] == heading_size and span["color"] == content_color and span["text"]:
+    # Check if this text matches a diagnosis from our list
+    is_diagnosis_match = span["text"].lower().strip() in diagnosis_set
+    
+    # Diagnosis heading - must match both formatting AND be in diagnosis list
+    if (span["size"] == heading_size and 
+        span["color"] == content_color and 
+        span["text"] and 
+        is_diagnosis_match):
         headings.append({
             "text": span["text"],
             "index": span["index"],
@@ -84,6 +94,9 @@ for span in all_spans:
             "page_num": span["page_num"],
             "type": "outlier"
         })
+
+# Sort headings by their index to maintain document order
+headings.sort(key=lambda x: x["index"])
 
 # Step 3: Extract content for each diagnosis
 diagnosis_sections = []
@@ -157,5 +170,15 @@ OUTPUT_JSON = OUTPUT_DIR / 'raw_NNN_content.json'
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     json.dump(diagnosis_sections, f, ensure_ascii=False, indent=2)
 
+# Step 5: Report statistics and missing diagnoses
+found_diagnoses = {d["diagnosis"].lower().strip() for d in diagnosis_sections}
+missing_diagnoses = [diag for diag in diagnosis_list if diag.lower().strip() not in found_diagnoses]
+
 print(f"Processed {len(headings)} diagnoses across {doc.page_count} pages")
 print(f"Found {len(subsections)} subsections")
+print(f"Expected {len(diagnosis_list)} diagnoses, found {len(diagnosis_sections)}")
+print(f"Missing {len(missing_diagnoses)} diagnoses:")
+for missing in missing_diagnoses[:10]:  # Show first 10 missing
+    print(f"  - {missing}")
+if len(missing_diagnoses) > 10:
+    print(f"  ... and {len(missing_diagnoses) - 10} more")
