@@ -169,7 +169,7 @@
     "diagnosis": "anxiety",
     "definition": "vague, uneasy feeling of discomfort or dread accompanied by an autonomic response (the source often nonspecific or unknown to the individual) a feeling of apprehension caused by anticipation of danger. it is an alerting sign that warns of impending danger and enables the individual to take measures to deal with threat.",
     "defining_characteristics": [
-      "behavioral decrease in productivity",
+      "decrease in productivity",
       "extraneous movement",
       "fidgeting",
       "glancing about",
@@ -178,7 +178,7 @@
       "poor eye contact",
       "restlessness",
       "scanning behavior",
-      "worried about change in life event affective anguish",
+      "worried about change in life event anguish",
       "apprehensiveness",
       "distress",
       "fear",
@@ -191,13 +191,13 @@
       "rattled",
       "regretful",
       "self-focused",
-      "uncertainty physiological facial tension",
+      "uncertainty facial tension",
       "hand tremors",
       "increase in perspiration",
       "increase in tension",
       "trembling",
       "tremor",
-      "voice quivering sympathetic alteration in respiratory pattern",
+      "voice quivering alteration in respiratory pattern",
       "anorexia",
       "brisk reflexes",
       "cardiovascular excitation",
@@ -211,7 +211,7 @@
       "pupil dilation",
       "superficial vasoconstriction",
       "twitching",
-      "weakness parasympathetic abdominal pain",
+      "weakness abdominal pain",
       "alteration in sleep pattern",
       "decreased blood pressure",
       "decrease in heart rate",
@@ -222,7 +222,7 @@
       "tingling in extremities",
       "urinary frequency",
       "urinary hesitancy",
-      "urinary urgency cognitive alteration in attention",
+      "urinary urgency alteration in attention",
       "alteration in concentration",
       "awareness of physiological symptoms",
       "blocking of thoughts",
@@ -344,7 +344,9 @@
       "respiratory status: ventilation",
       "swallowing status"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "aspiration precautions"
+    ]
   },
   {
     "diagnosis": "risk for impaired attachment",
@@ -380,24 +382,42 @@
   {
     "diagnosis": "autonomic dysreflexia",
     "definition": "life-threatening, uninhibited sympathetic response of the nervous system to a noxious stimulus after a spinal cord injury at the 7th thoracic vertebra (t7) or above.",
+    "defining_characteristics": [
+      "blurred vision",
+      "bradycardia",
+      "chest pain",
+      "chilling",
+      "conjunctival congestion",
+      "diaphoresis above the injury",
+      "diffuse pain in different areas of the head",
+      "horner's syndrome",
+      "metallic taste in mouth",
+      "nasal congestion",
+      "pallor below injury",
+      "paresthesia",
+      "paroxysmal hypertension",
+      "pilomotor reflex",
+      "red blotches on skin above the injury",
+      "tachycardia"
+    ],
     "related_factors": [
-      "gastrointestinal stimuli constipation",
+      "constipation",
       "difficult passage of feces",
       "digital stimulation",
       "enemas",
       "fecal impaction",
-      "suppositories integumentary stimuli cutaneous stimulation",
-      "skin irritation musculoskeletal-neurological stimuli irritating stimuli below level of injury",
+      "suppositories cutaneous stimulation",
+      "skin irritation irritating stimuli below level of injury",
       "painful stimuli below level of injury",
       "pressure over bony prominence",
       "pressure over genitalia",
       "range of motion exercises",
-      "spasm regulatory-situational stimuli constrictive clothing",
+      "spasm constrictive clothing",
       "environmental temperature fluctuations",
-      "positioning reproductive-urological stimuli bladder distention",
+      "positioning bladder distention",
       "bladder spasm",
       "instrumentation",
-      "sexual intercourse other insufficient caregiver knowledge of disease process",
+      "sexual intercourse insufficient caregiver knowledge of disease process",
       "insufficient knowledge of disease process"
     ],
     "risk_factors": [],
@@ -406,14 +426,38 @@
       "neurological status: autonomic",
       "vital signs"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "dysreflexia management"
+    ]
   },
   {
     "diagnosis": "risk for autonomic dysreflexia",
     "definition": "susceptible to life-threatening, uninhibited response of the sympathetic nervous system post-spinal shock, in an individual with spinal cord injury or lesion at the 6th thoracic vertebra (t6) or above (has been demonstrated in patients with injuries at the 7th thoracic vertebra [t7] and the 8th thoracic vertebra [t8]), which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "bowel distention",
+      "constipation",
+      "difficult passage of feces",
+      "digital stimulation",
+      "enemas",
+      "fecal impaction",
+      "suppositories cutaneous stimulations",
+      "skin irritation",
+      "sunburn",
+      "wound irritating stimuli below level of injury",
+      "painful stimuli below level of injury",
+      "pressure over bony prominence",
+      "pressure over genitalia",
+      "range of motion exercises",
+      "spasm constrictive clothing",
+      "environmental temperature fluctuations",
+      "positioning bladder distention",
+      "bladder spasm",
+      "instrumentation",
+      "sexual intercourse insufficient caregiver knowledge of disease process",
+      "insufficient knowledge of disease process"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -422,7 +466,9 @@
     "definition": "susceptible to a decrease in blood volume, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["insufficient knowledge of bleeding precautions"],
+    "risk_factors": [
+      "insufficient knowledge of bleeding precautions"
+    ],
     "suggested_outcomes": [
       "blood coagulation",
       "blood loss severity",
@@ -453,75 +499,269 @@
   },
   {
     "diagnosis": "risk for unstable blood pressure",
-    "definition": "",
+    "definition": "susceptible to fluctuating forces of blood flowing through arterial vessels, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "inconsistency with medication regimen",
+      "orthostasis"
+    ],
+    "suggested_outcomes": [
+      "fatigue",
+      "arrhythmia",
+      "dizziness",
+      "confusion",
+      "blurred vision",
+      "circulation status",
+      "tissue perfusion: cardiac",
+      "tissue perfusion: cellular",
+      "vital signs"
+    ],
+    "suggested_interventions": [
+      "cardiac care",
+      "cardiac precautions",
+      "hypertension management",
+      "hypotension management",
+      "dysrhythmia management",
+      "vital signs monitoring"
+    ]
   },
   {
     "diagnosis": "disturbed body image",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "confusion in mental picture of one's physical self.",
+    "defining_characteristics": [
+      "absence of body part",
+      "alteration in body function",
+      "alteration in body structure",
+      "alteration in view of one's body",
+      "avoids looking at one's body",
+      "avoids touching one's body",
+      "behavior of acknowledging one's body",
+      "behavior of monitoring one's body",
+      "change in ability to estimate spatial relationship of body to environment",
+      "change in lifestyle",
+      "change in social involvement",
+      "depersonalization of body part by use of impersonal pronouns",
+      "depersonalization of loss by use of impersonal pronouns",
+      "emphasis on remaining strengths",
+      "extension of body boundary",
+      "fear of reaction by others",
+      "focus on past appearance",
+      "focus on past function",
+      "focus on previous strength",
+      "heightened achievement",
+      "hiding of body part",
+      "negative feeling about body",
+      "nonverbal response to change in body",
+      "nonverbal response to perceived change in body",
+      "overexposure of body part",
+      "perceptions that reflect an altered view of one's body appearance",
+      "personalization of body part by name",
+      "personalization of loss by name",
+      "preoccupation with change",
+      "preoccupation with loss",
+      "refusal to acknowledge change",
+      "trauma to nonfunctioning body part"
+    ],
+    "related_factors": [
+      "alteration in self-perception",
+      "cultural incongruence",
+      "spiritual incongruence"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "body image",
+      "self-esteem",
+      "acceptance health status: coping, personal identity"
+    ],
+    "suggested_interventions": [
+      "body image enhancement",
+      "counseling",
+      "eating disorders management",
+      "referral",
+      "self-awareness enhancement",
+      "self-esteem enhancement",
+      "support group",
+      "therapy group",
+      "weight gain assistance"
+    ]
   },
   {
     "diagnosis": "insufficient breast milk production",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "inadequate supply of maternal breast milk to support nutritional state of an infant or child.",
+    "defining_characteristics": [
+      "absence of milk production with nipple stimulation",
+      "breast milk expressed is less than prescribed volume for infant",
+      "delay in milk production",
+      "infant constipation",
+      "infant frequently crying",
+      "infant frequently seeks to suckle at breast",
+      "infant refuses to suckle at breast",
+      "infant voids small amounts of concentrated urine",
+      "infant weight gain <500 g in a month",
+      "prolonged breastfeeding time",
+      "unsustained suckling at breast"
+    ],
+    "related_factors": [
+      "ineffective latching on to breast",
+      "ineffective sucking reflex",
+      "insufficient opportunity for suckling at the breast",
+      "insufficient suckling time at breast",
+      "maternal alcohol consumption",
+      "maternal insufficient fluid volume",
+      "maternal malnutrition",
+      "maternal smoking",
+      "maternal treatment regimen",
+      "rejection of breast"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "breastfeeding establishment: infant, maternal",
+      "breastfeeding maintenance",
+      "anxiety self-control",
+      "parent-infant attachment"
+    ],
+    "suggested_interventions": [
+      "lactation counseling",
+      "lactation suppression",
+      "kangaroo care",
+      "parent education: infant"
+    ]
   },
   {
     "diagnosis": "ineffective breastfeeding",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "difficulty feeding milk from the breasts, which may compromise nutritional status of the infant/child.",
+    "defining_characteristics": [
+      "inadequate infant stooling",
+      "infant arching at breast",
+      "infant crying at the breast",
+      "infant crying within the first hour after breastfeeding",
+      "infant fussing within 1 hour of breastfeeding",
+      "infant inability to latch on to maternal breast correctly",
+      "infant resisting latching on to breast",
+      "infant unresponsive to other comfort measures",
+      "insufficient emptying of each breast per feeding",
+      "insufficient infant weight gain",
+      "insufficient signs of oxytocin release",
+      "perceived inadequate milk supply",
+      "sore nipples persisting beyond first week",
+      "sustained infant weight loss",
+      "unsustained suckling at the breast"
+    ],
+    "related_factors": [
+      "delayed stage ii lactogenesis",
+      "inadequate milk supply",
+      "insufficient family support",
+      "insufficient opportunity for suckling at breast",
+      "insufficient parental knowledge regarding breastfeeding techniques",
+      "insufficient parental knowledge regarding importance of breastfeeding",
+      "interrupted breastfeeding",
+      "maternal ambivalence",
+      "maternal anxiety",
+      "maternal breast anomaly",
+      "maternal fatigue",
+      "maternal obesity",
+      "maternal pain",
+      "pacifier use",
+      "poor infant sucking reflex",
+      "supplemental feedings with artificial nipple"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "referral",
+      "lactation counseling",
+      "teaching infant nutrition 0-3 months"
+    ]
   },
   {
     "diagnosis": "interrupted breastfeeding",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "break in the continuity of feeding milk from the breasts, which may compromise breastfeeding success and/or nutritional status of the infant/child.",
+    "defining_characteristics": [
+      "nonexclusive breastfeeding"
+    ],
+    "related_factors": [
+      "maternal employment",
+      "maternal-infant separation",
+      "needing abruptly to wean infant"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "breastfeeding maintenance",
+      "knowledge: breastfeeding",
+      "parent-infant attachment"
+    ],
+    "suggested_interventions": [
+      "bottle feeding",
+      "cup feeding: newborn",
+      "emotional support",
+      "lactation counseling"
+    ]
   },
   {
     "diagnosis": "readiness for enhanced breastfeeding",
-    "definition": "",
-    "defining_characteristics": [],
+    "definition": "a pattern of providing milk to an infant or young child directly from the breasts, which may be strengthened.",
+    "defining_characteristics": [
+      "mother expresses desire to enhance ability to provide breast milk for child's nutritional needs",
+      "mother expresses desire to enhance ability to exclusively breastfeed"
+    ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "breastfeeding establishment: infant, maternal",
+      "breastfeeding maintenance"
+    ],
+    "suggested_interventions": [
+      "lactation counseling"
+    ]
   },
   {
     "diagnosis": "ineffective breathing pattern",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "inspiration and/or expiration that does not provide adequate ventilation.",
+    "defining_characteristics": [
+      "abnormal breathing pattern",
+      "altered chest excursion",
+      "bradypnea",
+      "decrease in expiratory pressure",
+      "decrease in inspiratory pressure",
+      "decrease in minute ventilation",
+      "decrease in vital capacity",
+      "dyspnea",
+      "increase in anterior- posterior chest diameter",
+      "nasal flaring",
+      "orthopnea",
+      "prolonged expiration phase",
+      "pursed-lip breathing",
+      "tachypnea",
+      "use of accessory muscles to breathe",
+      "use of three-point position"
+    ],
+    "related_factors": [
+      "anxiety",
+      "body position that inhibits lung expansion",
+      "fatigue",
+      "hyperventilation",
+      "obesity",
+      "pain",
+      "respiratory muscle fatigue"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "respiratory status: airway patency, ventilation",
+      "vital signs"
+    ],
+    "suggested_interventions": [
+      "airway management",
+      "respiratory monitoring"
+    ]
   },
   {
     "diagnosis": "decreased cardiac output",
     "definition": "inadequate blood pumped by the heart to meet the metabolic demands of the body.",
     "defining_characteristics": [
-      "altered heart rate/rhythm bradycardia, electrocardiogram (ecg) change",
+      "bradycardia, electrocardiogram (ecg) change",
       "heart palpitations",
-      "tachycardia",
-      "altered preload decrease in central venous pressure (cvp)",
+      "tachycardia decrease in central venous pressure (cvp)",
       "decrease in pulmonary artery wedge pressure (pawp)",
       "edema",
       "fatigue",
@@ -529,7 +769,7 @@
       "increase in central venous pressure (cvp)",
       "increase in pulmonary artery wedge pressure (pawp)",
       "jugular vein distention",
-      "weight gain altered afterload abnormal skin color",
+      "weight gain abnormal skin color",
       "alteration in blood pressure",
       "clammy skin",
       "decrease in peripheral pulses",
@@ -539,7 +779,7 @@
       "increase in pulmonary vascular resistance (pvr)",
       "increase in systemic vascular resistance (svr)",
       "oliguria",
-      "prolonged capillary refill altered contractility adventitious breath sounds",
+      "prolonged capillary refill adventitious breath sounds",
       "coughing",
       "decreased cardiac index",
       "decrease in ejection fraction",
@@ -548,10 +788,12 @@
       "orthopnea",
       "paroxysmal nocturnal dyspnea",
       "presence of s3 heart sound",
-      "presence of s4 heart sound behavioral/emotional anxiety",
+      "presence of s4 heart sound anxiety",
       "restlessness"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "cardiac pump effectiveness",
@@ -559,14 +801,19 @@
       "tissue perfusion: abdominal organs, peripheral",
       "vital signs"
     ],
-    "suggested_interventions": ["cardiac care", "cardiac care: acute"]
+    "suggested_interventions": [
+      "cardiac care",
+      "cardiac care: acute"
+    ]
   },
   {
     "diagnosis": "risk for decreased cardiac output",
     "definition": "susceptible to inadequate blood pumped by the heart to meet metabolic demands of the body, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["to be developed"],
+    "risk_factors": [
+      "to be developed"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -599,19 +846,19 @@
     "diagnosis": "caregiver role strain",
     "definition": "difficulty in fulfilling care responsibilities, expectations, and/or behaviors for family or significant others.",
     "defining_characteristics": [
-      "caregiving activities apprehensiveness about future ability to provide care",
+      "apprehensiveness about future ability to provide care",
       "apprehensiveness about the future health of care receiver",
       "apprehensiveness about possible institutionalization of care receiver",
       "apprehensiveness about well-being of care receiver if unable to provide care",
       "difficulty completing required tasks",
       "difficulty performing required tasks",
       "dysfunctional change in caregiving activities",
-      "preoccupation with care routine caregiver health status physiological fatigue",
+      "preoccupation with care routine fatigue",
       "gastrointestinal distress",
       "headache",
       "hypertension",
       "rash",
-      "weight change emotional alteration in sleep pattern",
+      "weight change alteration in sleep pattern",
       "anger",
       "depression",
       "emotional vacillation",
@@ -621,23 +868,23 @@
       "insufficient time to meet personal needs",
       "nervousness",
       "somatization",
-      "stressors socioeconomic changes in leisure activities",
+      "stressors changes in leisure activities",
       "low work productivity",
       "refusal of career advancement",
-      "social isolation caregiver-care receiver relationship difficulty watching care receiver with illness",
+      "social isolation difficulty watching care receiver with illness",
       "grieving of changes in relationship with care recipient",
-      "uncertainty about changes in relationship with care receiver family processes concerns about family member(s)",
+      "uncertainty about changes in relationship with care receiver concerns about family member(s)",
       "family conflict"
     ],
     "related_factors": [
-      "care receiver condition inhibits conversation",
+      "condition inhibits conversation",
       "dependency",
       "discharged home with significant needs",
       "increase in care needs",
       "problematic behavior",
       "substance misuse",
       "unpredictability of illness trajectory",
-      "unstable health condition caregiver physical conditions",
+      "unstable health condition physical conditions",
       "substance misuse",
       "unrealistic self-expectations",
       "competing role commitments",
@@ -652,13 +899,13 @@
       "insufficient recreation",
       "isolation",
       "not developmentally ready for caregiver role",
-      "stressors caregiver-care receiver relationship abusive relationship",
+      "stressors abusive relationship",
       "codependency",
       "pattern of ineffective relationships",
       "presence of abuse",
       "conflictual relationships",
       "unrealistic care receiver expectations",
-      "violent relationship caregiving activities around-the-clock care responsibilities",
+      "violent relationship around-the-clock care responsibilities",
       "change in nature care of activities",
       "complexity of care activities",
       "excessive caregiving activities",
@@ -668,11 +915,11 @@
       "insufficient equipment for providing care",
       "insufficient respite for caregiver",
       "insufficient time",
-      "unpredictability of care situation family processes family isolation",
+      "unpredictability of care situation family isolation",
       "ineffective family adaptation",
       "pattern of family dysfunction",
       "pattern of family dysfunction prior to the caregiving situation",
-      "pattern of ineffective family coping socioeconomic alienation",
+      "pattern of ineffective family coping alienation",
       "difficulty accessing assistance",
       "difficulty accessing community resources",
       "difficulty accessing support",
@@ -697,7 +944,9 @@
       "family resiliency",
       "family coping"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "caregiver support"
+    ]
   },
   {
     "diagnosis": "risk for caregiver role strain",
@@ -705,13 +954,13 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "care receiver dependency",
+      "dependency",
       "discharged home with significant needs",
       "increase in care needs",
       "problematic behavior",
       "substance misuse",
       "unpredictability of illness trajectory",
-      "unstable health condition caregiver substance misuse",
+      "unstable health condition substance misuse",
       "unrealistic self-expectations",
       "competing role commitments",
       "ineffective coping strategies",
@@ -726,12 +975,12 @@
       "isolation",
       "not developmentally ready for caregiver role",
       "physical conditions",
-      "stressors caregiver-care receiver relationship abusive relationship",
+      "stressors abusive relationship",
       "codependency",
       "pattern of ineffective relationships",
       "presence of abuse",
       "unrealistic care receiver expectations",
-      "violent relationship caregiving activities around-the-clock care responsibilities",
+      "violent relationship around-the-clock care responsibilities",
       "change in nature of care activities",
       "complexity of care activities",
       "excessive caregiving activities",
@@ -741,11 +990,11 @@
       "insufficient equipment for providing care",
       "insufficient respite for caregiver",
       "insufficient time",
-      "unpredictability of care situation family processes family isolation",
+      "unpredictability of care situation family isolation",
       "ineffective family adaptation",
       "pattern of family dysfunction",
       "pattern of family dysfunction prior to the caregiving situation",
-      "pattern of ineffective family coping socioeconomic alienation",
+      "pattern of ineffective family coping alienation",
       "difficulty accessing assistance",
       "difficulty accessing community resources",
       "difficulty accessing support",
@@ -762,7 +1011,9 @@
     "definition": "susceptible to a decrease in cerebral tissue circulation, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["substance misuse"],
+    "risk_factors": [
+      "substance misuse"
+    ],
     "suggested_outcomes": [
       "acute confusion level",
       "tissue perfusion: cerebral",
@@ -786,18 +1037,18 @@
     "diagnosis": "ineffective childbearing process",
     "definition": "inability to prepare for and/or maintain a healthy pregnancy, childbirth process, and care of the newborn for ensuring well-being.",
     "defining_characteristics": [
-      "during pregnancy inadequate prenatal care",
+      "inadequate prenatal care",
       "inadequate prenatal lifestyle",
       "inadequate preparation of newborn care items",
       "inadequate preparation of the home environment",
       "ineffective management of unpleasant symptoms in pregnancy",
       "insufficient access of support system",
       "insufficient respect for unborn baby",
-      "unrealistic birth plan during labor and delivery decrease in proactivity during labor and delivery",
+      "unrealistic birth plan decrease in proactivity during labor and delivery",
       "inadequate lifestyle for stage of labor",
       "inappropriate response to onset of labor",
       "insufficient access of support system",
-      "insufficient attachment behavior after birth inadequate baby care techniques",
+      "insufficient attachment behavior inadequate baby care techniques",
       "inadequate postpartum lifestyle",
       "inappropriate baby feeding techniques",
       "inappropriate breast care",
@@ -841,11 +1092,11 @@
     "diagnosis": "readiness for enhanced childbearing process",
     "definition": "a pattern of preparing for and maintaining a healthy pregnancy, childbirth process, and care of newborn for ensuring well-being, which can be strengthened.",
     "defining_characteristics": [
-      "during pregnancy expresses desire to enhance knowledge of childbearing process",
+      "expresses desire to enhance knowledge of childbearing process",
       "expresses desire to enhance management of unpleasant pregnancy symptoms",
       "expresses desire to enhance prenatal lifestyle",
-      "expresses desire to enhance preparation for newborn during labor and delivery expresses desire to enhance lifestyle appropriate for stage of labor",
-      "expresses desire to enhance proactivity during labor and delivery after birth expresses desire to enhance attachment behavior",
+      "expresses desire to enhance preparation for newborn expresses desire to enhance lifestyle appropriate for stage of labor",
+      "expresses desire to enhance proactivity during labor and delivery expresses desire to enhance attachment behavior",
       "expresses desire to enhance baby care techniques",
       "expresses desire to enhance baby feeding techniques",
       "expresses desire to enhance breast care",
@@ -998,7 +1249,9 @@
   {
     "diagnosis": "readiness for enhanced communication",
     "definition": "a pattern of exchanging information and ideas with others, which can be strengthened.",
-    "defining_characteristics": ["expresses desire to enhance communication"],
+    "defining_characteristics": [
+      "expresses desire to enhance communication"
+    ],
     "related_factors": [],
     "risk_factors": [],
     "suggested_outcomes": [
@@ -1093,7 +1346,10 @@
       "improved sensory perception",
       "improved thought processes"
     ],
-    "suggested_interventions": ["delirium management", "delusion management"]
+    "suggested_interventions": [
+      "delirium management",
+      "delusion management"
+    ]
   },
   {
     "diagnosis": "chronic confusion",
@@ -1200,8 +1456,13 @@
       "recent environmental change"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["bowel elimination", "hydration"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "bowel elimination",
+      "hydration"
+    ],
+    "suggested_interventions": [
+      "constipation/impaction management"
+    ]
   },
   {
     "diagnosis": "risk for constipation",
@@ -1252,7 +1513,10 @@
       "health beliefs",
       "health beliefs: perceived threat"
     ],
-    "suggested_interventions": ["bowel management", "medication management"]
+    "suggested_interventions": [
+      "bowel management",
+      "medication management"
+    ]
   },
   {
     "diagnosis": "chronic functional constipation",
@@ -1275,7 +1539,7 @@
       "stool retentive posturing",
       "painful or hard bowel movements",
       "presence of large fecal mass in the rectum",
-      "large diameter stools that may obstruct the toilet general distended abdomen",
+      "large diameter stools that may obstruct the toilet distended abdomen",
       "fecal impaction",
       "leakage of stool with digital stimulation",
       "pain with defecation",
@@ -1301,8 +1565,13 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["bowel elimination", "symptom severity"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "bowel elimination",
+      "symptom severity"
+    ],
+    "suggested_interventions": [
+      "constipation/impaction management"
+    ]
   },
   {
     "diagnosis": "risk for chronic functional constipation",
@@ -1332,30 +1601,30 @@
     "diagnosis": "contamination",
     "definition": "exposure to environmental contaminants in doses sufficient to cause adverse health effects.",
     "defining_characteristics": [
-      "pesticides dermatological effects of pesticide exposure",
+      "dermatological effects of pesticide exposure",
       "gastrointestinal effects of pesticide exposure",
       "neurological effects of pesticide exposure",
       "pulmonary effects of pesticide exposure",
-      "renal effects of pesticide exposure chemicals dermatological effects of chemical exposure",
+      "renal effects of pesticide exposure dermatological effects of chemical exposure",
       "gastrointestinal effects of chemical exposure",
       "immunological effects of chemical exposure",
       "neurological effects of chemical exposure",
       "pulmonary effects of chemical exposure",
-      "renal effects of chemical exposure biologics dermatological effects of biologic exposure",
+      "renal effects of chemical exposure dermatological effects of biologic exposure",
       "gastrointestinal effects of biologic exposure",
       "neurological effects of biologic exposure",
       "pulmonary effects of biologic exposure",
-      "renal effects of biologic exposure pollution neurological effects of pollution exposure",
-      "pulmonary effects of pollution exposure waste dermatological effects of waste exposure",
+      "renal effects of biologic exposure neurological effects of pollution exposure",
+      "pulmonary effects of pollution exposure dermatological effects of waste exposure",
       "gastrointestinal effects of waste exposure",
       "hepatic effects of waste exposure",
-      "pulmonary effects of waste exposure radiation genetic effects of radiation exposure",
+      "pulmonary effects of waste exposure genetic effects of radiation exposure",
       "immunological effects of radiation exposure",
       "neurological effects of radiation exposure",
       "oncological effects of radiation exposure"
     ],
     "related_factors": [
-      "external carpeted flooring",
+      "carpeted flooring",
       "chemical contamination of food",
       "chemical contamination of water",
       "flaking, peeling surface in presence of young children",
@@ -1372,7 +1641,7 @@
       "unprotected exposure to radioactive material",
       "use of environmental contaminant in the home",
       "use of noxious material in insufficiently ventilated area",
-      "use of noxious material without effective protection internal concomitant exposure",
+      "use of noxious material without effective protection concomitant exposure",
       "inadequate nutrition",
       "smoking"
     ],
@@ -1397,7 +1666,7 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "external carpeted flooring",
+      "carpeted flooring",
       "chemical contamination of food",
       "chemical contamination of water",
       "flaking, peeling surface in presence of young children",
@@ -1414,7 +1683,8 @@
       "unprotected exposure to radioactive material",
       "use of environmental contaminant in the home",
       "use of noxious material in insufficiently ventilated area",
-      "use of noxious material without effective protection internal concomitant exposure",
+      "use of noxious material without effective protection",
+      "concomitant exposure",
       "inadequate nutrition",
       "smoking"
     ],
@@ -1422,21 +1692,18 @@
     "suggested_interventions": []
   },
   {
-    "diagnosis": "risk for adverse reaction to iodinated contrast",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "media",
+    "diagnosis": "risk for adverse reaction to iodinated contrast media",
     "definition": "susceptible to noxious or unintended reaction associated with the use of iodinated contrast media that can occur within seven days after contrast agent injection, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["dehydration", "generalized weakness"],
-    "suggested_outcomes": ["tissue perfusion: renal", "kidney function"],
+    "risk_factors": [
+      "dehydration",
+      "generalized weakness"
+    ],
+    "suggested_outcomes": [
+      "tissue perfusion: renal",
+      "kidney function"
+    ],
     "suggested_interventions": [
       "fluid/electrolyte management",
       "laboratory data interpretation"
@@ -1457,7 +1724,10 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": ["community competence", "community health status"],
+    "suggested_outcomes": [
+      "community competence",
+      "community health status"
+    ],
     "suggested_interventions": [
       "environmental management: community",
       "health policy monitoring: program development"
@@ -1549,7 +1819,10 @@
       "impulse self-control",
       "information processing"
     ],
-    "suggested_interventions": ["coping enhancement", "decision-making support"]
+    "suggested_interventions": [
+      "coping enhancement",
+      "decision-making support"
+    ]
   },
   {
     "diagnosis": "readiness for enhanced coping",
@@ -1788,7 +2061,9 @@
       "participation in health care decisions",
       "personal autonomy"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "decision-making support"
+    ]
   },
   {
     "diagnosis": "impaired emancipated decision-making",
@@ -1804,16 +2079,6 @@
       "limited verbalization about health care options in others’ presence"
     ],
     "related_factors": [
-      "decrease in understanding of all available health care options",
-      "inability to adequately verbalize perceptions about health care options",
-      "inadequate time to discuss health care options",
-      "insufficient confidence to openly discuss health care options",
-      "insufficient information regarding health care options",
-      "insufficient privacy to openly discuss health care options",
-      "insufficient self-confidence in decision-making"
-    ],
-    "risk_factors": [],
-    "suggested_outcomes": [
       "decision-making",
       "self-esteem",
       "coping",
@@ -1826,24 +2091,31 @@
       "personal autonomy",
       "psychosocial adjustment: life change"
     ],
+    "risk_factors": [],
+    "suggested_outcomes": [
+      "decision-making",
+      "self-confidence",
+      "coping",
+      "health promotion behavior",
+      "stress level",
+      "communication",
+      "self-care",
+      "participation in health care decisions",
+      "health-seeking behavior",
+      "knowledge",
+      "treatment options",
+      "psychosocial adjustment"
+    ],
     "suggested_interventions": [
       "decision-making support",
+      "establish rapport",
       "health coaching",
       "cognitive restructuring",
       "self-awareness enhancement"
     ]
   },
   {
-    "diagnosis": "readiness for enhanced emancipated decision-",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "making",
+    "diagnosis": "readiness for enhanced emancipated decision making",
     "definition": "a process of choosing a health care decision that includes personal knowledge and/or consideration of social norms, which can be strengthened.",
     "defining_characteristics": [
       "expresses desire to enhance ability to choose health care options that best fit current lifestyle",
@@ -1871,19 +2143,12 @@
       "knowledge: treatment options",
       "psychosocial adjustment"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "decision-making support"
+    ]
   },
   {
-    "diagnosis": "risk for impaired emancipated decision-",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "making",
+    "diagnosis": "risk for impaired emancipated decision making",
     "definition": "susceptible to a process of choosing a health care decision that does not include personal knowledge and/or consideration of social norms, or does not occur in a flexible environment, resulting in decisional satisfaction.",
     "defining_characteristics": [],
     "related_factors": [],
@@ -1910,7 +2175,10 @@
       "treatment options",
       "psychosocial adjustment"
     ],
-    "suggested_interventions": ["establish rapport", "decision-making support"]
+    "suggested_interventions": [
+      "establish rapport",
+      "decision-making support"
+    ]
   },
   {
     "diagnosis": "ineffective denial",
@@ -1950,7 +2218,9 @@
       "health beliefs: perceived threat",
       "symptom control"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "anxiety reduction"
+    ]
   },
   {
     "diagnosis": "impaired dentition",
@@ -1986,7 +2256,9 @@
       "malnutrition"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["oral health"],
+    "suggested_outcomes": [
+      "oral health"
+    ],
     "suggested_interventions": [
       "oral health maintenance",
       "oral health promotion",
@@ -2060,14 +2332,18 @@
       "risk control: environmental hazards",
       "community risk control: communicable disease"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "diarrhea management"
+    ]
   },
   {
     "diagnosis": "risk for disuse syndrome",
     "definition": "susceptible to deterioration of body systems as the result of prescribed or unavoidable musculoskeletal inactivity, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["pain"],
+    "risk_factors": [
+      "pain"
+    ],
     "suggested_outcomes": [
       "pain level",
       "endurance",
@@ -2086,7 +2362,7 @@
   },
   {
     "diagnosis": "decreased diversional activity engagement",
-    "definition": "reduceded stimulation, interest, or participation in recreational or leisure activities.",
+    "definition": "reduced stimulation, interest, or participation in recreational or leisure activities.",
     "defining_characteristics": [
       "alteration in mood",
       "boredom",
@@ -2105,15 +2381,8 @@
       "insufficient diversional activity"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [
-      "leisure participation",
-      "play participation",
-      "social involvement"
-    ],
-    "suggested_interventions": [
-      "recreation therapy",
-      "self-responsibility facilitation"
-    ]
+    "suggested_outcomes": [],
+    "suggested_interventions": []
   },
   {
     "diagnosis": "ineffective adolescent eating dynamics",
@@ -2178,7 +2447,7 @@
       "undereating"
     ],
     "related_factors": [
-      "eating habit bribing child to eat",
+      "bribing child to eat",
       "consumption of large volumes of food in a short period of time",
       "disordered eating habits",
       "eating in isolation",
@@ -2191,14 +2460,14 @@
       "rewarding child to eat",
       "stressful mealtimes",
       "unpredictable eating patterns",
-      "unstructured eating of snacks between meals family process abusive relationship",
+      "unstructured eating of snacks between meals abusive relationship",
       "anxious parent–child relationship",
       "disengaged parenting style",
       "hostile parent–child relationship",
       "insecure parent–child relationship",
       "over involved parenting style",
       "tense parent–child relationship",
-      "under involved parenting style parental anorexia",
+      "under involved parenting style anorexia",
       "depression",
       "inability to divide eating responsibility between parent and child",
       "inability to divide feeding responsibility between parent and child",
@@ -2206,7 +2475,7 @@
       "ineffective coping strategies",
       "lack of confidence in child to develop healthy eating habits",
       "lack of confidence in child to grow appropriately",
-      "substance misuse environmental media influence on eating behaviors of high caloric unhealthy foods",
+      "substance misuse media influence on eating behaviors of high caloric unhealthy foods",
       "media influence on knowledge of high caloric unhealthy foods"
     ],
     "risk_factors": [],
@@ -2336,31 +2605,7 @@
     "suggested_interventions": [
       "therapeutic touch (tt)",
       "hope inspiration",
-      "reiki • consider using complimentary health approaches (chas)–energy medicine (tt/healing touch, hope inspiration, and reiki) for clients with anxiety, tension, pain, or other conditions that indicate a disruption in the flow of energy . ebn: according to papathanassoglou (2016) , the sense of touch has the potential of evoking and balancing human emotions",
-      "interpersonal touch then may perform an influential part in the emotional well- being of the client and family. ebn: “ the goal of healing touch is to restore harmony and balance in the energy system, placing the client in a position to self-heal” ( drozdowicz & dillard, 2014 ). ebn: developing evidence suggested that there is biological support for the lessening of pain and anxiety for patients who receive chas in acute care settings ( kramlich, 2017 ). ebn: reiki can contribute to changes in mindfulness from conflict and confusion to harmony and well-being ( jamison & grohman, 2015 ). • refer to care plans for anxiety, acute pain, and chronic pain . guidelines for complimentary health approaches • cha may be practiced by anyone with the requisite preparation, desire, and commitment. ebn: acute and critical care nurses who are certified to practice cha in the acute care setting must adhere to their scope of practice, be conscious of their role, and recognize their professional boundaries ( kramlich, 2017 ). • volunteers who are not licensed health care professionals may practice in the home, but not in the health care setting unless they undertake a rigorous training program. ebn: because patient safety is of utmost concern in the acute and critical care settings, volunteer complimentary health professionals (chps) must support infection control, patient privacy, and patient security ( kramlich, 2017 ). pediatric • consider using chas for pediatric clients with adjunct therapies to decrease stress, anxiety, and pain. eb: mcclafferty et al (2017) encouraged medical professionals who care for children to foster the utilization of “relevant, safe, effective, and age-appropriate health services and therapies,” whether conventional or complementary. eb: in pediatric cases of pain and chronic conditions, the successful use of complementary alternative medicine (cam) has markedly increased ( adams et al, 2014 ). geriatric • consider chas for elderly with pain. eb: overall, cam therapies are valuable to the geriatric population, especially for those who cope with chronic conditions and suffer from constant pain, therefore enhancing their quality of life. cam nurtures good health practices and bolsters the body's defenses, its natural healing ability, and promotion of self-care and patient empowerment ( siddiqui et al, 2014 ). eb: the use of patient-centered communication about the risks/benefits of cam is necessary to promote effective management of chronic illnesses and pain among an aging population ( ho et al, 2014 ). multicultural • assess for the influence of cultural beliefs, norms, and values on the client's use of cam. eb: cams cover a wide range of methodologies (herbal medicine, manual healing techniques, traditional therapies, and mind–body interventions) and are used globally to treat a wide-range of illnesses and to support good health ( mathew et al, 2013 ). home care • help the client and family accept cams as natural healing interventions. eb: because homeopathy is one of the most commonly used methods of cam, schmacke, muller, and stamer (2014) , in their survey of homeopathic use, found that the initial homeopathic consultation and the search for appropriate medication was seen by patients as an endorsement of personalized homeopathic treatment. ▲ in the presence of a psychiatric disorder, refer for psychiatric home health care services for client reassurance and implementation of therapeutic regimens. eb: it has been shown that a home visit intervention (hovi) of psychiatric clients generates positive outcomes shown by the documented decrease in rehospitalization rates and number of days hospitalized, leading to health care cost savings ( chang & chou, 2015 ). client/family teaching and discharge planning • teach the client how to use guided imagery. ebn: urge your client to use guided imagery and relaxation. this nonpharmacological technique has proven valuable in treating sleep deprivation and the promotion of relaxation to reduce pain (adeola et al, 2015). • consider the use of progressive muscle relaxation, autogenic training, relaxation response, biofeedback, emotional freedom technique, guided imagery, diaphragmatic breathing, transcendental meditation, cognitive behavioral therapy, mindfulness- based stress reduction, and emotional freedom technique. ceb: these are all evidence- based techniques that are easy to learn and practice and have good results in individuals with good health or with a disease ( varvogli & darviri, 2011 ). eb: “cam routines and rituals constitute key elements in cancer patients’ regular and satisfied cam use, and they promote familial strengthening” ( klafke et al, 2014 ). nurses/staff • the practice of cams, both giving and receiving, can improve well-being . ebn: the patient–cam practitioner connection is vital because it embodies healing intent, which in turn produces substantial influence on positive outcomes ( dunning, 2014 ). • see the evolve website for weblinks for client education resources. references adams d, whidden a, honkanea m. complementary and alternative medicine: a survey of its use in pediatric cardiology. cmaj open . 2014",
-      "2(4):e217–e224",
-      "10.9778/cmajo.20130075 . chang y, chou f. effects of home visit intervention on re-hospitalization rates of psychiatric patients. community mental health . 2015",
-      "51(5):598–605",
-      "10.1007/s10597-014-9807-7 . drozdowicz a, dillard d. presence in the neonatal intensive care unit. international journal of childbirth education . 2014",
-      "29(4):63–67. dunning t. overview of complementary and alternative medicine and diabetes. practical diabetes . 2014",
-      "31(9):381–386",
-      "10.100.2/pdi.1908 . ho t, rowland-seymour a, frankel e, et al. generational differences in complementary and alternative medicine (cam) use in the context of chronic disease and pain: baby boomers versus the silent generation. journal of the american board of family medicine . 2014",
-      "27(4):465–473",
-      "10.3122/jabfm.2014.04.13023 . jamison t, grohman e. energy medicine: a complementary modality in nursing. quality in primary care . 2015",
-      "23(4):189–191. klafke n, elliot j, oliver g, et al. the role of complementary and alternative medicine (cam) routines and rituals in men with cancer and their significant others (sos): a qualitative investigation. supportive care in cancer . 2014",
-      "22(5):1319–1331",
-      "10.1007/s00520-013-2090-2 . kramlich d. complementary health practitioners in the acute and critical care setting: nursing considerations. critical care nursing . 2017",
-      "37(3):60–65",
-      "10.4037/ccn2017181 . mapes a, baird c, sands l, et al. active despite pain: patient experiences with guided imagery with relaxation compared to planned rest. clinical journal of oncology nursing . 2015",
-      "19(6):649–652",
-      "10.1188/115.cjon.649-662 . mathew e, muttappallymyalil j, sreedharan j, et al. self-reported use of complementary and alternative medicine among health care consumers at a tertiary care center in ajman, united arab emirates. annals of medicine & health science research . 2013",
-      "3(2):215–219",
-      "10.4103/2141-9248.113665 . mcclafferty h, vohra s, baily m. pediatric integrative medicine. american academy of pediatrics clinical report. pediatrics . 2017 [retrieved from] aappublications.org/content/early/2017/08/24/peds.2017- 196 . papathanassoglou e. therapeutic touch in critical care… wfccn/accn world congress: the world of critical care nursing . 2016",
-      "10(2):35. schmacke n, muller v, stamer m. what is it about homeopathy that patients value? and what can family medicine learn from this. quality in primary care . 2014",
-      "22(1):17–24. siddiqui m, min c, verma r, et al. role of complementary and alternative medicine in geriatric care: a mini review. pharmacology review . 2014",
-      "8(16):81–87",
-      "10.4103/0973-7847.134230 . varvogli l, darviri c. stress management techniques: evidence-based procedures that reduce stress and promote health. health science journal . 2011",
-      "5(2):74–89."
+      "reiki"
     ]
   },
   {
@@ -2380,7 +2625,11 @@
       "sunlight exposure",
       "vitamin a deficiency"
     ],
-    "suggested_outcomes": [],
+    "suggested_outcomes": [
+      "dry eye severity",
+      "sensory function: vision",
+      "vision compensation behavior"
+    ],
     "suggested_interventions": [
       "communication enhancement: visual deficit",
       "environmental management"
@@ -2440,16 +2689,16 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "children absence of stairway gate",
+      "absence of stairway gate",
       "absence of window guard",
       "inadequate supervision",
-      "insufficient automobile restraints environment cluttered environment",
+      "insufficient automobile restraints cluttered environment",
       "exposure to unsafe weather-related condition",
       "insufficient anti-slip material in bathroom",
       "insufficient lighting",
       "unfamiliar setting",
       "use of restraints",
-      "use of throw rugs physiological alteration in blood glucose level",
+      "use of throw rugs alteration in blood glucose level",
       "decrease in lower extremity strength",
       "diarrhea",
       "difficulty with gait",
@@ -2475,118 +2724,533 @@
   },
   {
     "diagnosis": "dysfunctional family processes",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "family functioning which fails to support the well-being of its members.",
+    "defining_characteristics": [
+      "agitation",
+      "alteration in concentration",
+      "blaming",
+      "broken promises",
+      "chaos",
+      "complicated grieving",
+      "conflict avoidance",
+      "contradictory communication pattern",
+      "controlling communication pattern",
+      "criticizing",
+      "decrease in physical contact",
+      "denial of problems",
+      "dependency",
+      "difficulty having fun",
+      "difficulty with intimate relationships",
+      "difficulty with life cycle transitions",
+      "disturbances in academic performance in children",
+      "enabling substance use pattern",
+      "escalating conflict",
+      "failure to accomplish developmental tasks",
+      "harsh self-judgment",
+      "immaturity",
+      "inability to accept a wide range of feelings",
+      "inability to accept help",
+      "inability to adapt to change",
+      "inability to deal constructively with traumatic experiences",
+      "inability to express wide range of feelings",
+      "inability to meet the emotional needs of its members",
+      "inability to meet the security needs of its members",
+      "inability to meet the spiritual needs of its members",
+      "inability to receive help appropriately",
+      "inappropriate anger expression",
+      "ineffective communication skills",
+      "insufficient knowledge about substance abuse",
+      "insufficient problem solving skills",
+      "lying",
+      "manipulation",
+      "nicotine addiction",
+      "orientation favors tension relief rather than goal attainment",
+      "paradoxical communication pattern",
+      "power struggles",
+      "rationalization",
+      "refusal to get help",
+      "seeking of affirmation",
+      "seeking of approval",
+      "self-blame",
+      "social isolation",
+      "special occasions centered on substance use",
+      "stress-related physical illnesses",
+      "substance abuse",
+      "unreliable behavior",
+      "verbal abuse of children",
+      "verbal abuse of parent",
+      "verbal abuse of partner abandonment",
+      "anger",
+      "anxiety",
+      "confuses love and pity",
+      "confusion",
+      "depression",
+      "dissatisfaction",
+      "distress",
+      "embarrassment",
+      "emotional isolation",
+      "emotionally controlled by others",
+      "failure",
+      "fear",
+      "feeling different from others",
+      "feeling misunderstood",
+      "feeling unloved",
+      "frustration",
+      "guilt",
+      "hopelessness",
+      "hostility",
+      "hurt",
+      "insecurity",
+      "lack of identity",
+      "lingering resentment",
+      "loneliness",
+      "loss",
+      "loss of identity",
+      "low self-esteem",
+      "mistrust",
+      "moodiness",
+      "powerlessness",
+      "rejection",
+      "repressed emotions",
+      "shame",
+      "taking responsibility for substance misuser's behavior",
+      "tension",
+      "unhappiness",
+      "vulnerability",
+      "worthlessness change in role function",
+      "chronic family problems",
+      "closed communication systems",
+      "conflict between partners",
+      "deterioration in family relationships",
+      "diminished ability of family members to relate to each other for mutual growth and maturation",
+      "disruption in family rituals",
+      "disruption in family roles",
+      "disturbance in family dynamics",
+      "family denial",
+      "inconsistent parenting",
+      "ineffective communication with partner",
+      "insufficient cohesiveness",
+      "insufficient family respect for autonomy of its members",
+      "insufficient family respect for individuality of its members",
+      "insufficient relationship skills",
+      "neglect of obligation to family member",
+      "pattern of rejection",
+      "perceived insufficient parental support",
+      "triangulating family relationships"
+    ],
+    "related_factors": [
+      "addictive personality",
+      "ineffective coping skills",
+      "insufficient problem-solving skills",
+      "substance misuse"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "family coping",
+      "family functioning",
+      "family health status",
+      "substance addiction consequences"
+    ],
+    "suggested_interventions": [
+      "family process maintenance",
+      "substance use treatment"
+    ]
   },
   {
     "diagnosis": "interrupted family processes",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "break in the continuity of family functioning which fails to support the well-being of its members.",
+    "defining_characteristics": [
+      "change in availability for affective responsiveness",
+      "change in family conflict resolution",
+      "change in family satisfaction",
+      "change in intimacy",
+      "change in participation for problem-solving",
+      "assigned tasks change",
+      "change in communication pattern",
+      "change in somatization",
+      "change in stress reduction behavior",
+      "changes in expressions of conflict with community resources",
+      "changes in expressions of isolation from community resources",
+      "changes in participation for decision-making",
+      "changes in relationship pattern",
+      "decrease in available emotional support",
+      "decrease in mutual support",
+      "ineffective task completion",
+      "power alliance change",
+      "ritual change"
+    ],
+    "related_factors": [
+      "changes in interaction with community",
+      "power shift among family members",
+      "shift in family roles"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "family coping",
+      "family functioning",
+      "family normalization",
+      "psychosocial adjustment: life change, role performance"
+    ],
+    "suggested_interventions": [
+      "family integrity promotion",
+      "family process maintenance",
+      "normalization promotion"
+    ]
   },
   {
     "diagnosis": "readiness for enhanced family processes",
     "definition": "",
-    "defining_characteristics": [],
+    "defining_characteristics": [
+      "expresses desire to enhance balance between autonomy and cohesiveness",
+      "expresses desire to enhance communication pattern",
+      "expresses desire to enhance energy level of family to support activities of daily living",
+      "expresses desire to enhance family adaptation to change",
+      "expresses desire to enhance family dynamics",
+      "expresses desire to enhance family resilience",
+      "expresses desire to enhance growth of family members",
+      "expresses desire to enhance interdependence with community",
+      "expresses desire to enhance maintenance of boundaries between family members",
+      "expresses desire to enhance respect for family members",
+      "expresses desire to enhance safety of family members."
+    ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "family coping",
+      "health-promoting behavior",
+      "health-seeking behavior",
+      "parent-infant attachment",
+      "parenting performance"
+    ],
+    "suggested_interventions": [
+      "coping enhancement",
+      "decision-making support",
+      "family integrity promotion",
+      "family involvement promotion",
+      "family mobilization",
+      "family process maintenance",
+      "parent education: adolescent",
+      "childrearing family",
+      "risk identification",
+      "role enhancement"
+    ]
   },
   {
     "diagnosis": "fatigue",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "an overwhelming sustained sense of exhaustion and decreased capacity for physical and mental work at the usual level.",
+    "defining_characteristics": [
+      "alteration in concentration",
+      "alteration in libido",
+      "apathy",
+      "disinterest in surroundings",
+      "drowsiness",
+      "guilt about difficulty maintaining responsibilities",
+      "impaired ability to maintain usual physical activity",
+      "impaired ability to maintain usual routines",
+      "increase in physical symptoms",
+      "increase in rest requirement",
+      "ineffective role performance",
+      "insufficient energy",
+      "introspection",
+      "lethargy",
+      "nonrestorative sleep pattern",
+      "tiredness"
+    ],
+    "related_factors": [
+      "anxiety",
+      "depression",
+      "environmental barrier",
+      "increase in physical exertion",
+      "malnutrition",
+      "nonstimulating lifestyle",
+      "demanding occupation",
+      "physical deconditioning",
+      "sleep deprivation",
+      "stressors"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "concentration",
+      "endurance",
+      "energy conservation/restoration",
+      "nutritional status",
+      "energy",
+      "vitality"
+    ],
+    "suggested_interventions": [
+      "energy management, including both conservation and restoration",
+      "conservation interventions are targeted at preserving an individual's energy, whereas restorative interventions are intended to reestablish vitality and energy"
+    ]
   },
   {
     "diagnosis": "fear",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "response to perceived threat that is consciously recognized as a danger.",
+    "defining_characteristics": [
+      "apprehensiveness",
+      "decrease in self-assurance",
+      "excitedness",
+      "feeling of alarm",
+      "feeling of dread",
+      "feeling of fear",
+      "feeling of panic",
+      "feeling of terror",
+      "fidgeting",
+      "increase in blood pressure",
+      "increase in tension",
+      "muscle tension",
+      "nausea",
+      "pallor",
+      "pupil dilation",
+      "vomiting decrease in learning ability",
+      "decrease in problem-solving ability",
+      "decrease in productivity",
+      "identifies object of fear",
+      "stimulus believed to be a threat attack behaviors",
+      "avoidance behaviors",
+      "focus narrowed to the source of fear",
+      "impulsiveness",
+      "increase in alertness anorexia",
+      "change in physiological response",
+      "diarrhea",
+      "dry mouth",
+      "dyspnea",
+      "fatigue",
+      "increase in perspiration"
+    ],
+    "related_factors": [
+      "language barrier",
+      "learned response to threat",
+      "response to phobic stimulus",
+      "separation from support system",
+      "unfamiliar setting"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "fear self-control"
+    ],
+    "suggested_interventions": [
+      "anxiety reduction",
+      "coping enhancement",
+      "security enhancement"
+    ]
   },
   {
     "diagnosis": "ineffective infant feeding pattern",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "impaired ability of an infant to suck or coordinate the suck-swallow response resulting in inadequate oral nutrition for metabolic needs.",
+    "defining_characteristics": [
+      "inability to coordinate sucking, swallowing, and breathing",
+      "inability to initiate an effective suck",
+      "inability to sustain an effective suck"
+    ],
+    "related_factors": [
+      "oral hypersensitivity",
+      "prolonged nil per os (npo) status"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "bottle feeding establishment: infant",
+      "bottle feeding performance",
+      "breastfeeding establishment: infant, maternal",
+      "breastfeeding: maintenance",
+      "hydration",
+      "nutritional status: food and fluid intake"
+    ],
+    "suggested_interventions": [
+      "bottle feeding",
+      "fluid monitoring",
+      "kangaroo care",
+      "lactation counseling",
+      "nutritional monitoring",
+      "teaching: infant safety"
+    ]
   },
   {
     "diagnosis": "risk for female genital mutilation",
-    "definition": "",
+    "definition": "susceptible to full or partial ablation of the female external genitalia and other lesions of the genitalia, whether for cultural, religious, or any other nontherapeutic reasons, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "lack of family knowledge about impact of practice on physical health",
+      "lack of family knowledge about impact of practice on reproductive health",
+      "lack of family knowledge about impact of practice on psychosocial health"
+    ],
+    "suggested_outcomes": [
+      "abuse cessation",
+      "abuse protection",
+      "abuse recovery",
+      "abuse recovery: emotional",
+      "abuse recovery: physical"
+    ],
+    "suggested_interventions": [
+      "abuse protection support",
+      "abuse protection support: child",
+      "abuse protection support: religious"
+    ]
   },
   {
     "diagnosis": "risk for imbalanced fluid volume",
-    "definition": "",
+    "definition": "susceptible to a decrease, increase, or rapid shift from one to the other of intravascular, interstitial, and/or intracellular fluid, which may compromise health. this refers to body fluid loss, gain, or both.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "to be developed"
+    ],
+    "suggested_outcomes": [
+      "fluid balance",
+      "electrolyte and acid-base balance",
+      "hydration"
+    ],
+    "suggested_interventions": [
+      "autotransfusion",
+      "bleeding precautions",
+      "bleeding reduction: wound",
+      "electrolyte management",
+      "fluid management",
+      "fluid monitoring",
+      "hemodynamic regulation",
+      "hypervolemia management",
+      "hypovolemia management",
+      "intravenous therapy",
+      "invasive hemodynamic monitoring",
+      "shock management: volume",
+      "vital signs monitoring"
+    ]
   },
   {
     "diagnosis": "deficient fluid volume",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "decreased intravascular, interstitial, and/or intracellular fluid. this refers to dehydration, water loss alone without change in sodium.",
+    "defining_characteristics": [
+      "alteration in mental status",
+      "alteration in skin turgor",
+      "decrease in blood pressure",
+      "decrease in pulse pressure",
+      "decrease in pulse volume",
+      "decrease in tongue turgor",
+      "decrease in urine output",
+      "decreased venous filling",
+      "dry mucous membranes",
+      "dry skin",
+      "increase in body temperature",
+      "increase in heart rate",
+      "increase in hematocrit",
+      "increase in urine concentration",
+      "sudden weight loss",
+      "thirst",
+      "weakness"
+    ],
+    "related_factors": [
+      "barrier to accessing fluid",
+      "insufficient fluid intake",
+      "insufficient knowledge about fluid needs"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "fluid balance",
+      "hydration",
+      "nutritional status: food and fluid intake"
+    ],
+    "suggested_interventions": [
+      "fluid management",
+      "hypovolemia management",
+      "shock management: volume"
+    ]
   },
   {
     "diagnosis": "excess fluid volume",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "surplus intake and/or retention of fluid.",
+    "defining_characteristics": [
+      "adventitious breath sounds",
+      "alteration in blood pressure",
+      "alteration in mental status",
+      "alteration in pulmonary artery pressure (pap)",
+      "alteration in respiratory pattern",
+      "alteration in urine specific gravity",
+      "anasarca",
+      "anxiety",
+      "azotemia",
+      "decrease in hematocrit",
+      "decrease in hemoglobin",
+      "dyspnea",
+      "edema",
+      "electrolyte imbalance",
+      "hepatomegaly",
+      "increased central venous pressure (cvp)",
+      "intake exceeds output",
+      "jugular vein distention",
+      "oliguria",
+      "orthopnea",
+      "paroxysmal nocturnal dyspnea",
+      "pleural effusion",
+      "positive hepatojugular reflex",
+      "presence of s3 heart sound",
+      "pulmonary congestion",
+      "restlessness",
+      "weight gain over short period of time"
+    ],
+    "related_factors": [
+      "excessive fluid intake",
+      "excessive sodium intake"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "electrolyte and acid-base balance",
+      "fluid balance",
+      "fluid overload severity",
+      "hydration"
+    ],
+    "suggested_interventions": [
+      "fluid management",
+      "fluid monitoring"
+    ]
   },
   {
     "diagnosis": "risk for deficient fluid volume",
-    "definition": "",
+    "definition": "susceptible to experiencing decreased intravascular, interstitial, and/or intracellular fluid volumes, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "barrier to accessing fluid",
+      "insufficient fluid intake",
+      "insufficient knowledge about fluid needs"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "frail elderly syndrome",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "dynamic state of unstable equilibrium that affects the older individual experiencing deterioration in one or more domains of health (physical, functional, psychological, or social) and leads to increased susceptibility to adverse health effects, in particular disability.",
+    "defining_characteristics": [
+      "activity intolerance (00092), bathing self-care deficit (00108), decreased cardiac output (00029), fatigue (00093), feeding self-care deficit (00102), hopelessness (00124), imbalanced nutrition: less than body requirements (00002), impaired memory (00131), impaired physical mobility (00085), impaired walking (00088), social isolation (00053), toileting self-care deficit (00110)"
+    ],
+    "related_factors": [
+      "activity intolerance, anxiety, average daily physical activity is less than recommended for gender and age, decrease in energy, decrease in muscle strength, depression, exhaustion, fear of falling, immobility, impaired balance, impaired mobility, insufficient social support, malnutrition, muscle weakness, obesity, sadness, sedentary lifestyle, social isolation"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "activity tolerance",
+      "balance",
+      "exercise participation",
+      "hope",
+      "physical aging",
+      "psychosocial adjustment: life change",
+      "client satisfaction: functional assistance"
+    ],
+    "suggested_interventions": [
+      "exercise promotion",
+      "exercise promotion: balance",
+      "exercise promotion: strength training",
+      "hope inspiration",
+      "nutrition therapy"
+    ]
   },
   {
     "diagnosis": "risk for frail elderly syndrome",
-    "definition": "",
+    "definition": "susceptible to a dynamic of unstable equilibrium that affects the older individual experiencing deterioration in one or more domain of health (physical, functional, psychological, or social) and leads to increased susceptibility to adverse health effects, in particular disability.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "activity intolerance, anxiety, average daily physical activity is less than recommended for gender and age, decrease in energy, decrease in muscle strength, depression, exhaustion, fear of falling, immobility, impaired balance, impaired mobility, insufficient knowledge of modifiable factors, insufficient social support, malnutrition, muscle weakness, obesity, sadness, sedentary lifestyle, social isolation"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
@@ -2612,10 +3276,17 @@
       "tachycardia",
       "visual disturbances"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": ["respiratory status: gas exchange, ventilation"],
-    "suggested_interventions": ["acid-base management", "airway management"]
+    "suggested_outcomes": [
+      "respiratory status: gas exchange, ventilation"
+    ],
+    "suggested_interventions": [
+      "acid-base management",
+      "airway management"
+    ]
   },
   {
     "diagnosis": "risk for dysfunctional gastrointestinal motility",
@@ -2672,7 +3343,9 @@
       "hydration",
       "nausea and vomiting control"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "gastric motility management"
+    ]
   },
   {
     "diagnosis": "risk for unstable blood glucose level",
@@ -2733,7 +3406,9 @@
       "personal growth",
       "psychological distress"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "grief resolution",
@@ -2783,7 +3458,10 @@
       "separation distress",
       "traumatic distress"
     ],
-    "related_factors": ["emotional disturbance", "insufficient social support"],
+    "related_factors": [
+      "emotional disturbance",
+      "insufficient social support"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "anxiety level",
@@ -2879,7 +3557,9 @@
       "psychosocial adjustment: life change",
       "risk detection"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "self-efficacy enhancement"
+    ]
   },
   {
     "diagnosis": "ineffective health management",
@@ -3044,7 +3724,9 @@
       "safe home environment",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "home maintenance assistance"
+    ]
   },
   {
     "diagnosis": "readiness for enhanced hope",
@@ -3061,7 +3743,10 @@
     ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": ["hope", "quality of life"],
+    "suggested_outcomes": [
+      "hope",
+      "quality of life"
+    ],
     "suggested_interventions": [
       "emotional support",
       "hope inspiration",
@@ -3102,7 +3787,9 @@
       "quality of life",
       "sleep"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "hope inspiration"
+    ]
   },
   {
     "diagnosis": "risk for compromised human dignity",
@@ -3202,7 +3889,10 @@
       "vigorous activity"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
+    "suggested_outcomes": [
+      "thermoregulation",
+      "thermoregulation: newborn"
+    ],
     "suggested_interventions": [
       "fever treatment",
       "malignant hyperthermia precautions",
@@ -3228,7 +3918,7 @@
       "shivering",
       "skin cool to touch",
       "slow capillary refill",
-      "tachycardia neonates infant with insufficient energy to maintain sucking",
+      "tachycardia infant with insufficient energy to maintain sucking",
       "infant with insufficient weight gain (<30 g/day)",
       "irritability",
       "jaundice",
@@ -3247,12 +3937,15 @@
       "insufficient caregiver knowledge of hypothermia prevention",
       "insufficient clothing",
       "low environmental temperature",
-      "malnutrition neonates delay in breastfeeding",
+      "malnutrition delay in breastfeeding",
       "early bathing of newborn",
       "increase in oxygen demand"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
+    "suggested_outcomes": [
+      "thermoregulation",
+      "thermoregulation: newborn"
+    ],
     "suggested_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -3290,7 +3983,9 @@
       "excessive radiative heat transfer",
       "low environmental temperature"
     ],
-    "suggested_outcomes": ["thermoregulation"],
+    "suggested_outcomes": [
+      "thermoregulation"
+    ],
     "suggested_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -3350,116 +4045,323 @@
   },
   {
     "diagnosis": "risk for disturbed personal identity",
-    "definition": "",
+    "definition": "susceptible to the inability to maintain an integrated and complete perception of self, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "alteration in social role",
+      "cult indoctrination",
+      "cultural incongruence",
+      "discrimination",
+      "dysfunctional family processes",
+      "low self-esteem",
+      "manic states",
+      "perceived prejudice",
+      "stages of growth"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "risk for complicated immigration transition",
-    "definition": "",
+    "definition": "susceptibility to experiencing negative feelings (loneliness, fear, anxiety) in response to unsatisfactory consequences and cultural barriers to one's immigration transition, which may compromise health.",
     "defining_characteristics": [],
-    "related_factors": [],
+    "related_factors": [
+      "available work is below educational preparation",
+      "cultural barriers in host country",
+      "unsanitary housing",
+      "insufficient knowledge about the process to access resources in the host country",
+      "insufficient social support in host country",
+      "language barriers in host country",
+      "multiple nonrelated persons in household",
+      "overcrowded housing",
+      "overt discrimination",
+      "parent–child conflicts related to enculturation in the host country",
+      "and abusive landlord"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "relocation adaptation, anxiety level",
+      "fear level",
+      "loneliness severity",
+      "coping"
+    ],
+    "suggested_interventions": [
+      "support system enhancement",
+      "socialization enhancement",
+      "values clarification"
+    ]
   },
   {
     "diagnosis": "ineffective impulse control",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "a pattern of performing rapid, unplanned reactions to internal or external stimuli without regard for the negative consequences of these reactions to the impulsive individual or to others.",
+    "defining_characteristics": [
+      "acting without thinking",
+      "asking personal questions despite the discomfort of others",
+      "gambling addiction",
+      "inability to save money or regulate finances",
+      "inappropriate sharing of personal details",
+      "irritability",
+      "overly familiar with strangers",
+      "sensation seeking",
+      "sexual promiscuity",
+      "temper outbursts",
+      "violent behavior"
+    ],
+    "related_factors": [
+      "hopelessness",
+      "mood disorder",
+      "smoking",
+      "substance misuse"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "impulse self-control"
+    ],
+    "suggested_interventions": [
+      "impulse control training"
+    ]
   },
   {
     "diagnosis": "functional urinary incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "inability of a usually continent person to reach the toilet in time to avoid unintentional loss of urine.",
+    "defining_characteristics": [
+      "completely empties bladder",
+      "early morning urinary incontinence",
+      "sensation of need to void",
+      "time required to reach toilet is too long after sensation of urge",
+      "voiding prior to reaching toilet"
+    ],
+    "related_factors": [
+      "alteration in environmental factor",
+      "weakened supporting pelvic structure"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "urinary continence",
+      "urinary elimination"
+    ],
+    "suggested_interventions": [
+      "urinary habit training",
+      "urinary incontinence care"
+    ]
   },
   {
     "diagnosis": "overflow urinary incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "involuntary loss of urine associated with overdistention of the bladder.",
+    "defining_characteristics": [
+      "bladder distention",
+      "high postvoid residual volume",
+      "involuntary leakage of small volume of urine",
+      "nocturia"
+    ],
+    "related_factors": [
+      "fecal impaction"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "reflex urinary incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "involuntary loss of urine at somewhat predictable intervals when a specific bladder volume is reached.",
+    "defining_characteristics": [
+      "absence of voiding sensation",
+      "absence of urge to void",
+      "inability to voluntarily inhibit voiding",
+      "inability to voluntarily initiate voiding",
+      "incomplete emptying of bladder with lesion above pontine micturition center",
+      "predictable pattern of voiding",
+      "sensation of urgency to void without voluntary inhibition of bladder contraction",
+      "sensations associated with full bladder"
+    ],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "urinary continence",
+      "urinary elimination"
+    ],
+    "suggested_interventions": [
+      "urinary catheterization: intermittent",
+      "urinary elimination management",
+      "urinary incontinence care"
+    ]
   },
   {
     "diagnosis": "stress urinary incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "sudden leakage of urine with activities that increase intra-abdominal pressure.",
+    "defining_characteristics": [
+      "involuntary leakage of small volume of urine",
+      "involuntary leakage of small volume of urine in the absence of detrusor contraction",
+      "involuntary leakage of small volume of urine in the absence of overdistended bladder"
+    ],
+    "related_factors": [
+      "weak pelvic floor muscles"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "urinary continence",
+      "urinary elimination"
+    ],
+    "suggested_interventions": [
+      "pelvic muscle exercises",
+      "urinary incontinence care"
+    ]
   },
   {
     "diagnosis": "urge urinary incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "involuntary passage of urine occurring soon after a strong sensation or urgency to void.",
+    "defining_characteristics": [
+      "inability to reach toilet in time to avoid urine loss",
+      "involuntary loss of urine with bladder contractions",
+      "involuntary loss of urine with bladder spasms",
+      "urinary urgency"
+    ],
+    "related_factors": [
+      "alcohol consumption",
+      "caffeine intake",
+      "fecal impaction",
+      "ineffective toileting habits",
+      "involuntary sphincter relaxation"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "tissue integrity: skin and mucous membranes",
+      "urinary continence",
+      "urinary elimination"
+    ],
+    "suggested_interventions": [
+      "urinary habit training",
+      "urinary incontinence care"
+    ]
   },
   {
     "diagnosis": "risk for urge urinary incontinence",
-    "definition": "",
+    "definition": "susceptible to involuntary passage of urine occurring soon after a strong sensation or urgency to void, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "alcohol consumption",
+      "caffeine intake",
+      "fecal impaction",
+      "ineffective toileting habits",
+      "involuntary sphincter relaxation"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "bowel incontinence",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "involuntary passage of stool.",
+    "defining_characteristics": [
+      "bowel urgency",
+      "constant passage of soft stool",
+      "does not recognize urge to defecate",
+      "fecal staining",
+      "inability to delay defecation",
+      "inability to expel formed stool despite recognition of rectal fullness",
+      "inability to recognize rectal fullness",
+      "inattentive to urge to defecate"
+    ],
+    "related_factors": [
+      "difficulty with toileting self-care",
+      "environmental factor",
+      "generalized decline in muscle tone",
+      "immobility",
+      "inadequate dietary habits",
+      "incomplete emptying of bowel",
+      "laxative abuse",
+      "stressors"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "bowel continence",
+      "bowel elimination"
+    ],
+    "suggested_interventions": [
+      "bowel incontinence care",
+      "bowel incontinence care: encopresis",
+      "bowel training"
+    ]
   },
   {
     "diagnosis": "disorganized infant behavior",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "disintegration of the physiological and neurobehavioral systems of functioning.",
+    "defining_characteristics": [
+      "impaired response to sensory stimuli",
+      "alteration in primitive reflexes",
+      "exaggerated startle response",
+      "fidgeting",
+      "finger splaying",
+      "fisting",
+      "hands to face",
+      "hyperextension of extremities",
+      "impaired motor tone",
+      "tremor",
+      "twitching",
+      "uncoordinated movement",
+      "abnormal skin color",
+      "arrhythmia",
+      "bradycardia",
+      "feeding intolerance",
+      "oxygen desaturation",
+      "tachycardia",
+      "time-out signals",
+      "inability to inhibit startle reflex",
+      "irritability",
+      "active-awake",
+      "diffuse alpha electroencephalogram (eeg) activity with eyes closed",
+      "irritable crying",
+      "quiet-awake",
+      "state oscillation"
+    ],
+    "related_factors": [
+      "caregiver cue misreading",
+      "environmental overstimulation",
+      "feeding intolerance",
+      "inadequate physical environment",
+      "infant malnutrition",
+      "insufficient caregiver knowledge of behavioral cures",
+      "insufficient containment within environment",
+      "insufficient environmental sensory stimulation",
+      "pain",
+      "sensory deprivation",
+      "sensory overstimulation"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "child development",
+      "neurological status",
+      "newborn adaptation",
+      "preterm infant organization",
+      "sleep",
+      "thermoregulation: newborn",
+      "infant nutritional status"
+    ],
+    "suggested_interventions": [
+      "physiological and autonomic stability",
+      "developmental enhancement",
+      "infant care",
+      "environmental management",
+      "kangaroo care",
+      "nonnutritive sucking",
+      "parent education: infant",
+      "positioning and handling",
+      "sleep and awake stability",
+      "teaching: infant stimulation 0-4 months",
+      "bonding and attachment"
+    ]
   },
   {
-    "diagnosis": "readiness for enhanced organized infant",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "behavior",
-    "definition": "",
-    "defining_characteristics": [],
+    "diagnosis": "readiness for enhanced organized infant behavior",
+    "definition": "an integrated pattern of modulation of the physiological and neurobehavioral systems of functioning, which can be strengthened.",
+    "defining_characteristics": [
+      "parent expresses desire to enhance cue recognition",
+      "parent expresses desire to enhance environmental conditions",
+      "parent expresses desire to enhance recognition of infant's self-regulatory behaviors"
+    ],
     "related_factors": [],
     "risk_factors": [],
     "suggested_outcomes": [],
@@ -3467,84 +4369,245 @@
   },
   {
     "diagnosis": "risk for disorganized infant behavior",
-    "definition": "",
+    "definition": "susceptible to disintegration in the pattern of modulation of the physiological and neurobehavioral systems of functioning, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "caregiver cue misreading",
+      "environmental overstimulation",
+      "feeding intolerance",
+      "inadequate physical environment",
+      "infant malnutrition",
+      "insufficient caregiver knowledge of behavioral cues",
+      "insufficient containment within environment",
+      "insufficient environmental sensory stimulation",
+      "pain",
+      "sensory deprivation",
+      "sensory overstimulation"
+    ],
     "suggested_outcomes": [],
     "suggested_interventions": []
   },
   {
     "diagnosis": "risk for infection",
-    "definition": "",
+    "definition": "susceptible to invasion and multiplication of pathogenic organisms, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "alteration in peristalsis",
+      "alteration in skin integrity",
+      "inadequate vaccination",
+      "insufficient knowledge to avoid exposure to pathogens",
+      "malnutrition",
+      "obesity",
+      "smoking",
+      "stasis of body fluid"
+    ],
+    "suggested_outcomes": [
+      "risk control: infectious process",
+      "immune status"
+    ],
+    "suggested_interventions": [
+      "immunization/vaccination management",
+      "infection control",
+      "infection protection"
+    ]
   },
   {
     "diagnosis": "risk for surgical site infection",
-    "definition": "",
+    "definition": "susceptible to invasion of pathogenic organisms at surgical site, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "alcoholism, obesity, smoking"
+    ],
+    "suggested_outcomes": [
+      "risk control: infectious process",
+      "immune status"
+    ],
+    "suggested_interventions": [
+      "infection control",
+      "infection control: intraoperative",
+      "infection protection",
+      "teaching: individual",
+      "preoperative"
+    ]
   },
   {
     "diagnosis": "risk for injury",
-    "definition": "",
+    "definition": "susceptible to physical damage due to environmental conditions interacting with the individual's adaptive and defensive resources, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
+    "risk_factors": [
+      "compromised nutritional source",
+      "exposure to pathogen",
+      "exposure to toxic chemical",
+      "immunization level with community",
+      "insufficient knowledge of modifiable factors",
+      "malnutrition",
+      "nosocomial agent",
+      "physical barrier",
+      "unsafe mode of transport"
+    ],
+    "suggested_outcomes": [
+      "health education",
+      "environmental management",
+      "fall prevention"
+    ],
     "suggested_interventions": []
   },
   {
     "diagnosis": "risk for corneal injury",
-    "definition": "",
+    "definition": "susceptible to infection or inflammatory lesion in the corneal tissue that can affect superficial or deep layers, which may compromise visual health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "exposure of the eyeball",
+      "insufficient knowledge of modifiable factors"
+    ],
+    "suggested_outcomes": [
+      "sensory function: vision",
+      "vision compensation behavior"
+    ],
+    "suggested_interventions": [
+      "visual deficit",
+      "environmental management"
+    ]
   },
   {
     "diagnosis": "risk for occupational injury",
-    "definition": "",
+    "definition": "susceptible to sustain a work-related accident or illness, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "excessive stress",
+      "improper use of personal protective equipment",
+      "inadequate role performance",
+      "inadequate time management",
+      "ineffective coping strategies",
+      "insufficient knowledge",
+      "misinterpretation of information",
+      "psychological distress",
+      "unsafe acts of overconfidence",
+      "unsafe acts of unhealthy negative habits distraction from social relationships",
+      "exposure to biological agents",
+      "exposure to chemical agents",
+      "exposure to extremes of temperature",
+      "exposure to noise",
+      "exposure to radiation",
+      "exposure to teratogenic agents",
+      "exposure to vibration",
+      "inadequate physical environment",
+      "labor relationships",
+      "lack of personal protective equipment",
+      "night shift work rotating to day shift work",
+      "occupational burnout",
+      "physical workload",
+      "shift work"
+    ],
+    "suggested_outcomes": [
+      "personal health and safety behaviors",
+      "risk control",
+      "adequate training"
+    ],
+    "suggested_interventions": [
+      "health coaching",
+      "health education",
+      "health screening",
+      "risk identification"
+    ]
   },
   {
     "diagnosis": "risk for urinary tract injury",
-    "definition": "",
+    "definition": "susceptible to damage of the urinary tract structures from use of catheters, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "confusion",
+      "deficient patient or caregiver knowledge regarding care of urinary catheter",
+      "obesity"
+    ],
+    "suggested_outcomes": [
+      "urinary elimination",
+      "knowledge: infection management",
+      "treatment regimen",
+      "treatment procedure, tissue integrity: skin and mucous membranes, risk control: infectious process, risk detection"
+    ],
+    "suggested_interventions": [
+      "urinary elimination management"
+    ]
   },
   {
     "diagnosis": "insomnia",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "a disruption in amount and quality of sleep that impairs functioning.",
+    "defining_characteristics": [
+      "alteration in affect",
+      "alteration in concentration",
+      "alteration in mood",
+      "alteration in sleep pattern",
+      "compromised health status",
+      "decrease in quality of life",
+      "difficulty initiating sleep",
+      "difficulty maintaining sleep state",
+      "dissatisfaction with sleep",
+      "early awakening",
+      "increase in absenteeism",
+      "increase in accidents",
+      "insufficient energy",
+      "nonrestorative sleep pattern",
+      "sleep disturbance producing next-day consequences"
+    ],
+    "related_factors": [
+      "alcohol consumption",
+      "anxiety, average daily physical activity is less than recommended for gender and age",
+      "depression",
+      "environmental barrier",
+      "fear",
+      "frequent naps",
+      "grieving",
+      "inadequate sleep hygiene",
+      "physical discomfort",
+      "stressors"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "comfort level",
+      "pain level",
+      "personal well-being",
+      "psychosocial adjustment: life change",
+      "quality of life",
+      "rest",
+      "sleep"
+    ],
+    "suggested_interventions": [
+      "sleep enhancement"
+    ]
   },
   {
     "diagnosis": "decreased intracranial adaptive capacity",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "compromise in intracranial fluid dynamic mechanisms that normally compensate for increases in intracranial volumes, resulting in repeated disproportionate increases in intracranial pressure (icp) in response to a variety of noxious and nonnoxious stimuli.",
+    "defining_characteristics": [
+      "baseline intracranial pressure (icp) ≥10 mm hg",
+      "disproportionate increase in intracranial pressure (icp) following stimuli",
+      "elevated tidal wave intracranial pressure (p2 icp) waveform",
+      "repeated increase in intracranial pressure (icp) ≥10 mm hg for ≥5 minutes following external stimuli",
+      "volume-pressure response test variation (volume: pressure ratio 2, pressure-volume index <10)",
+      "wide-amplitude intracranial pressure (icp) waveform"
+    ],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "neurological status",
+      "neurological status: consciousness"
+    ],
+    "suggested_interventions": [
+      "cerebral edema management",
+      "cerebral perfusion promotion",
+      "intracranial pressure monitoring",
+      "neurological monitoring"
+    ]
   },
   {
     "diagnosis": "deficient knowledge",
@@ -3583,18 +4646,25 @@
   },
   {
     "diagnosis": "readiness for enhanced knowledge",
-    "definition": "",
-    "defining_characteristics": [],
+    "definition": "a pattern of cognitive information related to a specific topic or its acquisition, which can be strengthened.",
+    "defining_characteristics": [
+      "expresses desire to enhance learning"
+    ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "knowledge: health promotion"
+    ],
+    "suggested_interventions": [
+      "health education",
+      "health system guidance"
+    ]
   },
   {
     "diagnosis": "latex allergy reaction",
     "definition": "a hypersensitive reaction to natural latex rubber products.",
     "defining_characteristics": [
-      "life-threatening reactions within 1 hour of exposure bronchospasm",
+      "bronchospasm",
       "chest tightness",
       "contact urticaria progressing to generalized symptoms",
       "dyspnea",
@@ -3603,22 +4673,24 @@
       "myocardial infraction",
       "respiratory arrest",
       "syncope",
-      "wheezing type iv reactions occurring ≥ 1 hour after exposure discomfort reaction to additives",
+      "wheezing discomfort reaction to additives",
       "eczema",
       "skin irritation",
-      "skin redness generalized characteristics generalized discomfort",
+      "skin redness generalized discomfort",
       "generalized edema",
       "reports total body warmth",
       "restlessness",
-      "skin flushing gastrointestinal characteristics abdominal pain",
-      "nausea orofacial characteristics erythema",
+      "skin flushing abdominal pain",
+      "nausea erythema",
       "itching",
       "nasal congestion",
       "periorbital edema",
       "rhinorrhea",
       "tearing of the eyes"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "allergic response: localized, systemic",
@@ -3626,14 +4698,19 @@
       "symptom severity",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_interventions": ["allergy management", "latex precautions"]
+    "suggested_interventions": [
+      "allergy management",
+      "latex precautions"
+    ]
   },
   {
     "diagnosis": "risk for latex allergy reaction",
     "definition": "susceptible to a hypersensitive reaction to natural latex rubber products, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["to be developed"],
+    "risk_factors": [
+      "to be developed"
+    ],
     "suggested_outcomes": [
       "allergic response: systemic",
       "immune hypersensitivity response",
@@ -3679,8 +4756,13 @@
     "definition": "susceptible to a decrease in liver function, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["substance misuse"],
-    "suggested_outcomes": [],
+    "risk_factors": [
+      "substance misuse"
+    ],
+    "suggested_outcomes": [
+      "knowledge: health behavior",
+      "liver function"
+    ],
     "suggested_interventions": [
       "teaching: disease process",
       "substance use treatment"
@@ -3737,21 +4819,69 @@
   },
   {
     "diagnosis": "impaired memory",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "persistent inability to remember or recall bits of information or skills.",
+    "defining_characteristics": [
+      "consistently forgets to perform a behavior at the scheduled time",
+      "persistent forgetfulness",
+      "persistent inability to learn a new skill",
+      "persistent inability to learn new information",
+      "persistent inability to perform a previously learned skill",
+      "persistent inability to recall factual information or events",
+      "persistent inability to recall familiar names, words, or objects",
+      "persistent inability to recall if a behavior was performed",
+      "persistent inability to retain a new skill",
+      "persistent inability to retain new information",
+      "preserved capacity to perform daily activities independently"
+    ],
+    "related_factors": [
+      "alterations in fluid volume"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "cognitive orientation",
+      "memory",
+      "neurological status: consciousness"
+    ],
+    "suggested_interventions": [
+      "memory training",
+      "dementia management",
+      "reality orientation"
+    ]
   },
   {
     "diagnosis": "risk for metabolic imbalance syndrome",
-    "definition": "",
+    "definition": "susceptible to a toxic cluster of biochemical and physiological factors associated with the development of cardiovascular disease arising from obesity and type 2 diabetes, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "ineffective health maintenance (00099), obesity (00232), overweight (00233), risk for unstable blood glucose level (00179), risk-prone health behavior (00188), sedentary lifestyle (00168), stress overload (00177)"
+    ],
+    "suggested_outcomes": [
+      "weight loss behavior",
+      "blood glucose level",
+      "circulation status",
+      "exercise participation",
+      "hypertension severity",
+      "knowledge: lipid disorder management",
+      "knowledge: hypertension management",
+      "knowledge: prescribed diet",
+      "knowledge: prescribed activity",
+      "knowledge: weight management",
+      "metabolic function",
+      "nutritional status: nutrient intake",
+      "risk control: obesity",
+      "risk control: lipid disorder",
+      "risk control: hypertension"
+    ],
+    "suggested_interventions": [
+      "cardiac risk management",
+      "exercise promotion",
+      "health screening",
+      "hyperglycemia management",
+      "hyperlipidemia management",
+      "nutritional counseling",
+      "teaching: disease process"
+    ]
   },
   {
     "diagnosis": "impaired bed mobility",
@@ -3777,52 +4907,206 @@
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "bed rest care"
+    ]
   },
   {
     "diagnosis": "impaired physical mobility",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "limitation in independent, purposeful physical movement of the body or of one or more extremities.",
+    "defining_characteristics": [
+      "alteration in gait",
+      "decrease in fine motor skills",
+      "decrease in gross motor skills",
+      "decrease in range of motion",
+      "decrease in reaction time",
+      "difficulty turning",
+      "discomfort",
+      "engages in substitutions for movement",
+      "exertional dyspnea",
+      "movement-induced tremor",
+      "postural instability",
+      "slowed movement",
+      "spastic movement",
+      "uncoordinated movement"
+    ],
+    "related_factors": [
+      "activity intolerance",
+      "anxiety",
+      "body mass index (bmi) >75th percentile appropriate for age and gender",
+      "cultural belief regarding acceptable activity",
+      "decrease in endurance",
+      "decrease in muscle control",
+      "decrease in muscle mass",
+      "decrease in muscle strength",
+      "depression",
+      "disuse",
+      "insufficient environmental support",
+      "insufficient knowledge of value of physical activity",
+      "joint stiffness",
+      "malnutrition",
+      "pain",
+      "physical deconditioning",
+      "reluctance to initiate movement",
+      "sedentary lifestyle"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "ambulation",
+      "ambulation: wheelchair",
+      "mobility",
+      "self-care: activities of daily living (adls)",
+      "instrumental activities of daily living (iadls)",
+      "transfer performance"
+    ],
+    "suggested_interventions": [
+      "exercise therapy: ambulation",
+      "joint mobility",
+      "positioning"
+    ]
   },
   {
     "diagnosis": "impaired wheelchair mobility",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "limitation of independent operation of wheelchair within environment.",
+    "defining_characteristics": [
+      "impaired ability to operate power wheelchair on a decline",
+      "impaired ability to operate power wheelchair on an incline",
+      "impaired ability to operative power wheelchair on curbs",
+      "impaired ability to operative power wheelchair on even surface",
+      "impaired ability to operate power wheelchair on uneven surface",
+      "impaired ability to operate wheelchair on a decline",
+      "impaired ability to operate wheelchair on an incline",
+      "impaired ability to operate wheelchair on curbs",
+      "impaired ability to operate wheelchair on even surface",
+      "impaired ability to operate wheelchair on uneven surface"
+    ],
+    "related_factors": [
+      "alteration in mood",
+      "decrease in endurance",
+      "environmental barrier",
+      "insufficient knowledge of wheelchair use",
+      "insufficient muscle strength",
+      "obesity",
+      "pain",
+      "physical deconditioning"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "ambulation: wheelchair"
+    ],
+    "suggested_interventions": [
+      "exercise therapy: muscle control",
+      "positioning: wheelchair"
+    ]
   },
   {
     "diagnosis": "impaired mood regulation",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "a mental state characterized by shifts in mood or affect, which is comprised of a constellation of affective, cognitive, somatic, and/or physiological manifestations varying from mild to severe.",
+    "defining_characteristics": [
+      "change in verbal behavior",
+      "disinhibition",
+      "dysphoria",
+      "excessive guilt",
+      "excessive self-awareness",
+      "excessive self- blame",
+      "flight of thoughts",
+      "hopelessness",
+      "impaired concentration",
+      "influenced self-esteem",
+      "irritability",
+      "psychomotor agitation",
+      "psychomotor retardation",
+      "sad affect",
+      "withdrawal"
+    ],
+    "related_factors": [
+      "alteration in sleep pattern",
+      "anxiety",
+      "appetite change",
+      "hypervigilance",
+      "impaired social functioning",
+      "loneliness",
+      "pain",
+      "recurrent thoughts of death",
+      "recurrent thoughts of suicide",
+      "social isolation",
+      "substance misuse",
+      "weight change"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "agitation level",
+      "hope",
+      "symptom control",
+      "mood equilibrium",
+      "comfort status: psychospiritual",
+      "concentration",
+      "symptom severity",
+      "self-esteem"
+    ],
+    "suggested_interventions": [
+      "activity therapy",
+      "aromatherapy",
+      "art therapy",
+      "cognitive restructuring",
+      "emotional support",
+      "environmental management",
+      "forgiveness facilitation",
+      "hope inspiration",
+      "milieu therapy",
+      "presence",
+      "mood management",
+      "suicide prevention",
+      "exercise promotion",
+      "health education"
+    ]
   },
   {
     "diagnosis": "moral distress",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "definition": "response to the inability to carry out one's chosen ethical or moral decision and/or action.",
+    "defining_characteristics": [
+      "anguish about acting on one's moral choice"
+    ],
+    "related_factors": [
+      "conflict among decision makers",
+      "conflicting information available for ethical decision-making",
+      "conflicting information available for moral decision-making",
+      "cultural incongruence",
+      "difficulty reaching end of life decisions",
+      "difficulty reaching treatment decision",
+      "time constraint for decision-making"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "personal autonomy",
+      "client satisfaction",
+      "protection of rights"
+    ],
+    "suggested_interventions": [
+      "patient rights protection",
+      "emotional support"
+    ]
   },
   {
     "diagnosis": "risk for dry mouth",
-    "definition": "",
+    "definition": "susceptible to discomfort or damage to the oral mucosa due to reduced quality or quality of saliva to moisten the mucosa, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "risk_factors": [
+      "dehydration",
+      "depression",
+      "excessive stress",
+      "excitement",
+      "smoking"
+    ],
+    "suggested_outcomes": [
+      "oral health",
+      "self-care: oral hygiene",
+      "tissue integrity: skin and mucous membranes"
+    ],
+    "suggested_interventions": [
+      "oral health restoration"
+    ]
   },
   {
     "diagnosis": "nausea",
@@ -3874,7 +5158,9 @@
       "risk for impaired skin integrity (00047)",
       "risk for injury (00035)"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "comfort status: physical",
@@ -3900,13 +5186,15 @@
   },
   {
     "diagnosis": "readiness for enhanced nutrition",
-    "definition": "a pattern of nutrient intake, which can be strengthened.",
-    "defining_characteristics": ["expresses desire to enhance nutrition"],
+    "definition": " a pattern of nutrient intake, which can be strengthened.",
+    "defining_characteristics": [
+      "expresses desire to enhance nutrition"
+    ],
     "related_factors": [],
     "risk_factors": [],
     "suggested_outcomes": [
       "nutritional status",
-      "nutritional status: food and fluid intake",
+      "food and fluid intake",
       "nutrient intake",
       "weight control"
     ],
@@ -3917,16 +5205,7 @@
     ]
   },
   {
-    "diagnosis": "imbalanced nutrition: less than body",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "requirements",
+    "diagnosis": "imbalanced nutrition: less than body requirements",
     "definition": "intake of nutrients insufficient to meet metabolic needs.",
     "defining_characteristics": [
       "abdominal cramping",
@@ -3952,7 +5231,9 @@
       "weakness of muscles required for swallowing",
       "weight loss with adequate food intake"
     ],
-    "related_factors": ["insufficient dietary intake"],
+    "related_factors": [
+      "insufficient dietary intake"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "nutritional status",
@@ -3969,7 +5250,7 @@
   },
   {
     "diagnosis": "impaired oral mucous membrane integrity",
-    "definition": "injury to the lips, soft tissue, buccal cavity, and/or oropharynx.",
+    "definition": " injury to the lips, soft tissue, buccal cavity, and/or oropharynx.",
     "defining_characteristics": [
       "bad taste in mouth",
       "bleeding",
@@ -4028,28 +5309,92 @@
       "smoking",
       "stressors"
     ],
-    "risk_factors": [],
+    "risk_factors": [
+      "alcohol consumption",
+      "barrier to dental care",
+      "barrier to oral self-care",
+      "chemical injury agent",
+      "decrease in salivation",
+      "dehydration",
+      "depression",
+      "inadequate nutrition",
+      "inadequate oral hygiene",
+      "insufficient knowledge of oral hygiene",
+      "malnutrition",
+      "mouth breathing",
+      "smoking",
+      "stressors"
+    ],
     "suggested_outcomes": [
       "oral health",
       "oral hygiene",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "oral health restoration"
+    ]
   },
   {
-    "diagnosis": "risk for impaired oral mucous membrane",
-    "definition": "",
-    "defining_characteristics": [],
-    "related_factors": [],
-    "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
-  },
-  {
-    "diagnosis": "integrity",
+    "diagnosis": "impaired oral mucous membrane integrity",
     "definition": "susceptible to injury to the lips, soft tissues, buccal cavity, and/or oropharynx, which may compromise health.",
-    "defining_characteristics": [],
-    "related_factors": [],
+    "defining_characteristics": [
+      "bad taste in mouth",
+      "bleeding",
+      "cheilitis",
+      "coated tongue",
+      "decrease in taste sensation",
+      "desquamation",
+      "difficulty eating",
+      "difficulty speaking",
+      "enlarged tonsils",
+      "exposure to pathogen",
+      "geographic tongue",
+      "gingival hyperplasia",
+      "gingival pallor",
+      "gingival pocketing deeper than 4 mm",
+      "gingival recession",
+      "halitosis",
+      "hyperemia",
+      "impaired ability to swallow",
+      "macroplasia",
+      "mucosal denudation",
+      "oral discomfort",
+      "oral edema",
+      "oral fissure",
+      "oral lesion",
+      "oral mucosal pallor",
+      "oral nodule",
+      "oral pain",
+      "oral papule",
+      "oral ulcer",
+      "oral vesicles",
+      "presence of mass",
+      "purulent oral-nasal drainage",
+      "purulent oral–nasal exudates",
+      "smooth atrophic tongue",
+      "spongy patches in mouth",
+      "stomatitis",
+      "white patches in mouth",
+      "white plaque in mouth",
+      "white, curdlike oral exudate",
+      "xerostomia"
+    ],
+    "related_factors": [
+      "alcohol consumption",
+      "barrier to dental care",
+      "barrier to oral self-care",
+      "chemical injury agent",
+      "decrease in salivation",
+      "dehydration",
+      "depression",
+      "inadequate nutrition",
+      "inadequate oral hygiene",
+      "insufficient knowledge of oral hygiene",
+      "malnutrition",
+      "mouth breathing",
+      "smoking",
+      "stressors"
+    ],
     "risk_factors": [
       "alcohol consumption",
       "barrier to dental care",
@@ -4182,7 +5527,7 @@
   },
   {
     "diagnosis": "acute pain",
-    "definition": "unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage ( international association for the study of pain ) sudden or slow onset of any intensity from mild to severe with an anticipated or predictable end, and with a duration of less than 3 months.",
+    "definition": "unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage ( ) sudden or slow onset of any intensity from mild to severe with an anticipated or predictable end, and with a duration of less than 3 months.",
     "defining_characteristics": [
       "appetite change",
       "change in physiological parameter",
@@ -4221,7 +5566,7 @@
   },
   {
     "diagnosis": "chronic pain",
-    "definition": "unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage ( international association for the study of pain ) sudden or slow onset of any intensity from mild to severe, constant or recurring without an anticipated or predictable end, and a duration of greater than 3 months.",
+    "definition": "unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage ( ) sudden or slow onset of any intensity from mild to severe, constant or recurring without an anticipated or predictable end, and a duration of greater than 3 months.",
     "defining_characteristics": [
       "alteration in ability to continue previous activities",
       "alteration in sleep pattern",
@@ -4254,7 +5599,10 @@
       "pain: disruptive effects",
       "pain level"
     ],
-    "suggested_interventions": ["analgesic administration", "pain management"]
+    "suggested_interventions": [
+      "analgesic administration",
+      "pain management"
+    ]
   },
   {
     "diagnosis": "chronic pain syndrome",
@@ -4273,7 +5621,9 @@
       "social isolation (00053)",
       "stress overload (00177)"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [],
     "suggested_interventions": []
@@ -4306,19 +5656,38 @@
       "uterine contraction",
       "vomiting"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
-      "client satisfaction: pain management, comfort status",
-      "knowledge: pain management, pain control, pain level"
+      "client satisfaction: pain management",
+      "comfort status",
+      "knowledge: pain management",
+      "pain control",
+      "pain level"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "acute",
+      "analgesic administration: intraspinal",
+      "analgesic administration",
+      "aromatherapy",
+      "dance therapy",
+      "distraction",
+      "environmental management: comfort",
+      "guided imagery",
+      "massage",
+      "medication administration: intraspinal",
+      "meditation facilitation",
+      "relaxation therapy",
+      "transcutaneous electrical nerve stimulation"
+    ]
   },
   {
     "diagnosis": "impaired parenting",
     "definition": "inability of the primary caregiver to create, maintain, or regain an environment that promotes the optimum growth and development of the child.",
     "defining_characteristics": [
-      "infant or child behavioral disorders",
+      "behavioral disorders",
       "delay in cognitive development",
       "diminished separation anxiety",
       "failure to thrive",
@@ -4329,7 +5698,7 @@
       "impaired social functioning",
       "insufficient attachment behavior",
       "low academic performance",
-      "run away from home parental abandonment of child",
+      "run away from home abandonment of child",
       "failure to provide safe home environment",
       "decrease in ability to manage child",
       "decrease in cuddling",
@@ -4351,8 +5720,8 @@
       "speaks negatively about child"
     ],
     "related_factors": [
-      "infant or child prolonged separation from parent",
-      "temperament conflicts with parental expectations parental alteration in sleep pattern",
+      "prolonged separation from parent",
+      "temperament conflicts with parental expectations alteration in sleep pattern",
       "conflict between partners",
       "depression",
       "failure to provide safe home environment",
@@ -4455,8 +5824,8 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "infant or child prolonged separation from parent",
-      "temperament conflicts with parental expectations parental alteration in sleep pattern",
+      "prolonged separation from parent",
+      "temperament conflicts with parental expectations alteration in sleep pattern",
       "conflict between partners",
       "depression",
       "failure to provide safe home environment",
@@ -4497,7 +5866,9 @@
     "definition": "susceptible to inadvertent anatomical and physical changes as a result of posture or positioning equipment used during an invasive/surgical procedure, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["immobilization"],
+    "risk_factors": [
+      "immobilization"
+    ],
     "suggested_outcomes": [
       "circulation status",
       "immobility consequences: physiological",
@@ -4527,7 +5898,9 @@
     "definition": "susceptible to disruption in the circulation, sensation, and motion of an extremity, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["to be developed"],
+    "risk_factors": [
+      "to be developed"
+    ],
     "suggested_outcomes": [
       "circulation status",
       "neurological status: spinal sensorimotor function",
@@ -4544,10 +5917,10 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "external access to dangerous product",
+      "access to dangerous product",
       "access to illicit drugs potentially contaminated by poisonous additives",
       "access to pharmaceutical agent",
-      "occupational setting without adequate safeguards internal emotional disturbance",
+      "occupational setting without adequate safeguards emotional disturbance",
       "inadequate precautions against poisoning",
       "insufficient knowledge of pharmacological agents",
       "insufficient knowledge of poisoning prevention",
@@ -4626,7 +5999,10 @@
       "self-mutilation restraint",
       "sleep"
     ],
-    "suggested_interventions": ["counseling", "support system enhancement"]
+    "suggested_interventions": [
+      "counseling",
+      "support system enhancement"
+    ]
   },
   {
     "diagnosis": "risk for post-trauma syndrome",
@@ -4634,7 +6010,7 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "related factors diminished ego strength",
+      "diminished ego strength",
       "environment not conducive to needs",
       "exaggerated sense of responsibility",
       "insufficient social support",
@@ -4757,7 +6133,9 @@
       "surface friction",
       "use of linen with insufficient moisture wicking property"
     ],
-    "suggested_outcomes": ["tissue integrity: skin and mucous membranes"],
+    "suggested_outcomes": [
+      "tissue integrity: skin and mucous membranes"
+    ],
     "suggested_interventions": [
       "pain management",
       "pressure injury care",
@@ -4788,7 +6166,10 @@
       "restlessness",
       "weakness"
     ],
-    "related_factors": ["inadequate nutrition", "substance abuse"],
+    "related_factors": [
+      "inadequate nutrition",
+      "substance abuse"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "health-promoting behavior",
@@ -4842,7 +6223,9 @@
       "substance misuse",
       "thoughts of revenge"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "abuse cessation",
@@ -4960,7 +6343,9 @@
       "spiritual distress"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["client satisfaction: cultural needs fulfillment"],
+    "suggested_outcomes": [
+      "client satisfaction: cultural needs fulfillment"
+    ],
     "suggested_interventions": [
       "religious ritual enhancement",
       "culture brokerage",
@@ -5311,7 +6696,9 @@
       "psychosocial adjustment: life change",
       "role performance"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "role enhancement"
+    ]
   },
   {
     "diagnosis": "sedentary lifestyle",
@@ -5400,7 +6787,9 @@
       "self-care: bathing",
       "self-care: hygiene"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "self-care assistance: bathing/hygiene"
+    ]
   },
   {
     "diagnosis": "dressing self-care deficit",
@@ -5431,7 +6820,9 @@
     "suggested_outcomes": [
       "self-care: activities of daily living (adls), dressing, hygiene"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "self-care assistance: dressing/grooming"
+    ]
   },
   {
     "diagnosis": "feeding self-care deficit",
@@ -5464,7 +6855,9 @@
     "suggested_outcomes": [
       "self-care: activities of daily living (adls), eating"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "self-care assistance: feeding"
+    ]
   },
   {
     "diagnosis": "toileting self-care deficit",
@@ -5522,7 +6915,9 @@
       "personal well-being",
       "psychosocial adjustment life change"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "self-esteem enhancement"
+    ]
   },
   {
     "diagnosis": "chronic low self-esteem",
@@ -5554,8 +6949,12 @@
       "spiritual incongruence"
     ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "self-esteem"
+    ],
+    "suggested_interventions": [
+      "self-esteem enhancement"
+    ]
   },
   {
     "diagnosis": "situational low self-esteem",
@@ -5722,7 +7121,7 @@
   },
   {
     "diagnosis": "self-neglect",
-    "definition": "a constellation of culturally framed behaviors involving one or more self-care activities in which there is a failure to maintain a socially accepted standard of health and well-being ( gibbons, lauder, & ludwick, 2006 ).",
+    "definition": "a constellation of culturally framed behaviors involving one or more self-care activities in which there is a failure to maintain a socially accepted standard of health and well-being ( ).",
     "defining_characteristics": [
       "insufficient environmental hygiene",
       "insufficient personal hygiene",
@@ -5787,7 +7186,10 @@
       "sexual functioning",
       "sexual identity"
     ],
-    "suggested_interventions": ["sexual counseling", "teaching: sexuality"]
+    "suggested_interventions": [
+      "sexual counseling",
+      "teaching: sexuality"
+    ]
   },
   {
     "diagnosis": "ineffective sexuality pattern",
@@ -5844,7 +7246,9 @@
     "definition": "susceptible to an inadequate blood flow to the body's tissues that may lead to life-threatening cellular dysfunction, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["to be developed"],
+    "risk_factors": [
+      "to be developed"
+    ],
     "suggested_outcomes": [
       "cardiac pump effectiveness",
       "fluid balance",
@@ -5928,14 +7332,14 @@
       "redness"
     ],
     "related_factors": [
-      "external chemical injury agent",
+      "chemical injury agent",
       "excretions",
       "humidity",
       "hyperthermia",
       "hypothermia",
       "moisture",
       "pressure over bony prominence",
-      "secretions internal alteration in fluid volume",
+      "secretions alteration in fluid volume",
       "inadequate nutrition",
       "psychogenic factor"
     ],
@@ -5947,8 +7351,8 @@
     "suggested_interventions": [
       "incision site care",
       "pain management",
-      "pressure ulcer care (currently referred to as pressure injury care [ national pressure ulcer advisory panel (npuap), 2016 ])",
-      "pressure ulcer prevention (pressure injury prevention [ npuap, 2016 ])",
+      "pressure ulcer care (currently referred to as pressure injury care [ ])",
+      "pressure ulcer prevention (pressure injury prevention [ ])",
       "risk identification",
       "skin care: topical treatments",
       "skin surveillance",
@@ -5962,13 +7366,13 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "external chemical injury agent",
+      "chemical injury agent",
       "excretions",
       "humidity",
       "hyperthermia",
       "hypothermia",
       "moisture",
-      "secretions internal alteration in fluid volume",
+      "secretions alteration in fluid volume",
       "inadequate nutrition",
       "pressure over bony prominence",
       "psychogenetic factor"
@@ -5979,8 +7383,8 @@
     ],
     "suggested_interventions": [
       "positioning: pressure management",
-      "pressure ulcer care (currently referred to as pressure injury care [ national pressure ulcer advisory panel (npuap), 2016 ])",
-      "pressure ulcer prevention (pressure injury prevention [ npuap, 2016 ]",
+      "pressure ulcer care (currently referred to as pressure injury care [ ])",
+      "pressure ulcer prevention (pressure injury prevention [ ]",
       "skin surveillance"
     ]
   },
@@ -6004,17 +7408,31 @@
       "sustained inadequate sleep hygiene"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["rest", "sleep", "symptom severity"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "rest",
+      "sleep",
+      "symptom severity"
+    ],
+    "suggested_interventions": [
+      "sleep enhancement"
+    ]
   },
   {
     "diagnosis": "readiness for enhanced sleep",
     "definition": "a pattern of natural, periodic suspension of relative consciousness to provide rest and sustain a desired lifestyle, which can be strengthened.",
-    "defining_characteristics": ["expresses desire to enhance sleep"],
+    "defining_characteristics": [
+      "expresses desire to enhance sleep"
+    ],
     "related_factors": [],
     "risk_factors": [],
-    "suggested_outcomes": ["personal well-being", "rest", "sleep"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "personal well-being",
+      "rest",
+      "sleep"
+    ],
+    "suggested_interventions": [
+      "sleep enhancement"
+    ]
   },
   {
     "diagnosis": "disturbed sleep pattern",
@@ -6035,8 +7453,14 @@
       "nonrestorative sleep pattern"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["personal well-being", "rest", "sleep"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "personal well-being",
+      "rest",
+      "sleep"
+    ],
+    "suggested_interventions": [
+      "sleep enhancement"
+    ]
   },
   {
     "diagnosis": "impaired social interaction",
@@ -6066,7 +7490,9 @@
       "social interaction skills",
       "social involvement"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "socialization enhancement"
+    ]
   },
   {
     "diagnosis": "social isolation",
@@ -6114,7 +7540,9 @@
       "social involvement",
       "social support"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "socialization enhancement"
+    ]
   },
   {
     "diagnosis": "chronic sorrow",
@@ -6148,19 +7576,19 @@
     "diagnosis": "spiritual distress",
     "definition": "a state of suffering related to the impaired ability to experience meaning in life through connections with self, others, the world, or a superior being.",
     "defining_characteristics": [
-      "connections to self anger",
+      "anger",
       "decrease in serenity",
       "feeling unloved",
       "guilt",
       "inadequate acceptance",
       "ineffective coping strategies",
       "insufficient courage",
-      "perceived insufficient meaning in life connections with others alienation",
+      "perceived insufficient meaning in life alienation",
       "refuses to interact with spiritual leader",
       "refuses to interact with significant other",
-      "separation from support system connections with art, music, literature, nature decrease in expression of previous pattern of creativity",
+      "separation from support system decrease in expression of previous pattern of creativity",
       "disinterest in nature",
-      "disinterest in reading spiritual literature connections with power greater than oneself anger toward power greater than self",
+      "disinterest in reading spiritual literature anger toward power greater than self",
       "feeling abandoned",
       "hopelessness",
       "inability for introspection",
@@ -6203,7 +7631,22 @@
       "stress level"
     ],
     "suggested_interventions": [
-      "active listening, forgiveness facilitation, grief work facilitation, hope inspiration, humor, music therapy, presence, referral, reminiscence therapy, self-awareness enhancement, simple guided imagery, simple massage, simple relaxation therapy, spiritual support, therapeutic touch, touch"
+      "active listening",
+      "forgiveness facilitation",
+      "grief work facilitation",
+      "hope inspiration",
+      "humor",
+      "music therapy",
+      "presence",
+      "referral",
+      "reminiscence therapy",
+      "self-awareness enhancement",
+      "simple guided imagery",
+      "simple massage",
+      "simple relaxation therapy",
+      "spiritual support",
+      "therapeutic touch",
+      "touch"
     ]
   },
   {
@@ -6240,7 +7683,7 @@
     "diagnosis": "readiness for enhanced spiritual well-being",
     "definition": "a pattern of experiencing and integrating meaning and purpose in life through connectedness with self, others, art, music, literature, nature, and/or a power greater than oneself that is sufficient for well-being and can be strengthened.",
     "defining_characteristics": [
-      "connections to self expresses desire for enhanced acceptance",
+      "expresses desire for enhanced acceptance",
       "expresses desire for enhanced coping",
       "expresses desire for enhanced courage",
       "expresses desire for enhanced hope",
@@ -6252,13 +7695,13 @@
       "expresses desire for enhanced self-forgiveness",
       "expresses desire for enhanced serenity (e.g., peace)",
       "expresses desire for enhanced surrender",
-      "meditation connections with others provides service to others",
+      "meditation provides service to others",
       "requests forgiveness of others",
       "requests interactions with significant others",
-      "requests interaction with spiritual leaders connections with art, music, literature, nature displays creative energy (e.g., writing, poetry, singing)",
+      "requests interaction with spiritual leaders displays creative energy (e.g., writing, poetry, singing)",
       "listens to music",
       "reads spiritual literature",
-      "spends time outdoors connection with power greater than self expresses awe",
+      "spends time outdoors expresses awe",
       "expresses reverence",
       "participates in religious activities",
       "prays",
@@ -6279,7 +7722,25 @@
       "spiritual health"
     ],
     "suggested_interventions": [
-      "active listening, coping enhancement, counseling, crisis intervention, decision-making support, grief work facilitation, hope instillation, meditation facilitation, mutual goal setting, presence, religious ritual enhancement, imagery, simple relaxation therapy, socialization enhancement, spiritual growth facilitation, spiritual support, support system enhancement, touch, values clarification"
+      "active listening",
+      "coping enhancement",
+      "counseling",
+      "crisis intervention",
+      "decision-making support",
+      "grief work facilitation",
+      "hope instillation",
+      "meditation facilitation",
+      "mutual goal setting",
+      "presence",
+      "religious ritual enhancement",
+      "imagery",
+      "simple relaxation therapy",
+      "socialization enhancement",
+      "spiritual growth facilitation",
+      "spiritual support",
+      "support system enhancement",
+      "touch",
+      "values clarification"
     ]
   },
   {
@@ -6317,7 +7778,9 @@
       "risk control: hypotension",
       "skeletal function"
     ],
-    "suggested_interventions": ["body mechanics promotion"]
+    "suggested_interventions": [
+      "body mechanics promotion"
+    ]
   },
   {
     "diagnosis": "stress overload",
@@ -6464,7 +7927,23 @@
     "definition": "vulnerable to inadequate air availability for inhalation, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": [],
+    "risk_factors": [
+      "access to empty refrigerator/freezer",
+      "eating large mouthfuls of food",
+      "emotional disturbance",
+      "gas leak",
+      "insufficient knowledge of safety precautions",
+      "low-strung clothesline",
+      "pacifier around infant's neck",
+      "playing with plastic bag",
+      "propped bottle placed in infant's crib",
+      "small object in airway",
+      "smoking in bed",
+      "soft underlayment",
+      "unattended in water",
+      "unvented fuel-burning heater",
+      "vehicle running in closed garage"
+    ],
     "suggested_outcomes": [
       "knowledge: infant care",
       "parenting: adolescent physical safety, early/middle childhood physical safety, infant/toddler physical safety",
@@ -6490,7 +7969,7 @@
     "definition": "susceptible to self-inflicted, life threatening injury.",
     "defining_characteristics": [],
     "related_factors": [
-      "behavioral changing a will",
+      "changing a will",
       "giving away possessions",
       "impulsiveness",
       "making a will",
@@ -6499,9 +7978,9 @@
       "marked change in school performance",
       "purchase of a gun",
       "stockpiling medication",
-      "sudden euphoric recovery from major depression psychological guilt (substance misuse) situational access to weapon",
+      "sudden euphoric recovery from major depression guilt (substance misuse) access to weapon",
       "loss of autonomy",
-      "loss of independence social cluster suicides",
+      "loss of independence cluster suicides",
       "disciplinary problems",
       "disrupted family life",
       "grieving",
@@ -6511,8 +7990,8 @@
       "legal difficulty",
       "loneliness",
       "loss of significant relationship",
-      "social isolation verbal reports desire to die",
-      "threats of killing self other chronic pain"
+      "social isolation reports desire to die",
+      "threats of killing self chronic pain"
     ],
     "risk_factors": [],
     "suggested_outcomes": [
@@ -6587,7 +8066,7 @@
     "diagnosis": "impaired swallowing",
     "definition": "abnormal functioning of the swallowing mechanism associated with deficits in oral, pharyngeal, or esophageal structure or function.",
     "defining_characteristics": [
-      "first stage: oral abnormal oral phase of swallow study",
+      "abnormal oral phase of swallow study",
       "choking prior to swallowing",
       "coughing prior to swallowing",
       "drooling",
@@ -6605,7 +8084,7 @@
       "premature entry of bolus",
       "prolonged bolus formation",
       "prolonged mealtime with inefficient consumption",
-      "tongue action ineffective in forming bolus second stage: pharyngeal abnormal pharyngeal phase of swallow study",
+      "tongue action ineffective in forming bolus abnormal pharyngeal phase of swallow study",
       "alteration in head position",
       "choking",
       "coughing",
@@ -6617,7 +8096,7 @@
       "inadequate laryngeal elevation",
       "nasal reflux",
       "recurrent pulmonary infection",
-      "repetitive swallowing third stage: esophageal abnormal esophageal phase of swallow study",
+      "repetitive swallowing abnormal esophageal phase of swallow study",
       "acidic-smelling breath",
       "bruxism",
       "difficulty swallowing",
@@ -6645,7 +8124,10 @@
     "suggested_outcomes": [
       "swallowing status: esophageal phase, oral phase, pharyngeal phase"
     ],
-    "suggested_interventions": ["aspiration precautions", "swallowing therapy"]
+    "suggested_interventions": [
+      "aspiration precautions",
+      "swallowing therapy"
+    ]
   },
   {
     "diagnosis": "risk for thermal injury",
@@ -6667,7 +8149,9 @@
       "parenting: early/middle/adolescent",
       "physical safety"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "environmental management: safety"
+    ]
   },
   {
     "diagnosis": "ineffective thermoregulation",
@@ -6697,7 +8181,10 @@
       "vigorous activity"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["thermoregulation", "thermoregulation: newborn"],
+    "suggested_outcomes": [
+      "thermoregulation",
+      "thermoregulation: newborn"
+    ],
     "suggested_interventions": [
       "temperature regulation",
       "temperature regulation: inoperative"
@@ -6797,7 +8284,9 @@
       "hydration",
       "tissue perfusion: peripheral"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "circulatory care: arterial insufficiency"
+    ]
   },
   {
     "diagnosis": "risk for ineffective peripheral tissue perfusion",
@@ -6856,7 +8345,7 @@
     "defining_characteristics": [],
     "related_factors": [],
     "risk_factors": [
-      "external absence of call for aid device",
+      "absence of call for aid device",
       "absence of stairway gate",
       "absence of window guard",
       "access to weapon",
@@ -6903,7 +8392,7 @@
       "use of throw rugs",
       "use of unstable chair",
       "use of unstable ladder",
-      "wearing loose clothing around open flame internal alteration in cognitive functioning",
+      "wearing loose clothing around open flame alteration in cognitive functioning",
       "alteration in sensation (e.g., resulting from spinal cord injury, diabetes mellitus)",
       "decrease in eye–hand coordination",
       "decrease in muscle coordination",
@@ -6915,7 +8404,10 @@
       "insufficient vision",
       "weakness"
     ],
-    "suggested_outcomes": ["risk control", "fall prevention behavior"],
+    "suggested_outcomes": [
+      "risk control",
+      "fall prevention behavior"
+    ],
     "suggested_interventions": [
       "environmental management: safety",
       "skin surveillance"
@@ -6949,7 +8441,9 @@
       "unilateral visuospatial neglect",
       "use of vertical half of page only when writing"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "body image",
@@ -6957,7 +8451,9 @@
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_interventions": []
+    "suggested_interventions": [
+      "unilateral neglect management"
+    ]
   },
   {
     "diagnosis": "impaired urinary elimination",
@@ -6971,10 +8467,16 @@
       "urinary retention",
       "urinary urgency"
     ],
-    "related_factors": ["multiple causality"],
+    "related_factors": [
+      "multiple causality"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "urinary elimination"
+    ],
+    "suggested_interventions": [
+      "urinary elimination management"
+    ]
   },
   {
     "diagnosis": "urinary retention",
@@ -6990,9 +8492,13 @@
       "sensation of bladder fullness",
       "small voiding"
     ],
-    "related_factors": ["to be developed"],
+    "related_factors": [
+      "to be developed"
+    ],
     "risk_factors": [],
-    "suggested_outcomes": [],
+    "suggested_outcomes": [
+      "urinary elimination"
+    ],
     "suggested_interventions": [
       "urinary catheterization",
       "urinary retention care"
@@ -7021,7 +8527,11 @@
     "definition": "susceptible to the development of a blood clot in a deep vein, commonly in the thigh, calf or upper extremity, which can break off and lodge in another vessel, which may compromise health.",
     "defining_characteristics": [],
     "related_factors": [],
-    "risk_factors": ["dehydration", "impaired mobility", "obesity"],
+    "risk_factors": [
+      "dehydration",
+      "impaired mobility",
+      "obesity"
+    ],
     "suggested_outcomes": [
       "tissue perfusion: peripheral",
       "tissue perfusion: pulmonary risk control: dehydration",
@@ -7052,7 +8562,9 @@
       "increase in partial pressure of carbon dioxide (p co2 )",
       "restlessness"
     ],
-    "related_factors": ["respiratory muscle fatigue"],
+    "related_factors": [
+      "respiratory muscle fatigue"
+    ],
     "risk_factors": [],
     "suggested_outcomes": [
       "neurological status: central motor control",
@@ -7071,14 +8583,14 @@
     "diagnosis": "dysfunctional ventilatory weaning response",
     "definition": "inability to adjust to lowered levels of mechanical ventilator support that interrupts and prolongs the weaning process.",
     "defining_characteristics": [
-      "mild breathing discomfort",
+      "breathing discomfort",
       "fatigue",
       "fear of machine malfunction",
       "feeling warm",
       "increase in focus on breathing",
       "mild increase in respiratory rate over baseline",
       "perceived need for increased in oxygen",
-      "restlessness moderate abnormal skin color",
+      "restlessness abnormal skin color",
       "apprehensiveness",
       "decrease in air entry on auscultation",
       "diaphoresis",
@@ -7089,7 +8601,7 @@
       "increase in blood pressure from baseline (<20 mm hg)",
       "increase in heart rate from baseline (<20 beats/minute)",
       "minimal use of respiratory accessory muscles",
-      "moderate increase in respiratory rate over baseline severe abnormal skin color",
+      "moderate increase in respiratory rate over baseline abnormal skin color",
       "adventitious breath sounds",
       "agitation",
       "asynchronized breathing with the ventilator",
@@ -7105,10 +8617,10 @@
       "use of significant respiratory accessory muscles"
     ],
     "related_factors": [
-      "physiological alteration in sleep pattern",
+      "alteration in sleep pattern",
       "inadequate nutrition",
       "ineffective airway clearance",
-      "pain psychological anxiety",
+      "pain anxiety",
       "decrease in motivation",
       "fear",
       "hopelessness",
@@ -7116,13 +8628,16 @@
       "insufficient trust in health care professional",
       "low self-esteem",
       "powerlessness",
-      "uncertainty about ability to wean situational environmental barrier",
+      "uncertainty about ability to wean environmental barrier",
       "inappropriate pace of weaning process",
       "insufficient social support",
       "uncontrolled episodic energy demands"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["respiratory status: gas exchange", "ventilation"],
+    "suggested_outcomes": [
+      "respiratory status: gas exchange",
+      "ventilation"
+    ],
     "suggested_interventions": [
       "mechanical ventilation management: invasive",
       "mechanical ventilatory weaning"
@@ -7211,8 +8726,12 @@
       "physical deconditioning"
     ],
     "risk_factors": [],
-    "suggested_outcomes": ["ambulation, mobility"],
-    "suggested_interventions": []
+    "suggested_outcomes": [
+      "ambulation, mobility"
+    ],
+    "suggested_interventions": [
+      "exercise therapy: ambulation"
+    ]
   },
   {
     "diagnosis": "wandering",
