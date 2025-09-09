@@ -37,6 +37,9 @@ outlier_subsection_color = 11815958
 outlier_subsection_size2 = 15.120000839233398
 outlier_subsection_color2 = 2907757
 
+outlier_subsection_size3 = 15.120000839233398
+outlier_subsection_color3 = 7371528
+
 # Step 1: Extract all text spans with their metadata in order
 all_spans = []
 
@@ -74,7 +77,7 @@ for page_num in range(73, 78):  # 0-indexed, so 73-77 = pages 74-78
                     # Check formatting matches
                     is_heading_format = (span["size"] == heading_size and span["color"] == content_color)
                     is_subsection_format = (span["size"] == subsection_size and span["color"] == subsection_color)
-                    is_outlier_format = (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color)
+                    is_outlier_format = (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color) or span["color"] == outlier_subsection_color3
                     
                     format_indicator = ""
                     if is_heading_format:
@@ -83,6 +86,8 @@ for page_num in range(73, 78):  # 0-indexed, so 73-77 = pages 74-78
                         format_indicator = " [SUBSECTION FORMAT]"
                     elif is_outlier_format:
                         format_indicator = " [OUTLIER FORMAT]"
+                    elif span["size"] == outlier_subsection_size2 and span["color"] == outlier_subsection_color2:
+                        format_indicator = " [OUTLIER2 FORMAT]"
                     
                     print(f"  Size: {span['size']} | Color: {span['color']} | Text: '{text[:90]}'{diagnosis_indicator}{format_indicator}")
 
@@ -113,7 +118,25 @@ headings = []
 subsections = []
 
 # Define special subsection labels that should be treated as valid subsections even with outlier2 formatting
-special_subsection_labels = {'definition', 'defining characteristics', 'related factors', 'risk factors', 'suggested noc outcomes', 'suggested nic interventions'}
+special_subsection_labels = {
+    'definition', 
+    'defining characteristics', 
+    'related factors', 
+    'risk factors', 
+    'suggested noc outcomes', 
+    'suggested noc outcome', 
+    'suggested noc outcomes and example', 
+    'suggested nic interventions',
+    'suggested nic intervention',
+
+    # this label are here to catch other subsections that use outlier2 formatting:
+    'at-risk population',
+    'associated condition',
+    'client outcomes',
+    'patient outcomes',
+    'nursing interventions and',
+    'rationales'
+}
 
 for span in all_spans:
     # Check if this text matches a diagnosis from our list
@@ -176,6 +199,20 @@ for span in all_spans:
         # Log special outlier2 subsections in our target pages
         if 74 <= span["page_num"] <= 78:
             print(f"FOUND SPECIAL OUTLIER2 SUBSECTION: '{span['text']}' on page {span['page_num']}")
+    
+    # Subsection heading (outlier3) - NEWLY ADDED
+    elif (span["size"] == outlier_subsection_size3 and 
+          span["color"] == outlier_subsection_color3 and 
+          span["text"]):
+        subsections.append({
+            "label": span["text"],
+            "index": span["index"],
+            "page_num": span["page_num"],
+            "type": "outlier3"
+        })
+        # Log outlier3 subsections in our target pages
+        if 74 <= span["page_num"] <= 78:
+            print(f"FOUND OUTLIER3 SUBSECTION: '{span['text']}' on page {span['page_num']}")
 
 print("=" * 80)
 print("SUMMARY OF TARGET PAGES 74-78:")
@@ -199,8 +236,26 @@ excluded_subsections = [
     "nursing_intervention_and",
     "nursing_interventions_and_",
     "and_references",
+    "rationales",
     "client_outcomes",
     "patient_outcomes",
+    "multicultural",
+    "home_care",
+    "client/family_teaching_and_discharge_planning",
+    "multicultural_home_care_and_client/family_teaching",
+    "geriatric",
+    "planning,_and_references",
+    "critical_care",
+    "pediatric",
+    "references",
+    "community_outcomes",
+    "outcomes",
+    "client_will_(specify_time_frame)",
+    "urge_suppression",
+    "other_clinical_conditions",
+    "special_considerations:_immobility",
+    "associated_conditions",
+    "planning_and_references"
 ]
 
 for i, heading in enumerate(headings):
@@ -223,6 +278,10 @@ for i, heading in enumerate(headings):
         if subsection.get("type") == "outlier":
             continue
         
+        # Skip outlier3 type
+        if subsection.get("type") == "outlier3":
+            continue
+        
         # Determine content range for this subsection
         content_start = subsection["index"] + 1
         content_end = (section_subs[j + 1]["index"] if j + 1 < len(section_subs) 
@@ -233,19 +292,25 @@ for i, heading in enumerate(headings):
         for span_idx in range(content_start, content_end):
             span = all_spans[span_idx]
             
-            # Skip if this span is a heading or subsection itself
+            # Skip if this span is a heading
             is_heading = (span["size"] == heading_size and span["color"] == content_color)
+            if is_heading:
+                continue
+            
+            # Skip if this span is a regular subsection (including all outlier types)
             is_subsection = ((span["size"] == subsection_size and span["color"] == subsection_color) or
-                           (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color))
+                           (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color) or 
+                           (span["size"] == outlier_subsection_size and span["color"] == outlier_subsection_color3))
+            if is_subsection:
+                continue
             
             # Skip ALL outlier2 spans (both special and non-special) - they are all boundaries
             is_outlier2 = (span["size"] == outlier_subsection_size2 and span["color"] == outlier_subsection_color2)
-            
-            # Skip outlier2 spans completely (they should never be content)
             if is_outlier2:
                 continue
             
-            if not is_heading and not is_subsection and span["text"] and span["color"] == content_color:
+            # Only extract text that has the correct content color and is not empty
+            if span["text"] and span["color"] == content_color:
                 content_texts.append(span["text"])
         
         if sub_label and content_texts:
