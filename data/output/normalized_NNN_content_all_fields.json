@@ -12,10 +12,7 @@
       "fatigue",
       "generalized weakness"
     ],
-    "associated_condition": [
-      "circulatory problem",
-      "respiratory condition"
-    ],
+    "associated_condition": ["circulatory problem", "respiratory condition"],
     "related_factors": [
       "imbalance between oxygen supply/demand",
       "immobility",
@@ -24,9 +21,7 @@
       "sedentary lifestyle"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "history of previous activity intolerance"
-    ],
+    "at_risk_population": ["history of previous activity intolerance"],
     "suggested_noc_outcomes": [
       "activity tolerance",
       "endurance",
@@ -44,10 +39,7 @@
     "page_num": 8,
     "definition": "susceptible to experiencing insufficient physiological or psychological energy to endure or complete required or desired daily activities, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "circulatory problem",
-      "respiratory condition"
-    ],
+    "associated_condition": ["circulatory problem", "respiratory condition"],
     "related_factors": [],
     "risk_factors": [
       "imbalance between oxygen supply/demand",
@@ -56,9 +48,7 @@
       "physical deconditioning",
       "sedentary lifestyle"
     ],
-    "at_risk_population": [
-      "history of previous activity intolerance"
-    ],
+    "at_risk_population": ["history of previous activity intolerance"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -425,9 +415,7 @@
       "respiratory status: ventilation",
       "swallowing status"
     ],
-    "suggested_nic_interventions": [
-      "aspiration precautions"
-    ]
+    "suggested_nic_interventions": ["aspiration precautions"]
   },
   {
     "diagnosis": "risk for impaired attachment",
@@ -447,9 +435,7 @@
       "physical barrier",
       "substance misuse"
     ],
-    "at_risk_population": [
-      "premature infant"
-    ],
+    "at_risk_population": ["premature infant"],
     "suggested_noc_outcomes": [
       "parent-infant attachment",
       "parenting performance: psychosocial adjustment: life change"
@@ -545,9 +531,7 @@
       "neurological status: autonomic",
       "vital signs"
     ],
-    "suggested_nic_interventions": [
-      "dysreflexia management"
-    ]
+    "suggested_nic_interventions": ["dysreflexia management"]
   },
   {
     "diagnosis": "risk for autonomic dysreflexia",
@@ -631,12 +615,8 @@
       "treatment regimen"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "insufficient knowledge of bleeding precautions"
-    ],
-    "at_risk_population": [
-      "history of falls"
-    ],
+    "risk_factors": ["insufficient knowledge of bleeding precautions"],
+    "at_risk_population": ["history of falls"],
     "suggested_noc_outcomes": [
       "blood coagulation",
       "blood loss severity",
@@ -692,10 +672,7 @@
       "use of antidepressant agents"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "inconsistency with medication regimen",
-      "orthostasis"
-    ],
+    "risk_factors": ["inconsistency with medication regimen", "orthostasis"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "fatigue",
@@ -771,9 +748,7 @@
       "spiritual incongruence"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "developmental transition"
-    ],
+    "at_risk_population": ["developmental transition"],
     "suggested_noc_outcomes": [
       "body image",
       "self-esteem",
@@ -808,9 +783,7 @@
       "prolonged breastfeeding time",
       "unsustained suckling at breast"
     ],
-    "associated_condition": [
-      "pregnancy"
-    ],
+    "associated_condition": ["pregnancy"],
     "related_factors": [
       "ineffective latching on to breast",
       "ineffective sucking reflex",
@@ -859,9 +832,7 @@
       "sustained infant weight loss",
       "unsustained suckling at the breast"
     ],
-    "associated_condition": [
-      "oropharyngeal defect"
-    ],
+    "associated_condition": ["oropharyngeal defect"],
     "related_factors": [
       "delayed stage ii lactogenesis",
       "inadequate milk supply",
@@ -898,9 +869,7 @@
     "diagnosis": "interrupted breastfeeding",
     "page_num": 78,
     "definition": "break in the continuity of feeding milk from the breasts, which may compromise breastfeeding success and/or nutritional status of the infant/child.",
-    "defining_characteristics": [
-      "nonexclusive breastfeeding"
-    ],
+    "defining_characteristics": ["nonexclusive breastfeeding"],
     "associated_condition": [
       "contraindications to breastfeeding",
       "infant illness",
@@ -912,10 +881,7 @@
       "needing abruptly to wean infant"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "hospitalization of child",
-      "prematurity"
-    ],
+    "at_risk_population": ["hospitalization of child", "prematurity"],
     "suggested_noc_outcomes": [
       "breastfeeding maintenance",
       "knowledge: breastfeeding",
@@ -944,9 +910,7 @@
       "breastfeeding establishment: infant, maternal",
       "breastfeeding maintenance"
     ],
-    "suggested_nic_interventions": [
-      "lactation counseling"
-    ]
+    "suggested_nic_interventions": ["lactation counseling"]
   },
   {
     "diagnosis": "ineffective breathing pattern",
@@ -1044,9 +1008,7 @@
       "alteration in preload",
       "alteration in stroke volume"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -1055,10 +1017,7 @@
       "tissue perfusion: abdominal organs, peripheral",
       "vital signs"
     ],
-    "suggested_nic_interventions": [
-      "cardiac care",
-      "cardiac care: acute"
-    ]
+    "suggested_nic_interventions": ["cardiac care", "cardiac care: acute"]
   },
   {
     "diagnosis": "risk for decreased cardiac output",
@@ -1074,9 +1033,7 @@
       "alteration in stroke volume"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
-    ],
+    "risk_factors": ["to be developed"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
@@ -1104,9 +1061,7 @@
       "insufficient knowledge of modifiable factors",
       "substance misuse"
     ],
-    "at_risk_population": [
-      "family history of cardiovascular disease"
-    ],
+    "at_risk_population": ["family history of cardiovascular disease"],
     "suggested_noc_outcomes": [
       "cardiac pump effectiveness",
       "circulation status",
@@ -1246,9 +1201,7 @@
       "family resiliency",
       "family coping"
     ],
-    "suggested_nic_interventions": [
-      "caregiver support"
-    ]
+    "suggested_nic_interventions": ["caregiver support"]
   },
   {
     "diagnosis": "risk for caregiver role strain",
@@ -1360,12 +1313,8 @@
       "treatment regimen"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "substance misuse"
-    ],
-    "at_risk_population": [
-      "recent myocardial infarction"
-    ],
+    "risk_factors": ["substance misuse"],
+    "at_risk_population": ["recent myocardial infarction"],
     "suggested_noc_outcomes": [
       "acute confusion level",
       "tissue perfusion: cerebral",
@@ -1427,10 +1376,7 @@
       "unsafe environment"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "unplanned pregnancy",
-      "unwanted pregnancy"
-    ],
+    "at_risk_population": ["unplanned pregnancy", "unwanted pregnancy"],
     "suggested_noc_outcomes": [
       "fetal status: antepartum, intrapartum",
       "maternal status: antepartum, intrapartum",
@@ -1506,10 +1452,7 @@
       "unrealistic birth plan",
       "unsafe environment"
     ],
-    "at_risk_population": [
-      "unplanned pregnancy",
-      "unwanted pregnancy"
-    ],
+    "at_risk_population": ["unplanned pregnancy", "unwanted pregnancy"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -1623,9 +1566,7 @@
     "diagnosis": "readiness for enhanced communication",
     "page_num": 148,
     "definition": "a pattern of exchanging information and ideas with others, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance communication"
-    ],
+    "defining_characteristics": ["expresses desire to enhance communication"],
     "associated_condition": [],
     "related_factors": [],
     "risk_factors": [],
@@ -1691,9 +1632,7 @@
       "vulnerability"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "absence of significant other"
-    ],
+    "at_risk_population": ["absence of significant other"],
     "suggested_noc_outcomes": [
       "communication",
       "communication: expressive, receptive"
@@ -1772,10 +1711,7 @@
       "long-term cognitive impairment",
       "progressive impairment in cognitive functioning"
     ],
-    "associated_condition": [
-      "cerebrovascular accident",
-      "dementia"
-    ],
+    "associated_condition": ["cerebrovascular accident", "dementia"],
     "related_factors": [],
     "risk_factors": [],
     "at_risk_population": [],
@@ -1900,13 +1836,8 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "bowel elimination",
-      "hydration"
-    ],
-    "suggested_nic_interventions": [
-      "constipation/impaction management"
-    ]
+    "suggested_noc_outcomes": ["bowel elimination", "hydration"],
+    "suggested_nic_interventions": ["constipation/impaction management"]
   },
   {
     "diagnosis": "risk for constipation",
@@ -1980,10 +1911,7 @@
       "health beliefs",
       "health beliefs: perceived threat"
     ],
-    "suggested_nic_interventions": [
-      "bowel management",
-      "medication management"
-    ]
+    "suggested_nic_interventions": ["bowel management", "medication management"]
   },
   {
     "diagnosis": "chronic functional constipation",
@@ -2071,13 +1999,8 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "bowel elimination",
-      "symptom severity"
-    ],
-    "suggested_nic_interventions": [
-      "constipation/impaction management"
-    ]
+    "suggested_noc_outcomes": ["bowel elimination", "symptom severity"],
+    "suggested_nic_interventions": ["constipation/impaction management"]
   },
   {
     "diagnosis": "risk for chronic functional constipation",
@@ -2169,10 +2092,7 @@
       "neurological effects of radiation exposure",
       "oncological effects of radiation exposure"
     ],
-    "associated_condition": [
-      "pre-existing disease",
-      "pregnancy"
-    ],
+    "associated_condition": ["pre-existing disease", "pregnancy"],
     "related_factors": [
       "carpeted flooring",
       "chemical contamination of food",
@@ -2270,19 +2190,13 @@
       "unconsciousness"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "dehydration",
-      "generalized weakness"
-    ],
+    "risk_factors": ["dehydration", "generalized weakness"],
     "at_risk_population": [
       "extremes of age",
       "history of allergy",
       "history of previous adverse effect from iodinated contrast media"
     ],
-    "suggested_noc_outcomes": [
-      "tissue perfusion: renal",
-      "kidney function"
-    ],
+    "suggested_noc_outcomes": ["tissue perfusion: renal", "kidney function"],
     "suggested_nic_interventions": [
       "fluid/electrolyte management",
       "laboratory data interpretation"
@@ -2400,10 +2314,7 @@
       "insufficient social support"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "maturational crisis",
-      "situational crisis"
-    ],
+    "at_risk_population": ["maturational crisis", "situational crisis"],
     "suggested_noc_outcomes": [
       "coping",
       "decision-making",
@@ -2465,10 +2376,7 @@
       "nonexistent community systems"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "exposure to disaster",
-      "history of disaster"
-    ],
+    "at_risk_population": ["exposure to disaster", "history of disaster"],
     "suggested_noc_outcomes": [
       "community competence",
       "community health status",
@@ -2681,9 +2589,7 @@
       "participation in health care decisions",
       "personal autonomy"
     ],
-    "suggested_nic_interventions": [
-      "decision-making support"
-    ]
+    "suggested_nic_interventions": ["decision-making support"]
   },
   {
     "diagnosis": "impaired emancipated decision-making",
@@ -2769,9 +2675,7 @@
       "knowledge: treatment options",
       "psychosocial adjustment"
     ],
-    "suggested_nic_interventions": [
-      "decision-making support"
-    ]
+    "suggested_nic_interventions": ["decision-making support"]
   },
   {
     "diagnosis": "risk for impaired emancipated decision making",
@@ -2850,9 +2754,7 @@
       "health beliefs: perceived threat",
       "symptom control"
     ],
-    "suggested_nic_interventions": [
-      "anxiety reduction"
-    ]
+    "suggested_nic_interventions": ["anxiety reduction"]
   },
   {
     "diagnosis": "impaired dentition",
@@ -2899,9 +2801,7 @@
       "economically disadvantaged",
       "genetic predisposition"
     ],
-    "suggested_noc_outcomes": [
-      "oral health"
-    ],
+    "suggested_noc_outcomes": ["oral health"],
     "suggested_nic_interventions": [
       "oral health maintenance",
       "oral health promotion",
@@ -3027,9 +2927,7 @@
       "risk control: environmental hazards",
       "community risk control: communicable disease"
     ],
-    "suggested_nic_interventions": [
-      "diarrhea management"
-    ]
+    "suggested_nic_interventions": ["diarrhea management"]
   },
   {
     "diagnosis": "risk for disuse syndrome",
@@ -3038,9 +2936,7 @@
     "defining_characteristics": [],
     "associated_condition": [],
     "related_factors": [],
-    "risk_factors": [
-      "pain"
-    ],
+    "risk_factors": ["pain"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "pain level",
@@ -3355,10 +3251,7 @@
       "unsynchronized rhythms sensed in the energy flow",
       "weak energy field patterns"
     ],
-    "associated_condition": [
-      "illness",
-      "injury"
-    ],
+    "associated_condition": ["illness", "injury"],
     "related_factors": [
       "anxiety",
       "discomfort",
@@ -3367,10 +3260,7 @@
       "pain"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "crisis states",
-      "life transition"
-    ],
+    "at_risk_population": ["crisis states", "life transition"],
     "suggested_noc_outcomes": [
       "personal well-being, personal health status",
       "psychomotor energy",
@@ -3715,9 +3605,7 @@
       "power alliance change",
       "ritual change"
     ],
-    "associated_condition": [
-      "shift in health status of a family member"
-    ],
+    "associated_condition": ["shift in health status of a family member"],
     "related_factors": [
       "changes in interaction with community",
       "power shift among family members",
@@ -3746,7 +3634,7 @@
   {
     "diagnosis": "readiness for enhanced family processes",
     "page_num": 343,
-    "definition": "",
+    "definition": "a pattern of family functioning to support the well-being of family members, which can be strengthened.",
     "defining_characteristics": [
       "expresses desire to enhance balance between autonomy and cohesiveness",
       "expresses desire to enhance communication pattern",
@@ -3806,11 +3694,7 @@
       "nonrestorative sleep pattern",
       "tiredness"
     ],
-    "associated_condition": [
-      "anemia",
-      "illness",
-      "pregnancy"
-    ],
+    "associated_condition": ["anemia", "illness", "pregnancy"],
     "related_factors": [
       "anxiety",
       "depression",
@@ -3887,9 +3771,7 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "fear self-control"
-    ],
+    "suggested_noc_outcomes": ["fear self-control"],
     "suggested_nic_interventions": [
       "anxiety reduction",
       "coping enhancement",
@@ -3983,9 +3865,7 @@
       "treatment regimen"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
-    ],
+    "risk_factors": ["to be developed"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "fluid balance",
@@ -4095,13 +3975,8 @@
       "restlessness",
       "weight gain over short period of time"
     ],
-    "associated_condition": [
-      "compromised regulatory mechanism"
-    ],
-    "related_factors": [
-      "excessive fluid intake",
-      "excessive sodium intake"
-    ],
+    "associated_condition": ["compromised regulatory mechanism"],
+    "related_factors": ["excessive fluid intake", "excessive sodium intake"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -4110,10 +3985,7 @@
       "fluid overload severity",
       "hydration"
     ],
-    "suggested_nic_interventions": [
-      "fluid management",
-      "fluid monitoring"
-    ]
+    "suggested_nic_interventions": ["fluid management", "fluid monitoring"]
   },
   {
     "diagnosis": "risk for deficient fluid volume",
@@ -4223,18 +4095,11 @@
       "alveolar-capillary membrane changes",
       "ventilation-perfusion imbalance"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "respiratory status: gas exchange, ventilation"
-    ],
-    "suggested_nic_interventions": [
-      "acid-base management",
-      "airway management"
-    ]
+    "suggested_noc_outcomes": ["respiratory status: gas exchange, ventilation"],
+    "suggested_nic_interventions": ["acid-base management", "airway management"]
   },
   {
     "diagnosis": "risk for dysfunctional gastrointestinal motility",
@@ -4323,18 +4188,14 @@
       "hydration",
       "nausea and vomiting control"
     ],
-    "suggested_nic_interventions": [
-      "gastric motility management"
-    ]
+    "suggested_nic_interventions": ["gastric motility management"]
   },
   {
     "diagnosis": "risk for unstable blood glucose level",
     "page_num": 405,
     "definition": "susceptible to variation in serum levels of glucose from the normal range, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "pregnancy"
-    ],
+    "associated_condition": ["pregnancy"],
     "related_factors": [],
     "risk_factors": [
       "average daily physical activity is less than recommended for gender and age",
@@ -4398,9 +4259,7 @@
       "psychological distress"
     ],
     "associated_condition": [],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [
       "anticipatory loss of significant object",
@@ -4458,14 +4317,9 @@
       "traumatic distress"
     ],
     "associated_condition": [],
-    "related_factors": [
-      "emotional disturbance",
-      "insufficient social support"
-    ],
+    "related_factors": ["emotional disturbance", "insufficient social support"],
     "risk_factors": [],
-    "at_risk_population": [
-      "death of significant other"
-    ],
+    "at_risk_population": ["death of significant other"],
     "suggested_noc_outcomes": [
       "anxiety level",
       "coping",
@@ -4495,9 +4349,7 @@
       "death of a significant other",
       "insufficient social support"
     ],
-    "at_risk_population": [
-      "death of significant other"
-    ],
+    "at_risk_population": ["death of significant other"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -4574,9 +4426,7 @@
       "psychosocial adjustment: life change",
       "risk detection"
     ],
-    "suggested_nic_interventions": [
-      "self-efficacy enhancement"
-    ]
+    "suggested_nic_interventions": ["self-efficacy enhancement"]
   },
   {
     "diagnosis": "ineffective health management",
@@ -4606,9 +4456,7 @@
       "powerlessness"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [
       "health beliefs: perceived control, perceived threat",
       "knowledge: disease process",
@@ -4679,9 +4527,7 @@
       "family conflict"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [
       "family health-status",
       "knowledge: treatment regimen",
@@ -4720,9 +4566,7 @@
       "spiritual distress"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "developmental delay"
-    ],
+    "at_risk_population": ["developmental delay"],
     "suggested_noc_outcomes": [
       "health orientation",
       "health beliefs: perceived resources",
@@ -4752,9 +4596,7 @@
       "request for assistance with home maintenance",
       "unsanitary environment"
     ],
-    "associated_condition": [
-      "alteration in cognitive functioning"
-    ],
+    "associated_condition": ["alteration in cognitive functioning"],
     "related_factors": [
       "inadequate role model",
       "insufficient family organization",
@@ -4764,16 +4606,12 @@
       "insufficient support system"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "financial crisis"
-    ],
+    "at_risk_population": ["financial crisis"],
     "suggested_noc_outcomes": [
       "safe home environment",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_nic_interventions": [
-      "home maintenance assistance"
-    ]
+    "suggested_nic_interventions": ["home maintenance assistance"]
   },
   {
     "diagnosis": "readiness for enhanced hope",
@@ -4793,10 +4631,7 @@
     "related_factors": [],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "hope",
-      "quality of life"
-    ],
+    "suggested_noc_outcomes": ["hope", "quality of life"],
     "suggested_nic_interventions": [
       "emotional support",
       "hope inspiration",
@@ -4822,9 +4657,7 @@
       "shrugging in response to speaker",
       "turning away from speaker"
     ],
-    "associated_condition": [
-      "deterioration in physiological condition"
-    ],
+    "associated_condition": ["deterioration in physiological condition"],
     "related_factors": [
       "chronic stress",
       "loss of belief in spiritual power",
@@ -4833,9 +4666,7 @@
       "social isolation"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "history of abandonment"
-    ],
+    "at_risk_population": ["history of abandonment"],
     "suggested_noc_outcomes": [
       "decision-making",
       "hope",
@@ -4844,9 +4675,7 @@
       "quality of life",
       "sleep"
     ],
-    "suggested_nic_interventions": [
-      "hope inspiration"
-    ]
+    "suggested_nic_interventions": ["hope inspiration"]
   },
   {
     "diagnosis": "risk for compromised human dignity",
@@ -5008,13 +4837,8 @@
       "vigorous activity"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "exposure to high environmental temperature"
-    ],
-    "suggested_noc_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
-    ],
+    "at_risk_population": ["exposure to high environmental temperature"],
+    "suggested_noc_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_nic_interventions": [
       "fever treatment",
       "malignant hyperthermia precautions",
@@ -5084,10 +4908,7 @@
       "insufficient supply of subcutaneous fat",
       "unplanned out-of-hospital birth"
     ],
-    "suggested_noc_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
-    ],
+    "suggested_noc_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_nic_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -5157,9 +4978,7 @@
       "low body weight",
       "low preoperative temperature (<36°c/96.8°f)"
     ],
-    "suggested_noc_outcomes": [
-      "thermoregulation"
-    ],
+    "suggested_noc_outcomes": ["thermoregulation"],
     "suggested_nic_interventions": [
       "hypothermia treatment",
       "temperature regulation",
@@ -5333,12 +5152,8 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "impulse self-control"
-    ],
-    "suggested_nic_interventions": [
-      "impulse control training"
-    ]
+    "suggested_noc_outcomes": ["impulse self-control"],
+    "suggested_nic_interventions": ["impulse control training"]
   },
   {
     "diagnosis": "functional urinary incontinence",
@@ -5363,10 +5178,7 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "urinary continence",
-      "urinary elimination"
-    ],
+    "suggested_noc_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_nic_interventions": [
       "urinary habit training",
       "urinary incontinence care"
@@ -5390,9 +5202,7 @@
       "treatment regimen",
       "urethral obstruction refer to care plan for urinary retention."
     ],
-    "related_factors": [
-      "fecal impaction"
-    ],
+    "related_factors": ["fecal impaction"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [],
@@ -5417,15 +5227,10 @@
       "neurological impairment above level of sacral micturition center",
       "tissue damage"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "urinary continence",
-      "urinary elimination"
-    ],
+    "suggested_noc_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_nic_interventions": [
       "urinary catheterization: intermittent",
       "urinary elimination management",
@@ -5446,15 +5251,10 @@
       "increase in intra-abdominal pressure",
       "intrinsic urethral sphincter deficiency"
     ],
-    "related_factors": [
-      "weak pelvic floor muscles"
-    ],
+    "related_factors": ["weak pelvic floor muscles"],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "urinary continence",
-      "urinary elimination"
-    ],
+    "suggested_noc_outcomes": ["urinary continence", "urinary elimination"],
     "suggested_nic_interventions": [
       "pelvic muscle exercises",
       "urinary incontinence care"
@@ -5564,10 +5364,7 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "bowel continence",
-      "bowel elimination"
-    ],
+    "suggested_noc_outcomes": ["bowel continence", "bowel elimination"],
     "suggested_nic_interventions": [
       "bowel incontinence care",
       "bowel incontinence care: encopresis",
@@ -5737,9 +5534,7 @@
       "smoking",
       "stasis of body fluid"
     ],
-    "at_risk_population": [
-      "exposure to disease outbreak"
-    ],
+    "at_risk_population": ["exposure to disease outbreak"],
     "suggested_noc_outcomes": [
       "risk control: infectious process",
       "immune status"
@@ -5772,9 +5567,7 @@
       "use of implants and/or prostheses"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "alcoholism, obesity, smoking"
-    ],
+    "risk_factors": ["alcoholism, obesity, smoking"],
     "at_risk_population": [
       "cold temperature of operating room",
       "excessive number of personnel present during the surgical procedure",
@@ -5854,9 +5647,7 @@
       "exposure of the eyeball",
       "insufficient knowledge of modifiable factors"
     ],
-    "at_risk_population": [
-      "prolonged hospitalization"
-    ],
+    "at_risk_population": ["prolonged hospitalization"],
     "suggested_noc_outcomes": [
       "sensory function: vision",
       "vision compensation behavior"
@@ -5935,18 +5726,14 @@
       "deficient patient or caregiver knowledge regarding care of urinary catheter",
       "obesity"
     ],
-    "at_risk_population": [
-      "extremes of age"
-    ],
+    "at_risk_population": ["extremes of age"],
     "suggested_noc_outcomes": [
       "urinary elimination",
       "knowledge: infection management",
       "treatment regimen",
       "treatment procedure, tissue integrity: skin and mucous membranes, risk control: infectious process, risk detection"
     ],
-    "suggested_nic_interventions": [
-      "urinary elimination management"
-    ]
+    "suggested_nic_interventions": ["urinary elimination management"]
   },
   {
     "diagnosis": "insomnia",
@@ -5969,10 +5756,7 @@
       "nonrestorative sleep pattern",
       "sleep disturbance producing next-day consequences"
     ],
-    "associated_condition": [
-      "hormonal change",
-      "pharmaceutical agent"
-    ],
+    "associated_condition": ["hormonal change", "pharmaceutical agent"],
     "related_factors": [
       "alcohol consumption",
       "anxiety, average daily physical activity is less than recommended for gender and age",
@@ -5996,9 +5780,7 @@
       "rest",
       "sleep"
     ],
-    "suggested_nic_interventions": [
-      "sleep enhancement"
-    ]
+    "suggested_nic_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "decreased intracranial adaptive capacity",
@@ -6018,9 +5800,7 @@
       "sustained increase in intracranial pressure (icp) of 10 to 15 mm hg",
       "systemic hypotension with intracranial hypertension"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -6079,16 +5859,12 @@
     "diagnosis": "readiness for enhanced knowledge",
     "page_num": 614,
     "definition": "a pattern of cognitive information related to a specific topic or its acquisition, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance learning"
-    ],
+    "defining_characteristics": ["expresses desire to enhance learning"],
     "associated_condition": [],
     "related_factors": [],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "knowledge: health promotion"
-    ],
+    "suggested_noc_outcomes": ["knowledge: health promotion"],
     "suggested_nic_interventions": [
       "health education",
       "health system guidance"
@@ -6127,9 +5903,7 @@
       "hypersensitivity to natural latex rubber protein",
       "multiple surgical procedures"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [
       "frequent exposure to latex product",
@@ -6146,10 +5920,7 @@
       "symptom severity",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_nic_interventions": [
-      "allergy management",
-      "latex precautions"
-    ]
+    "suggested_nic_interventions": ["allergy management", "latex precautions"]
   },
   {
     "diagnosis": "risk for latex allergy reaction",
@@ -6161,9 +5932,7 @@
       "multiple surgical procedures"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
-    ],
+    "risk_factors": ["to be developed"],
     "at_risk_population": [
       "frequent exposure to latex product",
       "history of allergy",
@@ -6227,14 +5996,9 @@
       "viral infection"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "substance misuse"
-    ],
+    "risk_factors": ["substance misuse"],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "knowledge: health behavior",
-      "liver function"
-    ],
+    "suggested_noc_outcomes": ["knowledge: health behavior", "liver function"],
     "suggested_nic_interventions": [
       "teaching: disease process",
       "substance use treatment"
@@ -6327,9 +6091,7 @@
       "neurological impairment",
       "parkinson's disease"
     ],
-    "related_factors": [
-      "alterations in fluid volume"
-    ],
+    "related_factors": ["alterations in fluid volume"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -6417,9 +6179,7 @@
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_nic_interventions": [
-      "bed rest care"
-    ]
+    "suggested_nic_interventions": ["bed rest care"]
   },
   {
     "diagnosis": "impaired physical mobility",
@@ -6523,9 +6283,7 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "ambulation: wheelchair"
-    ],
+    "suggested_noc_outcomes": ["ambulation: wheelchair"],
     "suggested_nic_interventions": [
       "exercise therapy: muscle control",
       "positioning: wheelchair"
@@ -6604,9 +6362,7 @@
     "diagnosis": "moral distress",
     "page_num": 673,
     "definition": "response to the inability to carry out one's chosen ethical or moral decision and/or action.",
-    "defining_characteristics": [
-      "anguish about acting on one's moral choice"
-    ],
+    "defining_characteristics": ["anguish about acting on one's moral choice"],
     "associated_condition": [],
     "related_factors": [
       "conflict among decision makers",
@@ -6652,9 +6408,7 @@
       "self-care: oral hygiene",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_nic_interventions": [
-      "oral health restoration"
-    ]
+    "suggested_nic_interventions": ["oral health restoration"]
   },
   {
     "diagnosis": "nausea",
@@ -6729,9 +6483,7 @@
       "risk for injury (00035)"
     ],
     "associated_condition": [],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [
       "iatrogenic substance exposure for pain control following a critical illness or surgery",
@@ -6763,9 +6515,7 @@
     "diagnosis": "readiness for enhanced nutrition",
     "page_num": 697,
     "definition": "a pattern of nutrient intake, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance nutrition"
-    ],
+    "defining_characteristics": ["expresses desire to enhance nutrition"],
     "associated_condition": [],
     "related_factors": [],
     "risk_factors": [],
@@ -6816,14 +6566,9 @@
       "inability to ingest food",
       "psychological disorder"
     ],
-    "related_factors": [
-      "insufficient dietary intake"
-    ],
+    "related_factors": ["insufficient dietary intake"],
     "risk_factors": [],
-    "at_risk_population": [
-      "biological factors",
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["biological factors", "economically disadvantaged"],
     "suggested_noc_outcomes": [
       "nutritional status",
       "food and fluid intake",
@@ -6939,64 +6684,19 @@
       "smoking",
       "stressors"
     ],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [
       "oral health",
       "oral hygiene",
       "tissue integrity: skin and mucous membranes"
     ],
-    "suggested_nic_interventions": [
-      "oral health restoration"
-    ]
+    "suggested_nic_interventions": ["oral health restoration"]
   },
   {
-    "diagnosis": "impaired oral mucous membrane integrity",
-    "page_num": 712,
+    "diagnosis": "risk for impaired oral mucous membrane integrity",
+    "page_num": 718,
     "definition": "susceptible to injury to the lips, soft tissues, buccal cavity, and/or oropharynx, which may compromise health.",
-    "defining_characteristics": [
-      "bad taste in mouth",
-      "bleeding",
-      "cheilitis",
-      "coated tongue",
-      "decrease in taste sensation",
-      "desquamation",
-      "difficulty eating",
-      "difficulty speaking",
-      "enlarged tonsils",
-      "exposure to pathogen",
-      "geographic tongue",
-      "gingival hyperplasia",
-      "gingival pallor",
-      "gingival pocketing deeper than 4 mm",
-      "gingival recession",
-      "halitosis",
-      "hyperemia",
-      "impaired ability to swallow",
-      "macroplasia",
-      "mucosal denudation",
-      "oral discomfort",
-      "oral edema",
-      "oral fissure",
-      "oral lesion",
-      "oral mucosal pallor",
-      "oral nodule",
-      "oral pain",
-      "oral papule",
-      "oral ulcer",
-      "oral vesicles",
-      "presence of mass",
-      "purulent oral-nasal drainage",
-      "purulent oral–nasal exudates",
-      "smooth atrophic tongue",
-      "spongy patches in mouth",
-      "stomatitis",
-      "white patches in mouth",
-      "white plaque in mouth",
-      "white, curdlike oral exudate",
-      "xerostomia"
-    ],
+    "defining_characteristics": [],
     "associated_condition": [
       "allergy",
       "alteration in cognitive functioning",
@@ -7021,22 +6721,7 @@
       "trauma",
       "treatment regimen"
     ],
-    "related_factors": [
-      "alcohol consumption",
-      "barrier to dental care",
-      "barrier to oral self-care",
-      "chemical injury agent",
-      "decrease in salivation",
-      "dehydration",
-      "depression",
-      "inadequate nutrition",
-      "inadequate oral hygiene",
-      "insufficient knowledge of oral hygiene",
-      "malnutrition",
-      "mouth breathing",
-      "smoking",
-      "stressors"
-    ],
+    "related_factors": [],
     "risk_factors": [
       "alcohol consumption",
       "barrier to dental care",
@@ -7053,9 +6738,7 @@
       "smoking",
       "stressors"
     ],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -7068,9 +6751,7 @@
       "child <2 years: term not used with children at this age",
       "child 2 to 18 years: bmi >30 kg/m 2 or >95th percentile or 30 kg/m 2 for age and gender"
     ],
-    "associated_condition": [
-      "genetic disorder"
-    ],
+    "associated_condition": ["genetic disorder"],
     "related_factors": [
       "average daily physical activity is less than recommended for gender and age",
       "consumption of sugar-sweetened beverages",
@@ -7177,9 +6858,7 @@
     "page_num": 730,
     "definition": "susceptible to excessive fat accumulation for age and gender, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "genetic disorder"
-    ],
+    "associated_condition": ["genetic disorder"],
     "related_factors": [],
     "risk_factors": [
       "average daily physical activity is less than recommended for gender and age",
@@ -7358,9 +7037,7 @@
       "stress overload (00177)"
     ],
     "associated_condition": [],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [],
@@ -7395,13 +7072,8 @@
       "uterine contraction",
       "vomiting"
     ],
-    "associated_condition": [
-      "cervical dilation",
-      "fetal expulsion"
-    ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "associated_condition": ["cervical dilation", "fetal expulsion"],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -7689,9 +7361,7 @@
       "sensoriperceptual disturbance from anesthesia"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "immobilization"
-    ],
+    "risk_factors": ["immobilization"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "circulation status",
@@ -7732,9 +7402,7 @@
       "vascular obstruction"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
-    ],
+    "risk_factors": ["to be developed"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "circulation status",
@@ -7751,9 +7419,7 @@
     "page_num": 779,
     "definition": "susceptible to accidental exposure to, or ingestion of, drugs or dangerous products in sufficient doses, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "alteration in cognitive functioning"
-    ],
+    "associated_condition": ["alteration in cognitive functioning"],
     "related_factors": [],
     "risk_factors": [
       "access to dangerous product",
@@ -7862,10 +7528,7 @@
       "self-mutilation restraint",
       "sleep"
     ],
-    "suggested_nic_interventions": [
-      "counseling",
-      "support system enhancement"
-    ]
+    "suggested_nic_interventions": ["counseling", "support system enhancement"]
   },
   {
     "diagnosis": "risk for post-trauma syndrome",
@@ -7970,9 +7633,7 @@
       "stigmatization"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [
       "depression self-control",
       "health beliefs",
@@ -8012,9 +7673,7 @@
       "social marginalization",
       "stigmatization"
     ],
-    "at_risk_population": [
-      "economically disadvantaged"
-    ],
+    "at_risk_population": ["economically disadvantaged"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -8073,9 +7732,7 @@
       "low score on risk assessment pressure sore (raps) scale",
       "new york heart association (nyha) functional classification ≥1"
     ],
-    "suggested_noc_outcomes": [
-      "tissue integrity: skin and mucous membranes"
-    ],
+    "suggested_noc_outcomes": ["tissue integrity: skin and mucous membranes"],
     "suggested_nic_interventions": [
       "pain management",
       "pressure injury care",
@@ -8114,14 +7771,9 @@
       "pharmaceutical agent",
       "treatment regimen"
     ],
-    "related_factors": [
-      "inadequate nutrition",
-      "substance abuse"
-    ],
+    "related_factors": ["inadequate nutrition", "substance abuse"],
     "risk_factors": [],
-    "at_risk_population": [
-      "extremes of age"
-    ],
+    "at_risk_population": ["extremes of age"],
     "suggested_noc_outcomes": [
       "health-promoting behavior",
       "blood coagulation",
@@ -8176,13 +7828,9 @@
       "thoughts of revenge"
     ],
     "associated_condition": [],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
-    "at_risk_population": [
-      "rape"
-    ],
+    "at_risk_population": ["rape"],
     "suggested_noc_outcomes": [
       "abuse cessation",
       "abuse protection",
@@ -8305,9 +7953,7 @@
       "questioning of religious belief patterns",
       "questioning of religious customs"
     ],
-    "associated_condition": [
-      "illness"
-    ],
+    "associated_condition": ["illness"],
     "related_factors": [
       "anxiety",
       "cultural barrier to practicing religion",
@@ -8368,9 +8014,7 @@
     "page_num": 834,
     "definition": "susceptible to an impaired ability to exercise reliance on religious beliefs and/or participate in rituals of a particular faith tradition, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "illness"
-    ],
+    "associated_condition": ["illness"],
     "related_factors": [],
     "risk_factors": [
       "insufficient transportation",
@@ -8444,9 +8088,7 @@
       "unpredictability of experience"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "history of loss"
-    ],
+    "at_risk_population": ["history of loss"],
     "suggested_noc_outcomes": [
       "relocation adaptation",
       "anxiety self-control",
@@ -8494,9 +8136,7 @@
       "social isolation",
       "unpredictability of experience"
     ],
-    "at_risk_population": [
-      "history of loss"
-    ],
+    "at_risk_population": ["history of loss"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -8518,9 +8158,7 @@
       "shame",
       "social isolation"
     ],
-    "associated_condition": [
-      "psychological disorder"
-    ],
+    "associated_condition": ["psychological disorder"],
     "related_factors": [
       "community violence",
       "disruption in family rituals",
@@ -8610,9 +8248,7 @@
     "page_num": 847,
     "definition": "susceptible to decreased ability to recover from perceived adverse or changing situations, through a dynamic process of adaptation, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "psychological disorder"
-    ],
+    "associated_condition": ["psychological disorder"],
     "related_factors": [],
     "risk_factors": [
       "community violence",
@@ -8778,9 +8414,7 @@
       "psychosocial adjustment: life change",
       "role performance"
     ],
-    "suggested_nic_interventions": [
-      "role enhancement"
-    ]
+    "suggested_nic_interventions": ["role enhancement"]
   },
   {
     "diagnosis": "sedentary lifestyle",
@@ -8885,9 +8519,7 @@
       "self-care: bathing",
       "self-care: hygiene"
     ],
-    "suggested_nic_interventions": [
-      "self-care assistance: bathing/hygiene"
-    ]
+    "suggested_nic_interventions": ["self-care assistance: bathing/hygiene"]
   },
   {
     "diagnosis": "dressing self-care deficit",
@@ -8921,9 +8553,7 @@
     "suggested_noc_outcomes": [
       "self-care: activities of daily living (adls), dressing, hygiene"
     ],
-    "suggested_nic_interventions": [
-      "self-care assistance: dressing/grooming"
-    ]
+    "suggested_nic_interventions": ["self-care assistance: dressing/grooming"]
   },
   {
     "diagnosis": "feeding self-care deficit",
@@ -8964,9 +8594,7 @@
     "suggested_noc_outcomes": [
       "self-care: activities of daily living (adls), eating"
     ],
-    "suggested_nic_interventions": [
-      "self-care assistance: feeding"
-    ]
+    "suggested_nic_interventions": ["self-care assistance: feeding"]
   },
   {
     "diagnosis": "toileting self-care deficit",
@@ -9030,9 +8658,7 @@
       "personal well-being",
       "psychosocial adjustment life change"
     ],
-    "suggested_nic_interventions": [
-      "self-esteem enhancement"
-    ]
+    "suggested_nic_interventions": ["self-esteem enhancement"]
   },
   {
     "diagnosis": "chronic low self-esteem",
@@ -9054,9 +8680,7 @@
       "shame",
       "underestimates ability to deal with situation"
     ],
-    "associated_condition": [
-      "psychiatric disorder"
-    ],
+    "associated_condition": ["psychiatric disorder"],
     "related_factors": [
       "cultural incongruence",
       "inadequate affection received",
@@ -9073,12 +8697,8 @@
       "pattern of failure",
       "repeated negative reinforcement"
     ],
-    "suggested_noc_outcomes": [
-      "self-esteem"
-    ],
-    "suggested_nic_interventions": [
-      "self-esteem enhancement"
-    ]
+    "suggested_noc_outcomes": ["self-esteem"],
+    "suggested_nic_interventions": ["self-esteem enhancement"]
   },
   {
     "diagnosis": "situational low self-esteem",
@@ -9124,9 +8744,7 @@
     "page_num": 904,
     "definition": "susceptible to longstanding negative self-evaluating/feelings about self or self-capabilities, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "psychiatric disorder"
-    ],
+    "associated_condition": ["psychiatric disorder"],
     "related_factors": [],
     "risk_factors": [
       "cultural incongruence",
@@ -9406,9 +9024,7 @@
       "vulnerability"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "absence of significant other"
-    ],
+    "at_risk_population": ["absence of significant other"],
     "suggested_noc_outcomes": [
       "abuse recovery: sexual",
       "knowledge: sexual functioning, physical aging",
@@ -9417,10 +9033,7 @@
       "sexual functioning",
       "sexual identity"
     ],
-    "suggested_nic_interventions": [
-      "sexual counseling",
-      "teaching: sexuality"
-    ]
+    "suggested_nic_interventions": ["sexual counseling", "teaching: sexuality"]
   },
   {
     "diagnosis": "ineffective sexuality pattern",
@@ -9448,9 +9061,7 @@
       "absence of privacy"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "absence of significant other"
-    ],
+    "at_risk_population": ["absence of significant other"],
     "suggested_noc_outcomes": [
       "abuse recovery: sexual",
       "body image",
@@ -9492,9 +9103,7 @@
       "systemic inflammatory response syndrome (sirs)"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "to be developed"
-    ],
+    "risk_factors": ["to be developed"],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
       "cardiac pump effectiveness",
@@ -9616,9 +9225,7 @@
       "psychogenic factor"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "extremes of age"
-    ],
+    "at_risk_population": ["extremes of age"],
     "suggested_noc_outcomes": [
       "tissue integrity: skin and mucous membranes",
       "wound healing: primary intention, secondary intention"
@@ -9666,9 +9273,7 @@
       "pressure over bony prominence",
       "psychogenetic factor"
     ],
-    "at_risk_population": [
-      "extremes of age"
-    ],
+    "at_risk_population": ["extremes of age"],
     "suggested_noc_outcomes": [
       "immobility consequences: physiological",
       "tissue integrity: skin and mucous membranes"
@@ -9712,37 +9317,21 @@
       "sustained inadequate sleep hygiene"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "familial sleep paralysis"
-    ],
-    "suggested_noc_outcomes": [
-      "rest",
-      "sleep",
-      "symptom severity"
-    ],
-    "suggested_nic_interventions": [
-      "sleep enhancement"
-    ]
+    "at_risk_population": ["familial sleep paralysis"],
+    "suggested_noc_outcomes": ["rest", "sleep", "symptom severity"],
+    "suggested_nic_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "readiness for enhanced sleep",
     "page_num": 960,
     "definition": "a pattern of natural, periodic suspension of relative consciousness to provide rest and sustain a desired lifestyle, which can be strengthened.",
-    "defining_characteristics": [
-      "expresses desire to enhance sleep"
-    ],
+    "defining_characteristics": ["expresses desire to enhance sleep"],
     "associated_condition": [],
     "related_factors": [],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "personal well-being",
-      "rest",
-      "sleep"
-    ],
-    "suggested_nic_interventions": [
-      "sleep enhancement"
-    ]
+    "suggested_noc_outcomes": ["personal well-being", "rest", "sleep"],
+    "suggested_nic_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "disturbed sleep pattern",
@@ -9766,14 +9355,8 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "personal well-being",
-      "rest",
-      "sleep"
-    ],
-    "suggested_nic_interventions": [
-      "sleep enhancement"
-    ]
+    "suggested_noc_outcomes": ["personal well-being", "rest", "sleep"],
+    "suggested_nic_interventions": ["sleep enhancement"]
   },
   {
     "diagnosis": "impaired social interaction",
@@ -9786,9 +9369,7 @@
       "family reports change in interaction",
       "impaired social functioning"
     ],
-    "associated_condition": [
-      "therapeutic isolation"
-    ],
+    "associated_condition": ["therapeutic isolation"],
     "related_factors": [
       "communication barrier",
       "disturbance in self-concept",
@@ -9800,9 +9381,7 @@
       "sociocultural dissonance"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "absence of significant other"
-    ],
+    "at_risk_population": ["absence of significant other"],
     "suggested_noc_outcomes": [
       "child development: middle childhood, adolescence",
       "play participation",
@@ -9810,9 +9389,7 @@
       "social interaction skills",
       "social involvement"
     ],
-    "suggested_nic_interventions": [
-      "socialization enhancement"
-    ]
+    "suggested_nic_interventions": ["socialization enhancement"]
   },
   {
     "diagnosis": "social isolation",
@@ -9867,9 +9444,7 @@
       "social involvement",
       "social support"
     ],
-    "suggested_nic_interventions": [
-      "socialization enhancement"
-    ]
+    "suggested_nic_interventions": ["socialization enhancement"]
   },
   {
     "diagnosis": "chronic sorrow",
@@ -9880,10 +9455,7 @@
       "overwhelming negative feelings",
       "sadness"
     ],
-    "associated_condition": [
-      "chronic disability",
-      "chronic illness"
-    ],
+    "associated_condition": ["chronic disability", "chronic illness"],
     "related_factors": [
       "crisis in disability management",
       "crisis in illness management",
@@ -10175,9 +9747,7 @@
       "risk control: hypotension",
       "skeletal function"
     ],
-    "suggested_nic_interventions": [
-      "body mechanics promotion"
-    ]
+    "suggested_nic_interventions": ["body mechanics promotion"]
   },
   {
     "diagnosis": "stress overload",
@@ -10317,9 +9887,7 @@
     "page_num": 1014,
     "definition": "susceptible to unpredicted death of an infant.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "cold weather"
-    ],
+    "associated_condition": ["cold weather"],
     "related_factors": [],
     "risk_factors": [
       "delay in prenatal care",
@@ -10551,9 +10119,7 @@
     "risk_factors": [
       "malnutrition, obesity, pain, postoperative emotional response"
     ],
-    "at_risk_population": [
-      "extremes of age, history of delayed wound healing"
-    ],
+    "at_risk_population": ["extremes of age, history of delayed wound healing"],
     "suggested_noc_outcomes": [],
     "suggested_nic_interventions": []
   },
@@ -10688,9 +10254,7 @@
       "parenting: early/middle/adolescent",
       "physical safety"
     ],
-    "suggested_nic_interventions": [
-      "environmental management: safety"
-    ]
+    "suggested_nic_interventions": ["environmental management: safety"]
   },
   {
     "diagnosis": "ineffective thermoregulation",
@@ -10740,10 +10304,7 @@
       "increased body surface area to weight ration",
       "insufficient supply of subcutaneous fat"
     ],
-    "suggested_noc_outcomes": [
-      "thermoregulation",
-      "thermoregulation: newborn"
-    ],
+    "suggested_noc_outcomes": ["thermoregulation", "thermoregulation: newborn"],
     "suggested_nic_interventions": [
       "temperature regulation",
       "temperature regulation: inoperative"
@@ -10905,9 +10466,7 @@
       "hydration",
       "tissue perfusion: peripheral"
     ],
-    "suggested_nic_interventions": [
-      "circulatory care: arterial insufficiency"
-    ]
+    "suggested_nic_interventions": ["circulatory care: arterial insufficiency"]
   },
   {
     "diagnosis": "risk for ineffective peripheral tissue perfusion",
@@ -11044,10 +10603,7 @@
       "weakness"
     ],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "risk control",
-      "fall prevention behavior"
-    ],
+    "suggested_noc_outcomes": ["risk control", "fall prevention behavior"],
     "suggested_nic_interventions": [
       "environmental management: safety",
       "skin surveillance"
@@ -11082,12 +10638,8 @@
       "unilateral visuospatial neglect",
       "use of vertical half of page only when writing"
     ],
-    "associated_condition": [
-      "brain injury"
-    ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "associated_condition": ["brain injury"],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -11096,9 +10648,7 @@
       "mobility",
       "self-care: activities of daily living (adls)"
     ],
-    "suggested_nic_interventions": [
-      "unilateral neglect management"
-    ]
+    "suggested_nic_interventions": ["unilateral neglect management"]
   },
   {
     "diagnosis": "impaired urinary elimination",
@@ -11118,17 +10668,11 @@
       "sensory motor impairment",
       "urinary tract infection"
     ],
-    "related_factors": [
-      "multiple causality"
-    ],
+    "related_factors": ["multiple causality"],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "urinary elimination"
-    ],
-    "suggested_nic_interventions": [
-      "urinary elimination management"
-    ]
+    "suggested_noc_outcomes": ["urinary elimination"],
+    "suggested_nic_interventions": ["urinary elimination management"]
   },
   {
     "diagnosis": "urinary retention",
@@ -11151,14 +10695,10 @@
       "reflex arc inhibition",
       "strong sphincter"
     ],
-    "related_factors": [
-      "to be developed"
-    ],
+    "related_factors": ["to be developed"],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "urinary elimination"
-    ],
+    "suggested_noc_outcomes": ["urinary elimination"],
     "suggested_nic_interventions": [
       "urinary catheterization",
       "urinary retention care"
@@ -11169,10 +10709,7 @@
     "page_num": 1101,
     "definition": "susceptible to damage to vein and its surrounding tissues related to the presence of a catheter and/or infusion solutions, which may compromise health.",
     "defining_characteristics": [],
-    "associated_condition": [
-      "irritating solution",
-      "rapid infusion rate"
-    ],
+    "associated_condition": ["irritating solution", "rapid infusion rate"],
     "related_factors": [],
     "risk_factors": [
       "inadequate available insertion site",
@@ -11208,11 +10745,7 @@
       "varicose veins"
     ],
     "related_factors": [],
-    "risk_factors": [
-      "dehydration",
-      "impaired mobility",
-      "obesity"
-    ],
+    "risk_factors": ["dehydration", "impaired mobility", "obesity"],
     "at_risk_population": [
       "age > 60",
       "critical care admission",
@@ -11253,12 +10786,8 @@
       "increase in partial pressure of carbon dioxide (p co2 )",
       "restlessness"
     ],
-    "associated_condition": [
-      "alteration in metabolism"
-    ],
-    "related_factors": [
-      "respiratory muscle fatigue"
-    ],
+    "associated_condition": ["alteration in metabolism"],
+    "related_factors": ["respiratory muscle fatigue"],
     "risk_factors": [],
     "at_risk_population": [],
     "suggested_noc_outcomes": [
@@ -11468,12 +10997,8 @@
     ],
     "risk_factors": [],
     "at_risk_population": [],
-    "suggested_noc_outcomes": [
-      "ambulation, mobility"
-    ],
-    "suggested_nic_interventions": [
-      "exercise therapy: ambulation"
-    ]
+    "suggested_noc_outcomes": ["ambulation, mobility"],
+    "suggested_nic_interventions": ["exercise therapy: ambulation"]
   },
   {
     "diagnosis": "wandering",
@@ -11513,9 +11038,7 @@
       "separation from familiar environment"
     ],
     "risk_factors": [],
-    "at_risk_population": [
-      "premorbid behavior"
-    ],
+    "at_risk_population": ["premorbid behavior"],
     "suggested_noc_outcomes": [
       "safe wandering",
       "safe home environment",
