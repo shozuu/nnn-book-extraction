@@ -199,7 +199,9 @@ while i < len(all_spans):
                         entry[norm_label] = [normalize_val(c) for c in content]
                 continue
             i += 1
-        results.append(entry)
+        # Only append if entry has more than just diagnosis and page_num
+        if len(entry) > 2:
+            results.append(entry)
     else:
         # Only print if this span looks like a heading (diagnosis formatting) and contains a hyphen
         if (
