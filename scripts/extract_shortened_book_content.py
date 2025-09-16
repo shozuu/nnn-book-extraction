@@ -7,8 +7,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = PROJECT_ROOT / 'data' / 'input'
 OUTPUT_DIR = PROJECT_ROOT / 'data' / 'output'
 
-PDF_PATH = INPUT_DIR / 'shortened_new_book.pdf'
-DIAGNOSES_JSON = OUTPUT_DIR / 'new_diagnoses_list.json'
+PDF_PATH = INPUT_DIR / 'shortened_book.pdf'
+DIAGNOSES_JSON = OUTPUT_DIR / 'diagnoses_list.json'
 
 doc = fitz.open(str(PDF_PATH))
 
@@ -219,7 +219,7 @@ while i < len(all_spans):
         i += 1
 
 # Save to JSON
-OUTPUT_JSON = OUTPUT_DIR / 'new_raw_NNN_content.json'
+OUTPUT_JSON = OUTPUT_DIR / 'raw_NNN_content.json'
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 

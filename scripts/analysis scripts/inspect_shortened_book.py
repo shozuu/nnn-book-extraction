@@ -6,10 +6,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = PROJECT_ROOT / 'data' / 'input'
 OUTPUT_DIR = PROJECT_ROOT / 'data' / 'output'
 
-PDF_DEFAULT = PROJECT_ROOT / 'shortened_new_book.pdf'
-PDF_PATH = (INPUT_DIR / 'shortened_new_book.pdf') if (INPUT_DIR / 'shortened_new_book.pdf').exists() else PDF_DEFAULT
+PDF_DEFAULT = PROJECT_ROOT / 'shortened_book.pdf'
+PDF_PATH = (INPUT_DIR / 'shortened_book.pdf') if (INPUT_DIR / 'shortened_book.pdf').exists() else PDF_DEFAULT
 
-DIAGNOSES_JSON = OUTPUT_DIR / 'new_diagnoses_list.json'
+DIAGNOSES_JSON = OUTPUT_DIR / 'diagnoses_list.json'
 with open(DIAGNOSES_JSON, 'r', encoding='utf-8') as f:
     diagnosis_list = json.load(f)
     

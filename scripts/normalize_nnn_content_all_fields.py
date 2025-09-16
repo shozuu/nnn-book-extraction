@@ -463,9 +463,9 @@ def save_json_data(data: List[Dict[str, Any]], file_path: str):
 
 def main():
     # File paths
-    input_file = os.path.join('..', 'data', 'output', 'new_raw_NNN_content.json')
-    output_file = os.path.join('..', 'data', 'output', 'normalized_new_NNN_content_all_fields.json')
-    
+    input_file = os.path.join('..', 'data', 'output', 'raw_NNN_content.json')
+    output_file = os.path.join('..', 'data', 'output', 'normalized_NNN_content_all_fields.json')
+
     print("=== NNN Content Normalization Script ===")
     print(f"Input: {input_file}")
     print(f"Output: {output_file}")
