@@ -219,7 +219,7 @@ while i < len(all_spans):
         i += 1
 
 # Save to JSON
-OUTPUT_JSON = OUTPUT_DIR / 'shortened_new_book_content.json'
+OUTPUT_JSON = OUTPUT_DIR / 'new_raw_NNN_content.json'
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
