@@ -9,6 +9,8 @@ Output includes only the specified fields with lowercase titles:
 - defining_characteristics
 - related_factors
 - risk_factors
+- at_risk_population
+- associated_conditions
 - suggested_outcomes (mapped from suggested_noc_outcomes)
 - suggested_interventions (mapped from suggested_nic_interventions)
 """
@@ -38,6 +40,8 @@ def extract_normalized_content(input_file: str, output_file: str) -> None:
         "defining_characteristics": [],
         "related_factors": [],
         "risk_factors": [],
+        "at_risk_population": [],
+        "associated_conditions": [],
         "suggested_outcomes": [],
         "suggested_interventions": []
     }
@@ -49,6 +53,8 @@ def extract_normalized_content(input_file: str, output_file: str) -> None:
         "defining_characteristics": "defining_characteristics",
         "related_factors": "related_factors",
         "risk_factors": "risk_factors",
+        "at_risk_population": "at_risk_population",
+        "associated_conditions": "associated_conditions",
         "suggested_noc_outcomes": "suggested_outcomes",
         "suggested_nic_interventions": "suggested_interventions"
     }
@@ -116,7 +122,7 @@ def main():
     # Check field completeness
     field_stats = {}
     for field in ["diagnosis", "definition", "defining_characteristics", "related_factors", 
-                  "risk_factors", "suggested_outcomes", "suggested_interventions"]:
+                  "risk_factors", "at_risk_population", "associated_conditions", "suggested_outcomes", "suggested_interventions"]:
         non_empty_count = sum(1 for entry in result_data if entry.get(field))
         field_stats[field] = non_empty_count
     
